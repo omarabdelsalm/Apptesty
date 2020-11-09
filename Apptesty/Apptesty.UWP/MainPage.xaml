@@ -1,0 +1,12 @@
+﻿<forms:WindowsPage
+    x:Class="Apptesty.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:forms="using:Xamarin.Forms.Platform.UWP"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Apptesty.UWP"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Button" Margin="289,990,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</forms:WindowsPage>

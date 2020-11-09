@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="Apptesty.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Apptesty.UWP"
+    xmlns:uwp="using:Xamarin.Forms.Platform"
+    >
+
+</Application>
