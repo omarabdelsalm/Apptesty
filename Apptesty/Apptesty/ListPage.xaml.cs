@@ -13,13 +13,17 @@ namespace Apptesty
     public partial class ListPage : ContentPage
     {
         public IList<Monkey> Monkeys { get; private set; }
+        public static object ItemTapped { get; private set; }
+
         Contactpage c = new Contactpage();
+        private static object SelectedItem;
+        private static IFormatProvider MyWebviewDisplay;
+        private static readonly Page mydisview;
 
         public ListPage()
         {
             InitializeComponent();
             nt_Clicked.Clicked += Btn_Clicked;
-
             List<Monkey> lists = new List<Monkey>();
             Monkeys = lists;
             Monkeys.Add(new Monkey
@@ -68,22 +72,36 @@ namespace Apptesty
             {
                 Name = "Samsung",
                 Location = "كل انواع Samsung",
-                ImageUrl = "samsung.jpg"
+                ImageUrl = "samsung.jpg",
+                Url = "www.blogger.com"
             });
             BindingContext = this;
         }
 
-        void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+         void  OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             _ = e.SelectedItem as Monkey;
+           
         }
 
         void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
         {
             _ = e.Item as Monkey;
+            MyPageDisplay mydisview = new MyPageDisplay();
+            mydisview.BindingContext = e.ToString();
+            //var v = mydisview.InputTransparent.ToString(MyWebviewDisplay);
+             Navigation.PushAsync(mydisview);
         }
 
-        async private void Btn_Clicked(object sender, EventArgs e)
+        //private static async MyPageDisplay NewMethod(ItemTappedEventArgs e)
+        //{
+        //    mydisview.BindingContext = e.ToString();
+        //    string v = mydisview.InputTransparent.ToString(MyWebviewDisplay);
+        //    return await Navigation.PushAsync(mydisview);
+
+        //}
+
+        private async void Btn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(c);
         }

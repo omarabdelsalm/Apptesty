@@ -8,9 +8,14 @@
           HasUnevenRows="true"
           ItemSelected="OnListViewItemSelected"
           ItemTapped="OnListViewItemTapped">
+               
+                
                 <ListView.ItemTemplate>
+                    
                     <DataTemplate>
+                      
                         <ViewCell>
+                            
                             <Grid Padding="10">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto" />

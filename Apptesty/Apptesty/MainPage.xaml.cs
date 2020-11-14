@@ -46,7 +46,7 @@ namespace Apptesty
             nxt_Clicked.Clicked += Nxt_Clicked;
         }
 
-        async private void Nxt_Clicked(object sender, EventArgs e)
+        private async void Nxt_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(p);
         }

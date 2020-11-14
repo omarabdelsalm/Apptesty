@@ -17,7 +17,7 @@
         <Label x:Name="LoadingLabel" IsVisible="false"/>
         <WebView x:Name="Browser" HeightRequest="1000" WidthRequest="1000" Navigating="Handle_Navigating" Navigated="Handle_Navigated"/>
         <!--<StackLayout>-->
-            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="30" BackgroundColor="#8EA3AD"/>
+            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="30" BackgroundColor="#CEDCD6"/>
 
         </StackLayout>
     <!--</StackLayout>-->
