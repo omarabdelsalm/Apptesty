@@ -15,9 +15,10 @@ namespace Apptesty
         public IList<Monkey> Monkeys { get; private set; }
         public static object ItemTapped { get; private set; }
 
-        Contactpage c = new Contactpage();
+        private Contactpage c = new Contactpage();
         private static object SelectedItem;
         private static IFormatProvider MyWebviewDisplay;
+        internal object lists;
         private static readonly Page mydisview;
 
         public ListPage()
@@ -30,8 +31,9 @@ namespace Apptesty
             {
                 Name = "خدمات بيع",
                 Location = "تقسيط وكاش",
-                ImageUrl = "ab.jpg"
-            });
+                ImageUrl = "ab.jpg",
+                Url = "https://www.google.com.eg/webhp?tab=rw"
+            }) ;
             Monkeys.Add(new Monkey
             {
                 Name = "اكسسوارات المحمول",
@@ -73,34 +75,28 @@ namespace Apptesty
                 Name = "Samsung",
                 Location = "كل انواع Samsung",
                 ImageUrl = "samsung.jpg",
-                Url = "www.blogger.com"
+                Url = "https://www.google.com.eg/webhp?tab=rw"
             });
             BindingContext = this;
         }
 
-         void  OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private void  OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             _ = e.SelectedItem as Monkey;
            
         }
 
-        void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
+        private async void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
         {
-            _ = e.Item as Monkey;
+            var url = e.Item as Monkey;
             MyPageDisplay mydisview = new MyPageDisplay();
-            mydisview.BindingContext = e.ToString();
-            //var v = mydisview.InputTransparent.ToString(MyWebviewDisplay);
-             Navigation.PushAsync(mydisview);
+             //string MyWebviewDisplay = "";
+            //mydisview.BindingContext = url.ToString();
+            //mydisview.WebView ="url.Url";
+            await Navigation.PushAsync(mydisview);
         }
 
-        //private static async MyPageDisplay NewMethod(ItemTappedEventArgs e)
-        //{
-        //    mydisview.BindingContext = e.ToString();
-        //    string v = mydisview.InputTransparent.ToString(MyWebviewDisplay);
-        //    return await Navigation.PushAsync(mydisview);
-
-        //}
-
+        
         private async void Btn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(c);

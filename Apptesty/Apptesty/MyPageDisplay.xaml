@@ -4,7 +4,10 @@
              x:Class="Apptesty.MyPageDisplay">
     <ContentPage.Content>
         <StackLayout>
-            <WebView x:Name="MyWebviewDisplay"/>
+            <Label Text="hello with me"/>
+            <StackLayout>
+                <WebView x:Name="MyWebviewDisplay" HeightRequest="500" WidthRequest="250" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

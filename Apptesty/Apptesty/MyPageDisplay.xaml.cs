@@ -1,29 +1,35 @@
-﻿using System;
+﻿using Google.Protobuf.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
-
+[assembly:Xamarin.Forms.Dependency(typeof(Apptesty.MyPageDisplay))]
 namespace Apptesty
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MyPageDisplay : ContentPage
     {
-        ListPage lest= new ListPage();
-        string w = "";
+
+
         public MyPageDisplay()
         {
             InitializeComponent();
-            Monkey bnm = new Monkey();
-            ListPage lest = new ListPage();
-
-            //string w =  bnm.Url;
-            //string we = lest.ToString(w);
-            //var we = l.Monkeys.w.Url;
-            MyWebviewDisplay.Source = "bnm.Url";
+            // ListPage lest = new ListPage();
+            // List<Monkey> lists = new List<Monkey>();
+            // Monkeys = lists;
+            //// string url = Monkeys.ItemTapped.Url.ToString();
+            // MyWebviewDisplay.Source = new UrlWebViewSource
+            // {
+            //     Url ="Monkeys.Url"
+            // };
+            MyWebviewDisplay.Source = DependencyService.Get<IwebSiteHelper>() + "{ListPage.ListView.Monkeys}";
         }
+
+        
     }
 }
