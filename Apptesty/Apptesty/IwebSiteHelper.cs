@@ -6,7 +6,7 @@ namespace Apptesty
 {
     public interface IwebSiteHelper
     {
-        string Geturl();
+       // string Geturl();
             
     }
 }

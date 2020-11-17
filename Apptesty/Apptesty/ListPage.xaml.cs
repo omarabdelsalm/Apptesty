@@ -16,8 +16,10 @@ namespace Apptesty
         public static object ItemTapped { get; private set; }
 
         private Contactpage c = new Contactpage();
-        private static object SelectedItem;
-        private static IFormatProvider MyWebviewDisplay;
+        private MyPageDisplay Mypage = new MyPageDisplay();
+
+        //private static object SelectedItem;
+        // private static IFormatProvider MyWebviewDisplay;
         internal object lists;
         private static readonly Page mydisview;
 
@@ -86,22 +88,38 @@ namespace Apptesty
            
         }
 
-        private async void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
+        //private async void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
+        //{
+        //    var url = e.Item as Monkey;
+        //    MyPageDisplay mydisview = new MyPageDisplay();
+        //     //string MyWebviewDisplay = "";
+        //    //mydisview.BindingContext = url.ToString();
+        //    //mydisview.WebView ="url.Url";
+        //    await Navigation.PushAsync(mydisview);
+        //}
+        async void OnListViewItemTapped(object sender, SelectedItemChangedEventArgs e)
         {
-            var url = e.Item as Monkey;
-            MyPageDisplay mydisview = new MyPageDisplay();
-             //string MyWebviewDisplay = "";
-            //mydisview.BindingContext = url.ToString();
-            //mydisview.WebView ="url.Url";
-            await Navigation.PushAsync(mydisview);
+          MyPageDisplay Mypage = new MyPageDisplay();
+
+          ListView lv = (ListView)sender;
+
+            //// this assumes your List is bound to a List<Club>
+            Monkeys.Add(new Monkey {
+                Url = this.ToString()
+
+           });
+            Monkey monkeys = (Monkey)lv.SelectedItem;
+           
+
+            await Navigation.PushAsync(Mypage);
         }
 
-        
+       
         private async void Btn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(c);
         }
     }
 
-    
+ 
 }
