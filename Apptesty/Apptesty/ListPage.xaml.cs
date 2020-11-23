@@ -16,7 +16,7 @@ namespace Apptesty
         public static object ItemTapped { get; private set; }
 
         private Contactpage c = new Contactpage();
-        private MyPageDisplay Mypage = new MyPageDisplay();
+        //private MyPageDisplay Mypage = new MyPageDisplay();
 
         //private static object SelectedItem;
         // private static IFormatProvider MyWebviewDisplay;
@@ -99,7 +99,6 @@ namespace Apptesty
         //}
         async void OnListViewItemTapped(object sender, SelectedItemChangedEventArgs e)
         {
-          MyPageDisplay Mypage = new MyPageDisplay();
 
           ListView lv = (ListView)sender;
 
@@ -111,7 +110,7 @@ namespace Apptesty
             Monkey monkeys = (Monkey)lv.SelectedItem;
            
 
-            await Navigation.PushAsync(Mypage);
+            await Navigation.PushAsync(new MyPageDisplay(monkeys.Url.ToString(),monkeys.Name.ToString()));
         }
 
        

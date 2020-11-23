@@ -14,7 +14,7 @@ namespace Apptesty
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MyPageDisplay : ContentPage
     {
-        public MyPageDisplay()
+        public MyPageDisplay(string url,string name)
         {
           InitializeComponent();
 
@@ -27,7 +27,8 @@ namespace Apptesty
             //    Url = "Monkeys.Url"
             //};
             //MyWebviewDisplay.Source = DependencyService.Get<IwebSiteHelper>() + "{Binding Url}";
-            //MyWebviewDisplay.Source = "{Binding monkeys.Url}";
+            myLab.Text = name;
+            MyWebviewDisplay.Source = url;
         }
 
         
