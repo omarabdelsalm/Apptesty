@@ -4,7 +4,7 @@
              x:Class="Apptesty.MyPageDisplay">
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="myLab" />
+            <Label x:Name="myLab" Padding="5" FlowDirection="MatchParent" FontSize="Title" TextColor="DarkBlue" FontAttributes="Italic,Bold" HorizontalOptions="Center" VerticalTextAlignment="Center" />
             <StackLayout>
                 <WebView x:Name="MyWebviewDisplay" HeightRequest="500" WidthRequest="250" />
             </StackLayout>

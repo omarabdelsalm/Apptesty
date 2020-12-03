@@ -38,39 +38,52 @@ namespace Apptesty
             }) ;
             Monkeys.Add(new Monkey
             {
+                Name = "تابعنا على فيسبوك",
+                Location = "العابد",
+                ImageUrl = "ph.jpg",
+                Url = "https://www.facebook.com/elabeed2587"
+            });
+            Monkeys.Add(new Monkey
+            {
                 Name = "اكسسوارات المحمول",
                 Location = "بسعر الجملة",
-                ImageUrl = "ac.jpg"
+                ImageUrl = "ac.jpg",
+                Url= "https://elaabed611.blogspot.com/search/label/%D8%A7%D9%83%D8%B3%D8%B3%D9%88%D8%A7%D8%B1%D8%A7%D8%AA"
             });
             Monkeys.Add(new Monkey
             {
                 Name = "تحويلات وهوائي",
                 Location = "كل الخطوط",
-                ImageUrl = "ab.gpj"
-            });
+                ImageUrl = "ab.gpj",
+                Url = "https://elaabed611.blogspot.com/search/label/%D9%85%D8%AD%D9%85%D9%88%D9%84"
+            }) ;
             Monkeys.Add(new Monkey
             {
                 Name = "Oppo",
                 Location = "كل انواع اوبو",
-                ImageUrl = "oppoa73.jpg"
+                ImageUrl = "oppoa73.jpg",
+                Url= "https://elaabed611.blogspot.com/search/label/oppo"
             });
             Monkeys.Add(new Monkey
             {
                 Name = "Huawei",
                 Location = "كل انواع Huawei",
-                ImageUrl = "huawei.jpg"
+                ImageUrl = "huawei.jpg",
+                Url = "https://www.facebook.com/elabeed2587"
             });
             Monkeys.Add(new Monkey
             {
                 Name = "Realme",
                 Location = "كل انواع Realme",
-                ImageUrl = "Realme.jpg"
+                ImageUrl = "Realme.jpg",
+                Url= "https://elaabed611.blogspot.com/search/label/Realme"
             });
             Monkeys.Add(new Monkey
             {
                 Name = "Iphone",
                 Location = "كل انواع Iphone ",
-                ImageUrl = "iphone.jpg"
+                ImageUrl = "iphone.jpg",
+                Url = "https://www.facebook.com/elabeed2587"
             });
             Monkeys.Add(new Monkey
             {
