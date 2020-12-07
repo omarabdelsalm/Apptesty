@@ -8,5 +8,7 @@ namespace Apptesty.Model
     {
         public int PersonId { get; set; }
         public string Name { get; set; }
+        public int PointNum { get; set; }
+        public string PhNum { get; set; }
     }
 }

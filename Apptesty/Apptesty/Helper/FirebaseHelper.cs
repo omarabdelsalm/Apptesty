@@ -24,15 +24,17 @@ namespace XamarinFirebase.Helper
               .OnceAsync<Person>()).Select(item => new Person
               {
                   Name = item.Object.Name,
-                  PersonId = item.Object.PersonId
+                  PersonId = item.Object.PersonId,
+                  PointNum=item.Object.PointNum,
+                  PhNum= item.Object.PhNum
               }).ToList();
         }
-        public async Task AddPerson(int personId, string name)
+        public async Task AddPerson(int personId, string name, int pointNum, string phNum)
         {
 
             await firebase
               .Child("Persons")
-              .PostAsync(new Person() { PersonId = personId, Name = name });
+              .PostAsync(new Person() { PersonId = personId, Name = name, PointNum = pointNum, PhNum = phNum});
         }
 
         public async Task<Person> GetPerson(int personId)
@@ -44,7 +46,7 @@ namespace XamarinFirebase.Helper
             return allPersons.Where(a => a.PersonId == personId).FirstOrDefault();
         }
 
-        public async Task UpdatePerson(int personId, string name)
+        public async Task UpdatePerson(int personId, string name, int pointNum, string phNum)
         {
             var toUpdatePerson = (await firebase
               .Child("Persons")
@@ -53,7 +55,7 @@ namespace XamarinFirebase.Helper
             await firebase
               .Child("Persons")
               .Child(toUpdatePerson.Key)
-              .PutAsync(new Person() { PersonId = personId, Name = name });
+              .PutAsync(new Person() { PersonId = personId, Name = name, PointNum = pointNum, PhNum = phNum });
         }
 
         public async Task DeletePerson(int personId)

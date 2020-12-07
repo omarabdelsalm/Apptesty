@@ -41,7 +41,7 @@ namespace Apptesty
         }
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.AddPerson(Convert.ToInt32(txtId.Text), txtName.Text);
+            await firebaseHelper.AddPerson(Convert.ToInt32(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             await DisplayAlert("Success", "Person Added Successfully", "OK");
@@ -84,7 +84,7 @@ namespace Apptesty
 
         private async void BtnUpdate_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.UpdatePerson(Convert.ToInt32(txtId.Text), txtName.Text);
+            await firebaseHelper.UpdatePerson(Convert.ToInt32(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text),txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             await DisplayAlert("Success", "Person Updated Successfully", "OK");
