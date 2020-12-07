@@ -7,12 +7,12 @@
             <StackLayout>
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
                     <Image x:Name="imgBanner" Source="ae.png" ></Image>
-                    <Image Margin="0,0,0,10" HeightRequest="100" Source="ph.png" ></Image>
+                    
                     <Label Margin="0,0,0,10" Text="العابد يرحب بكم" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-                    <Entry x:Name="txtId" Placeholder="ID"></Entry>
-                    <Entry x:Name="txtName" Placeholder="Enter Name"></Entry>
-                    <Entry x:Name="txtPoint" Placeholder="ID"></Entry>
-                    <Entry x:Name="txtPh" Placeholder="Enter phon"></Entry>
+                    <Entry x:Name="txtId" Placeholder="الرقم"></Entry>
+                    <Entry x:Name="txtName" Placeholder="الاسم"></Entry>
+                    <Entry x:Name="txtPoint" Placeholder="النقاط"></Entry>
+                    <Entry x:Name="txtPh" Placeholder="رقم الهاتف"></Entry>
                     <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                         <Button x:Name="btnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked"/>
                         <Button x:Name="btnRetrive" WidthRequest="200" Text="Retrive" Clicked="BtnRetrive_Clicked"/>
@@ -22,10 +22,32 @@
                         <Button x:Name="btnDelete" WidthRequest="200" Text="Delete" Clicked="BtnDelete_Clicked" />
                     </StackLayout>
 
-                    <ListView x:Name="lstPersons">
+                    <ListView x:Name="lstPersons" IsVisible="false">
                         <ListView.ItemTemplate>
                             <DataTemplate>
-                                <TextCell Text="{Binding Name}"></TextCell>
+                                <ViewCell>
+
+                                    <Grid Padding="10">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Label Grid.RowSpan="1"
+                                           Text="{Binding PhNum}" />
+                                        <Label Grid.Column="1"
+                                                Text="{Binding Name}"
+                                                      FontAttributes="Bold" />
+                                        <Label Grid.Row="1"
+                                             
+                                        Text="{Binding PointNum}"/>
+
+                                    </Grid>
+                                </ViewCell>
+
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
