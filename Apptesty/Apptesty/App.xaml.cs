@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,8 +10,16 @@ namespace Apptesty
         public App()
         {
             InitializeComponent();
+            if (!string.IsNullOrEmpty(Preferences.Get("MyFirebaseRefreshToken", "")))
+            {
+                MainPage = new NavigationPage(new UsersPage());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new UsersPage());
+            }
 
-            MainPage = new NavigationPage (new LoginPage());
+            
         }
 
         protected override void OnStart()

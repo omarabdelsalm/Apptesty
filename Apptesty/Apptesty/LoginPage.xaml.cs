@@ -27,6 +27,8 @@ namespace Apptesty
                 var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(UserNewEmail.Text, UserNewPassword.Text);
                 string gettoken = auth.FirebaseToken;
                 await App.Current.MainPage.DisplayAlert("Alert", "Good work", "Ok");
+                UserNewEmail.Placeholder = "Email";
+                UserNewPassword.Placeholder = "Pasword";
             }
             catch (Exception ex)
             {
@@ -44,7 +46,7 @@ namespace Apptesty
                 var content = await auth.GetFreshAuthAsync();
                 var serializedcontnet = JsonConvert.SerializeObject(content);
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                await Navigation.PushAsync(new MyDashboardPage());
+                await Navigation.PushAsync(new MainPage());
             }
             catch (Exception ex)
             {
