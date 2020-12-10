@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinFirebase.Helper;
+using ZXing.Net.Mobile.Forms;
+using ZXing.PDF417.Internal;
 
 namespace Apptesty
 {
@@ -20,11 +22,12 @@ namespace Apptesty
 
         FirebaseClient firebase = new FirebaseClient("https://allabeed-default-rtdb.firebaseio.com/");
 
-        public ObservableCollection<Person> MyListCollector { get; set; }
-
+        Person persons = new Person();
+       
         public MamPage()
         {
             InitializeComponent();
+            
         }
 
         protected async override void OnAppearing()
@@ -34,8 +37,9 @@ namespace Apptesty
             base.OnAppearing();
             var allPersons = await firebaseHelper.GetAllPersons();
             listvw.ItemsSource = allPersons;
-        }
 
+        }
+        
         private async void SearchBar_TextChanged(object sender, Xamarin.Forms.TextChangedEventArgs e)
         {
             //MyListCollector=new  ObservableCollection<Person>();

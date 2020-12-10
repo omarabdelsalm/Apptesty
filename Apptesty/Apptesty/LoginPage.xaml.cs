@@ -26,32 +26,34 @@ namespace Apptesty
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
                 var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(UserNewEmail.Text, UserNewPassword.Text);
                 string gettoken = auth.FirebaseToken;
-                await App.Current.MainPage.DisplayAlert("Alert", "Good work", "Ok");
+                await App.Current.MainPage.DisplayAlert("Alert", "تم تسجيل حسابك بنجاح", "Ok");
+                await Navigation.PushAsync(new SigininPage());
                 UserNewEmail.Placeholder = "Email";
                 UserNewPassword.Placeholder = "Pasword";
+
             }
             catch (Exception ex)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+                await App.Current.MainPage.DisplayAlert("Alert", "الرجاء التاكد من الايميل والباسورد", "OK");
             }
 
         }
 
-        async void loginbutton_Clicked(System.Object sender, System.EventArgs e)
-        {
-            var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
-            try
-            {
-                var auth = await authProvider.SignInWithEmailAndPasswordAsync(UserLoginEmail.Text, UserLoginPassword.Text);
-                var content = await auth.GetFreshAuthAsync();
-                var serializedcontnet = JsonConvert.SerializeObject(content);
-                Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                await Navigation.PushAsync(new MainPage());
-            }
-            catch (Exception ex)
-            {
-                await App.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
-            }
-        }
+        //async void loginbutton_Clicked(System.Object sender, System.EventArgs e)
+        //{
+        //    var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));
+        //    try
+        //    {
+        //        var auth = await authProvider.SignInWithEmailAndPasswordAsync(UserLoginEmail.Text, UserLoginPassword.Text);
+        //        var content = await auth.GetFreshAuthAsync();
+        //        var serializedcontnet = JsonConvert.SerializeObject(content);
+        //        Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
+        //        await Navigation.PushAsync(new MainPage());
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        await App.Current.MainPage.DisplayAlert("Alert", "Invalid useremail or password", "OK");
+        //    }
+        //}
     }
 }

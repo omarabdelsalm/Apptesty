@@ -44,6 +44,8 @@ namespace Apptesty
             await firebaseHelper.AddPerson(Convert.ToInt32(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
+            txtPoint.Text = string.Empty;
+            txtPh.Text = string.Empty;
             await DisplayAlert("Success", "Person Added Successfully", "OK");
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
@@ -51,13 +53,16 @@ namespace Apptesty
 
         private async void BtnRetrive_Clicked(object sender, EventArgs e)
         {
-
-            
-                var person = await firebaseHelper.GetPerson(Convert.ToInt32(txtId.Text));
+            //txtName.IsReadOnly = true;
+           //txtPoint.IsReadOnly = true;
+            //txtPh.IsReadOnly = true;
+            var person = await firebaseHelper.GetPerson(Convert.ToInt32(txtId.Text));
                 if (person != null)
                 {
                     txtId.Text = person.PersonId.ToString();
                     txtName.Text = person.Name;
+                txtPh.Text = person.PhNum;
+                txtPoint.Text = person.PointNum.ToString();
                     await DisplayAlert("Success", "Person Retrive Successfully", "OK");
 
                 }
@@ -87,6 +92,8 @@ namespace Apptesty
             await firebaseHelper.UpdatePerson(Convert.ToInt32(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text),txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
+            txtPoint.Text = string.Empty;
+            txtPh.Text = string.Empty;
             await DisplayAlert("Success", "Person Updated Successfully", "OK");
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;

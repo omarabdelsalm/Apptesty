@@ -13,6 +13,6 @@ namespace Apptesty.Model
         public string Name { get; set; }
         public int PointNum { get; set; }
         public string PhNum { get; set; }
-        public IEnumerable MyListCollector { get;  set; }
+       
     }
 }

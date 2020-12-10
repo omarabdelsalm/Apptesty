@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Apptesty.OnePage"
+             Title="العابد يرحب بكم"
+             BackgroundImageSource="a122.png">
+    <ContentPage.Content>
+        <StackLayout Spacing="50" VerticalOptions="End" Margin="20" AnchorX="50">
+            <Button Text="مستخدم جديد" TextColor="White" BackgroundColor="#149131" Clicked="Button_Clicked_1"/>
+
+            <Button Text="تسجيل الدخول" TextColor="White" BackgroundColor="#149131" Clicked="Button_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

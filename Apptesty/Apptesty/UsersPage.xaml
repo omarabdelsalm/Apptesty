@@ -9,7 +9,7 @@
                     <Image x:Name="imgBanner" Source="ae.png" ></Image>
                     
                     <Label Margin="0,0,0,10" Text="العابد يرحب بكم" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-                    <Entry x:Name="txtId" Placeholder="الرقم"></Entry>
+                    <Entry x:Name="txtId" Placeholder="الباركود"></Entry>
                     <Entry x:Name="txtName" Placeholder="الاسم"></Entry>
                     <Entry x:Name="txtPoint" Placeholder="النقاط"></Entry>
                     <Entry x:Name="txtPh" Placeholder="رقم الهاتف"></Entry>
