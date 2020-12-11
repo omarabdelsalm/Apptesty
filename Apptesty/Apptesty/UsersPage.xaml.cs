@@ -11,6 +11,7 @@ using Xamarin.Forms.Xaml;
 using XamarinFirebase.Helper;
 using Firebase.Database;
 using Firebase.Database.Query;
+using ZXing.Net.Mobile.Forms;
 
 namespace Apptesty
 {
@@ -23,16 +24,18 @@ namespace Apptesty
         public UsersPage()
         {
             InitializeComponent();
+            txtId.Focus();
         }
 
         protected async override void OnAppearing()
         {
+            txtId.Focus();
 
             base.OnAppearing();
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
         }
-        public async Task AddPerson(int personId, string name)
+        public async Task AddPerson(long personId, string name)
         {
 
             await firebase
@@ -41,10 +44,12 @@ namespace Apptesty
         }
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.AddPerson(Convert.ToInt32(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), txtPh.Text);
+            await firebaseHelper.AddPerson((int)Convert.ToInt64(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), Convert.ToInt32(txtPoint1.Text), Convert.ToInt32(txtPoint2.Text), txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             txtPoint.Text = string.Empty;
+            txtPoint1.Text = string.Empty;
+            txtPoint2.Text = string.Empty;
             txtPh.Text = string.Empty;
             await DisplayAlert("Success", "Person Added Successfully", "OK");
             var allPersons = await firebaseHelper.GetAllPersons();
@@ -53,29 +58,34 @@ namespace Apptesty
 
         private async void BtnRetrive_Clicked(object sender, EventArgs e)
         {
+            btnDelete.IsEnabled = false;
+            btnAdd.IsEnabled = false;
             //txtName.IsReadOnly = true;
-           //txtPoint.IsReadOnly = true;
+            //txtPoint.IsReadOnly = true;
             //txtPh.IsReadOnly = true;
-            var person = await firebaseHelper.GetPerson(Convert.ToInt32(txtId.Text));
+            var person = await firebaseHelper.GetPerson((int)Convert.ToInt64(txtId.Text));
                 if (person != null)
+                //if (txtId.Text == (long)Entry) { }
                 {
                     txtId.Text = person.PersonId.ToString();
                     txtName.Text = person.Name;
                 txtPh.Text = person.PhNum;
                 txtPoint.Text = person.PointNum.ToString();
-                    await DisplayAlert("Success", "Person Retrive Successfully", "OK");
-
-                }
+                txtPoint1.Text="";
+                txtPoint2.Text = person.PointNum2.ToString();
+                await DisplayAlert("Success", "قراءة العضو بالباركود", "OK");
+                
+            }
                 else
                 {
-                    await DisplayAlert("Success", "No Person Available", "OK");
+                    await DisplayAlert("Success", "لا يوجد اعضاء لهذا الباركود", "OK");
                 }
 
            
             
         }
 
-        public async Task UpdatePerson(int personId, string name)
+        public async Task UpdatePerson(long personId, string name,string phNum,int pointNum1,int pointNum2,int pointNum)
         {
             var toUpdatePerson = (await firebase
               .Child("Persons")
@@ -84,21 +94,23 @@ namespace Apptesty
             await firebase
               .Child("Persons")
               .Child(toUpdatePerson.Key)
-              .PutAsync(new Person() { PersonId = personId, Name = name });
+              .PutAsync(new Person() { PersonId = personId, Name = name,  PointNum2 = pointNum+pointNum1, PhNum = phNum });
         }
 
         private async void BtnUpdate_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.UpdatePerson(Convert.ToInt32(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text),txtPh.Text);
+            await firebaseHelper.UpdatePerson((int)Convert.ToInt64(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), Convert.ToInt32(txtPoint1.Text), Convert.ToInt32(txtPoint2.Text), txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             txtPoint.Text = string.Empty;
+            txtPoint2.Text = string.Empty;
+            txtPoint1.Text = string.Empty;
             txtPh.Text = string.Empty;
-            await DisplayAlert("Success", "Person Updated Successfully", "OK");
+            await DisplayAlert("Success", "تم تحديث الاسم بنجاح", "OK");
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
         }
-        public async Task DeletePerson(int personId)
+        public async Task DeletePerson(long personId)
         {
             var toDeletePerson = (await firebase
               .Child("Persons")
@@ -111,11 +123,29 @@ namespace Apptesty
         private async void BtnDelete_Clicked(object sender, EventArgs e)
         {
             await firebaseHelper.DeletePerson(Convert.ToInt32(txtId.Text));
-            await DisplayAlert("Success", "Person Deleted Successfully", "OK");
+            await DisplayAlert("Success", "تم حذف الاسم", "OK");
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
         }
 
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            var scan = new ZXingScannerPage();
+            await Navigation.PushAsync(scan);
+            scan.OnScanResult += (result) =>
+            {
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await Navigation.PopAsync();
+                    txtId.Text = result.Text;
+                });
+            };
+               
+        }
 
+        private async void Button_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }

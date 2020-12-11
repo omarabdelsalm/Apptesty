@@ -26,18 +26,20 @@ namespace XamarinFirebase.Helper
                   Name = item.Object.Name,
                   PersonId = item.Object.PersonId,
                   PointNum=item.Object.PointNum,
-                  PhNum= item.Object.PhNum
+                  PointNum1 = item.Object.PointNum1,
+                  PointNum2 = item.Object.PointNum2,
+                  PhNum = item.Object.PhNum
               }).ToList();
         }
-        public async Task AddPerson(int personId, string name, int pointNum, string phNum)
+        public async Task AddPerson(int personId, string name, int pointNum, int pointNum1, int pointNum2, string phNum)
         {
 
             await firebase
               .Child("Persons")
-              .PostAsync(new Person() { PersonId = personId, Name = name, PointNum = pointNum, PhNum = phNum});
+              .PostAsync(new Person() { PersonId = personId, Name = name, PointNum = pointNum, PointNum1 = pointNum1, PointNum2 = pointNum2+pointNum1, PhNum = phNum});
         }
 
-        public async Task<Person> GetPerson(int personId)
+        public async Task<Person> GetPerson(long personId)
         {
             var allPersons = await GetAllPersons();
             await firebase
@@ -46,7 +48,7 @@ namespace XamarinFirebase.Helper
             return allPersons.Where(a => a.PersonId == personId).FirstOrDefault();
         }
 
-        public async Task UpdatePerson(int personId, string name, int pointNum, string phNum)
+        public async Task UpdatePerson(int personId, string name, int pointNum, int pointNum1, int pointNum2, string phNum)
         {
             var toUpdatePerson = (await firebase
               .Child("Persons")
@@ -55,7 +57,7 @@ namespace XamarinFirebase.Helper
             await firebase
               .Child("Persons")
               .Child(toUpdatePerson.Key)
-              .PutAsync(new Person() { PersonId = personId, Name = name, PointNum = pointNum, PhNum = phNum });
+              .PutAsync(new Person() { PersonId = personId, Name = name,PointNum2 =pointNum2+pointNum1,PointNum1=pointNum1,PointNum=pointNum, PhNum = phNum });
         }
 
         public async Task DeletePerson(int personId)

@@ -9,9 +9,11 @@ namespace Apptesty.Model
     {
         //internal IEnumerable allPersons;
 
-        public int PersonId { get; set; }
+        public long PersonId { get; set; }
         public string Name { get; set; }
         public int PointNum { get; set; }
+        public int PointNum1 { get; set; }
+        public int PointNum2 { get; set; }
         public string PhNum { get; set; }
        
     }
