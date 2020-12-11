@@ -31,11 +31,19 @@ namespace Apptesty
                 var content = await auth.GetFreshAuthAsync();
                 var serializedcontnet = JsonConvert.SerializeObject(content);
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
-                await Navigation.PushAsync(new MainPage());
+                if (UserLoginEmail.Text=="bkr@bkr.com "|| UserLoginPassword.Text=="bkr123")
+                {
+                    await Navigation.PushAsync(new UsersPage());
+                }
+                else
+                {
+                    await Navigation.PushAsync(new MainPage());
+                }
+                
             }
             catch (Exception ex)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", "ايميل غير مطابق لكلمة السر", "OK");
+                await App.Current.MainPage.DisplayAlert("Alert", "ايميل وباسوردغير مطابق", "OK");
             }
         }
     }
