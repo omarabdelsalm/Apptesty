@@ -18,6 +18,10 @@ namespace Apptesty
         public LoginPage()
         {
             InitializeComponent();
+            UserNewEmail.Completed += (object sender, EventArgs e) =>
+            {
+                _ = UserNewPassword.Focus();
+            };
         }
         async void signupbutton_Clicked(System.Object sender, System.EventArgs e)
         {

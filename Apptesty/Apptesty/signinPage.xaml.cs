@@ -15,9 +15,14 @@ namespace Apptesty
     public partial class SigininPage : ContentPage
     {
         public string WebAPIkey = "AIzaSyArAP9Qj8nVl9KKaRDzwVy6M3ImeO0EvQY";
+       
         public SigininPage()
         {
             InitializeComponent();
+            UserLoginEmail.Completed += (object sender, EventArgs e) =>
+            {
+                _ = UserLoginPassword.Focus();
+            };
         }
 
         
@@ -33,10 +38,13 @@ namespace Apptesty
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
                 if (UserLoginEmail.Text=="bkr@bkr.com "|| UserLoginPassword.Text=="bkr123")
                 {
+                    
                     await Navigation.PushAsync(new UsersPage());
                 }
                 else
                 {
+                   
+
                     await Navigation.PushAsync(new MainPage());
                 }
                 
@@ -46,5 +54,6 @@ namespace Apptesty
                 await App.Current.MainPage.DisplayAlert("Alert", "ايميل وباسوردغير مطابق", "OK");
             }
         }
+       
     }
 }

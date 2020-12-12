@@ -21,19 +21,37 @@ namespace Apptesty
         FirebaseHelper firebaseHelper = new FirebaseHelper();
 
         FirebaseClient firebase = new FirebaseClient("https://allabeed-default-rtdb.firebaseio.com/");
+        MamPage mo = new MamPage();
         public UsersPage()
         {
             InitializeComponent();
-            txtId.Focus();
+            
+            
         }
 
         protected async override void OnAppearing()
         {
-            txtId.Focus();
+          
 
             base.OnAppearing();
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
+            txtId.Completed += (object sender, EventArgs e) =>
+            {
+                _ = txtName.Focus();
+            };
+            txtName.Completed += (object sender, EventArgs e) =>
+            {
+                _ = txtPoint.Focus();
+            };
+            txtPoint.Completed += (object sender, EventArgs e) =>
+            {
+                _ = txtPoint1.Focus();
+            };
+            txtPoint1.Completed += (object sender, EventArgs e) =>
+            {
+                _ = txtPh.Focus();
+            };
         }
         public async Task AddPerson(long personId, string name)
         {
@@ -73,7 +91,7 @@ namespace Apptesty
                 txtPoint.Text = person.PointNum.ToString();
                 txtPoint1.Text="";
                 txtPoint2.Text = person.PointNum2.ToString();
-                await DisplayAlert("Success", "قراءة العضو بالباركود", "OK");
+                await DisplayAlert("Success", "تم استعادة الاسم", "OK");
                 
             }
                 else
@@ -99,6 +117,9 @@ namespace Apptesty
 
         private async void BtnUpdate_Clicked(object sender, EventArgs e)
         {
+            txtPoint1.Text = 0.ToString();
+            btnDelete.IsEnabled = true;
+            btnAdd.IsEnabled = true;
             await firebaseHelper.UpdatePerson((int)Convert.ToInt64(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), Convert.ToInt32(txtPoint1.Text), Convert.ToInt32(txtPoint2.Text), txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
@@ -112,6 +133,8 @@ namespace Apptesty
         }
         public async Task DeletePerson(long personId)
         {
+            btnDelete.IsEnabled = true;
+            btnAdd.IsEnabled = true;
             var toDeletePerson = (await firebase
               .Child("Persons")
               .OnceAsync<Person>()).Where(a => a.Object.PersonId == personId).FirstOrDefault();
@@ -146,6 +169,13 @@ namespace Apptesty
         private async void Button_Clicked_1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
+        }
+
+        private async void Button_Clicked_2(object sender, EventArgs e)
+        {
+            mo.IsVisible = true;
+            await Navigation.PushAsync(new MamPage());
+
         }
     }
 }

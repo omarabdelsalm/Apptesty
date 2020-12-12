@@ -9,9 +9,9 @@
             <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
 
             <Entry Placeholder="الايميل"  x:Name="UserNewEmail" BackgroundColor="White" FontSize="Large" TextColor="Black"></Entry>
-            <Entry Placeholder="كلمة المرور"  x:Name="UserNewPassword" BackgroundColor="White" FontSize="Large" TextColor="Black"></Entry>
+            <Entry Placeholder="كلمة المرور"  x:Name="UserNewPassword" IsPassword="True" BackgroundColor="White" FontSize="Large" TextColor="Black"></Entry>
     
-            <Button BackgroundColor="LawnGreen" TextColor="White" Text="تسجيل حساب جديد" Clicked="signupbutton_Clicked" x:Name="signupbutton"/>
+            <Button BackgroundColor="LawnGreen" TextColor="Black" Text="تسجيل حساب جديد" FontSize="Medium" Clicked="signupbutton_Clicked" x:Name="signupbutton"/>
            </StackLayout>
         </StackLayout>
     </ContentPage.Content>

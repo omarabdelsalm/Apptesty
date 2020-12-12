@@ -8,11 +8,11 @@
             
                 <StackLayout BackgroundColor="#BF043055">
                 <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
-            <Entry Placeholder="User  Email"  x:Name="UserLoginEmail" TextColor="White" FontSize="Large"></Entry>
-            <Entry Placeholder="User Password"  x:Name="UserLoginPassword" TextColor="White" FontSize="Large"></Entry>
-            <Button BackgroundColor="Black" Clicked="loginbutton_Clicked" TextColor="White" Text="تسجيل الدخول" x:Name="loginbutton"/>
+            <Entry Placeholder="الايميل"  x:Name="UserLoginEmail" TextColor="White" FontSize="Large"></Entry>
+            <Entry Placeholder="كلمة المرور"  x:Name="UserLoginPassword" IsPassword="True" TextColor="White" FontSize="Large"></Entry>
+            <Button BackgroundColor="Gainsboro" Clicked="loginbutton_Clicked" TextColor="Black" Text="تسجيل الدخول" FontSize="Medium" x:Name="loginbutton"/>
                 </StackLayout>
-          
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

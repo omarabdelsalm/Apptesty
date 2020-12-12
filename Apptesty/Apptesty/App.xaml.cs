@@ -12,11 +12,11 @@ namespace Apptesty
             InitializeComponent();
             if (!string.IsNullOrEmpty(Preferences.Get("MyFirebaseRefreshToken", "")))
             {
-                MainPage = new NavigationPage(new OnePage ());
+                MainPage = new NavigationPage(new UsersPage ());
             }
             else
             {
-                MainPage = new NavigationPage(new OnePage());
+                MainPage = new NavigationPage(new UsersPage());
             }
 
             
