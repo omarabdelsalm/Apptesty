@@ -49,7 +49,7 @@ namespace Apptesty
                 }
                 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 await App.Current.MainPage.DisplayAlert("Alert", "ايميل وباسوردغير مطابق", "OK");
             }

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Apptesty.MyPageDisplays">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="الباركود"
+                />
+            <Entry x:Name="perId" FontSize="Medium" />
+            <Label Text="الاسم"
+               FontSize="Medium" />
+            <Entry x:Name="nameEt" FontSize="Medium"/>
+            <Label Text="رقم الهاتف"
+                FontSize="Medium"/>
+            <Entry x:Name="phonEt" FontSize="Medium"/>
+            <Label Text="النقاط"
+               FontSize="Medium"/>
+            <Entry x:Name="pointEt"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

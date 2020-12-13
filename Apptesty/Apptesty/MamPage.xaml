@@ -7,7 +7,7 @@
         <ScrollView>
             <StackLayout>
                 <SearchBar TextChanged="SearchBar_TextChanged"/>
-                <ListView x:Name="listvw" IsPullToRefreshEnabled="True" HasUnevenRows="true" SeparatorVisibility="Default" >
+                <ListView x:Name="listvw" IsPullToRefreshEnabled="True" HasUnevenRows="true" SeparatorVisibility="Default" ItemTapped="listvw_ItemTapped">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

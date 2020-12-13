@@ -36,7 +36,7 @@ namespace Apptesty
                 UserNewPassword.Placeholder = "Pasword";
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 await App.Current.MainPage.DisplayAlert("Alert", "الرجاء التاكد من الايميل والباسورد", "OK");
             }

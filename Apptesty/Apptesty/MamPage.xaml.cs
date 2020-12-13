@@ -23,7 +23,7 @@ namespace Apptesty
         FirebaseClient firebase = new FirebaseClient("https://allabeed-default-rtdb.firebaseio.com/");
 
         Person persons = new Person();
-       
+        public static object ItemTapped { get; private set; }
         public MamPage()
         {
             InitializeComponent();
@@ -60,9 +60,30 @@ namespace Apptesty
         }
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            var _container = BindingContext as Person;
+            _ = BindingContext as Person;
             //do work over here
             DisplayAlert("Sucess", "You have Subscribed", "OK", "Cancel");
         }
+
+        private async void listvw_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var allPersons = await firebaseHelper.GetAllPersons();
+            listvw.ItemsSource = allPersons;
+            ListView lv = (ListView)sender;
+
+            //// this assumes your List is bound to a List<Club>
+
+            persons= (Person)lv.SelectedItem;
+
+
+            await Navigation.PushAsync(new MyPageDisplays(persons.PersonId.ToString(), persons.Name.ToString(), persons.PhNum.ToString(), persons.PointNum2.ToString()));
+        }
+        //اضافة صفحة لعرض العنصر الموجود فى القائمة
+        //private void Listvw_ItemTapped(object sender, SelectedItemChangedEventArgs e)
+        //{
+        //    _ = e.SelectedItem as Person;
+
+        //}
+
     }
 }
