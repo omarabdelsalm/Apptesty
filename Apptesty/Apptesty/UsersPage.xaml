@@ -5,7 +5,7 @@
              x:Class="Apptesty.UsersPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout BackgroundColor="Gray" >
+            <StackLayout BackgroundColor="#f5f5f0" >
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
                     <Image x:Name="imgBanner" Source="ae.png" ></Image>
 

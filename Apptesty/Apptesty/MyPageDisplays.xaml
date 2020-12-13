@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
              x:Class="Apptesty.MyPageDisplays">
     <ContentPage.Content>
         <StackLayout>
@@ -17,6 +16,10 @@
             <Label Text="النقاط"
                FontSize="Medium"/>
             <Entry x:Name="pointEt"/>
+            
+            <Entry x:Name="ipaddress" Placeholder="ip address"/>
+            <Entry x:Name="port" Placeholder="port number"/>
+            <Button Text="طباعة" TextColor="Black" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
