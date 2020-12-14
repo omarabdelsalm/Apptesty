@@ -1,18 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundImageSource="i11.png"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="Apptesty.SigininPage">
     <ContentPage.Content>
-        <StackLayout Spacing="50" VerticalOptions="End" Margin="20" AnchorX="50">
-            
-                <StackLayout BackgroundColor="#BF043055">
+        <StackLayout>
+            <StackLayout>
+                <forms:AnimationView 
+    x:Name="animationView"
+    Animation="40990-anabenzan.json"
+    MinFrame="10"                
+    MaxFrame="100"
+    
+    AutoPlay="True"
+    CacheComposition="False"
+    HeightRequest="300"
+    WidthRequest="300" 
+    RepeatCount="10"                
+                    />
+            </StackLayout>
+            <StackLayout >
+
+                <StackLayout Spacing="10" VerticalOptions="End" Margin="20" AnchorX="10">
                 <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
-            <Entry Placeholder="الايميل"  x:Name="UserLoginEmail" TextColor="White" FontSize="Large"></Entry>
-            <Entry Placeholder="كلمة المرور"  x:Name="UserLoginPassword" IsPassword="True" TextColor="White" FontSize="Large"></Entry>
-            <Button BackgroundColor="Gainsboro" Clicked="loginbutton_Clicked" TextColor="Black" Text="تسجيل الدخول" FontSize="Medium" x:Name="loginbutton"/>
+            <Entry Placeholder="Email"  x:Name="UserLoginEmail" TextColor="White" FontSize="Large"></Entry>
+            <Entry Placeholder=" Password"  x:Name="UserLoginPassword" IsPassword="True" TextColor="White" FontSize="Large"></Entry>
+                    <Button BackgroundColor="HotPink" Clicked="loginbutton_Clicked" TextColor="Black" Text="تسجيل الدخول" FontSize="Medium" x:Name="loginbutton"/>
                 </StackLayout>
-            
+           </StackLayout> 
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

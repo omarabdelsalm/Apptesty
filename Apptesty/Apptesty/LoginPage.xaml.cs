@@ -1,4 +1,5 @@
 ﻿using Firebase.Auth;
+using Firebase.Auth;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,8 @@ namespace Apptesty
                 _ = UserNewPassword.Focus();
             };
         }
+
+
         async void signupbutton_Clicked(System.Object sender, System.EventArgs e)
         {
             try
