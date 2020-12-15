@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             
              x:Class="Apptesty.UsersPage">
-    <ContentPage.Content>
-        <ScrollView>
-            <StackLayout BackgroundColor="#f5f5f0" >
+    <ContentPage.Content >
+        <ScrollView >
+            <StackLayout BackgroundColor="#f3ffe6">
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
                     <Image x:Name="imgBanner" Source="ae.png" ></Image>
 
-                    <Label Margin="0,0,0,10" Text="العابد يرحب بكم" FontAttributes="Bold" FontSize="Large" TextColor="White" HorizontalTextAlignment="Center" ></Label>
+                    <Label Margin="0,0,0,10" Text="العابد يرحب بكم" FontAttributes="Bold" FontSize="Large" TextColor="SkyBlue" HorizontalTextAlignment="Center" ></Label>
                     
                     <Entry x:Name="txtId" Placeholder="الباركود"></Entry>
                     <Entry x:Name="txtName" Placeholder="الاسم"></Entry>
@@ -18,18 +18,18 @@
                     <Entry x:Name="txtPoint2" Placeholder="اجمالى النقاط"></Entry>
                     <Entry x:Name="txtPh" Placeholder="رقم الهاتف"></Entry>
                     <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                        <Button x:Name="btnAdd" WidthRequest="200" Text="اضافة" Clicked="BtnAdd_Clicked" FontSize="Medium" BackgroundColor="#228899"/>
-                        <Button x:Name="btnRetrive" WidthRequest="200" Text="استعادة بالباركود" Clicked="BtnRetrive_Clicked" FontSize="Medium" BackgroundColor="Azure"/>
+                        <Button x:Name="btnAdd" WidthRequest="200" Text="اضافة" Clicked="BtnAdd_Clicked" FontSize="Small" BackgroundColor="#228899" CornerRadius="10"/>
+                        <Button x:Name="btnRetrive" WidthRequest="200" Text="استعادة بالباركود" Clicked="BtnRetrive_Clicked" FontSize="Small" BackgroundColor="#3333ff" CornerRadius="10"/>
                     </StackLayout>
                     <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                        <Button x:Name="btnUpdate" WidthRequest="200" Text="تحديث" Clicked="BtnUpdate_Clicked" FontSize="Medium" BackgroundColor="Green"/>
-                        <Button x:Name="btnDelete" WidthRequest="200" Text="حذف" Clicked="BtnDelete_Clicked" FontSize="Medium" BackgroundColor="red"/>
+                        <Button x:Name="btnUpdate" WidthRequest="200" Text="تحديث" Clicked="BtnUpdate_Clicked" FontSize="Small" BackgroundColor="Green" CornerRadius="10"/>
+                        <Button x:Name="btnDelete" WidthRequest="200" Text="حذف" Clicked="BtnDelete_Clicked" FontSize="Small" BackgroundColor="red" CornerRadius="10"/>
                     </StackLayout>
                     <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                        <Button  WidthRequest="200" Text="قراءة الباركود" Clicked="Button_Clicked" FontSize="Medium" BackgroundColor="BurlyWood"/>
-                        <Button  WidthRequest="200" Text="الصفحة الرئيسية" Clicked="Button_Clicked_1" FontSize="Medium" BackgroundColor="#22001111"/>
+                        <Button  WidthRequest="200" Text="قراءة الباركود" Clicked="Button_Clicked" FontSize="Small" BackgroundColor="BurlyWood" CornerRadius="10"/>
+                        <Button  WidthRequest="200" Text="الصفحة الرئيسية" Clicked="Button_Clicked_1" FontSize="Small" BackgroundColor="#22001111" CornerRadius="10"/>
                     </StackLayout>
-                    <Button WidthRequest="200" Clicked="Button_Clicked_2" Text="صفحة الاعضاء"  FontSize="Medium" BackgroundColor="red"/>
+                    <Button WidthRequest="150" Clicked="Button_Clicked_2" Text="صفحة الاعضاء"  FontSize="Medium" BackgroundColor="red" CornerRadius="25"/>
                     <ListView x:Name="lstPersons" IsVisible="false">
                         <ListView.ItemTemplate>
                             <DataTemplate>

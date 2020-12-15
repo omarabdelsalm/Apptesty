@@ -22,8 +22,8 @@
 
                 <StackLayout Spacing="10" VerticalOptions="End" Margin="20" AnchorX="10">
                 <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
-            <Entry Placeholder="Email"  x:Name="UserLoginEmail" TextColor="White" FontSize="Large"></Entry>
-            <Entry Placeholder=" Password"  x:Name="UserLoginPassword" IsPassword="True" TextColor="White" FontSize="Large"></Entry>
+            <Entry Placeholder="Email"  x:Name="UserLoginEmail" TextColor="Black" FontSize="Large"></Entry>
+            <Entry Placeholder=" Password"  x:Name="UserLoginPassword" IsPassword="True" TextColor="Black" FontSize="Large"></Entry>
                     <Button BackgroundColor="HotPink" Clicked="loginbutton_Clicked" TextColor="Black" Text="تسجيل الدخول" FontSize="Medium" x:Name="loginbutton"/>
                 </StackLayout>
            </StackLayout> 
