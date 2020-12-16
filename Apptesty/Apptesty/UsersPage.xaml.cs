@@ -105,6 +105,9 @@ namespace Apptesty
 
         public async Task UpdatePerson(long personId, string name,string phNum,int pointNum1,int pointNum2,int pointNum)
         {
+            var person = await firebaseHelper.GetPerson((int)Convert.ToInt64(txtId.Text));
+
+            txtPoint.Text = person.PointNum2.ToString();
             var toUpdatePerson = (await firebase
               .Child("Persons")
               .OnceAsync<Person>()).Where(a => a.Object.PersonId == personId).FirstOrDefault();
@@ -113,21 +116,22 @@ namespace Apptesty
               .Child("Persons")
               .Child(toUpdatePerson.Key)
               .PutAsync(new Person() { PersonId = personId, Name = name,  PointNum2 = pointNum+pointNum1, PhNum = phNum });
+            
         }
 
         private async void BtnUpdate_Clicked(object sender, EventArgs e)
         {
-            txtPoint1.Text = 0.ToString();
             btnDelete.IsEnabled = true;
             btnAdd.IsEnabled = true;
             await firebaseHelper.UpdatePerson((int)Convert.ToInt64(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), Convert.ToInt32(txtPoint1.Text), Convert.ToInt32(txtPoint2.Text), txtPh.Text);
+           
+            await DisplayAlert("Success", "تم تحديث الاسم بنجاح", "OK");
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             txtPoint.Text = string.Empty;
             txtPoint2.Text = string.Empty;
             txtPoint1.Text = string.Empty;
             txtPh.Text = string.Empty;
-            await DisplayAlert("Success", "تم تحديث الاسم بنجاح", "OK");
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
         }
