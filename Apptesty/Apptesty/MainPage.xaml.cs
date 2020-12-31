@@ -45,11 +45,16 @@ namespace Apptesty
 
             Browser.Source = "https://elaabed611.blogspot.com/";
             nxt_Clicked.Clicked += Nxt_Clicked;
+           
         }
 
         private async void Nxt_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(p);
+        }
+        private async void Btn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MamPage());
         }
     }
 }

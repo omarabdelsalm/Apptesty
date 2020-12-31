@@ -8,9 +8,10 @@
         <Label x:Name="LoadingLabel" IsVisible="false"/>
         <WebView x:Name="Browser" HeightRequest="1000" WidthRequest="1000" Navigating="Handle_Navigating" Navigated="Handle_Navigated"/>
         
-            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="30" BackgroundColor="#CEDCD6"/>
+            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="20" BackgroundColor="#CEDCD6"/>
+        <Button Text="صفحة المشتركين" Clicked="Btn_Clicked"  FontSize="24" BackgroundColor="#CEDCD6"/>
 
-        </StackLayout>
+    </StackLayout>
    
  
 </ContentPage>

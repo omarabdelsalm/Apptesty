@@ -19,7 +19,7 @@
                     <Entry x:Name="txtPh" Placeholder="رقم الهاتف"></Entry>
                     <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                         <Button x:Name="btnAdd" WidthRequest="200" Text="اضافة" Clicked="BtnAdd_Clicked" FontSize="Small" BackgroundColor="#228899" CornerRadius="10"/>
-                        <Button x:Name="btnRetrive" WidthRequest="200" Text="استعادة بالباركود" Clicked="BtnRetrive_Clicked" FontSize="Small" BackgroundColor="#3333ff" CornerRadius="10"/>
+                        <Button x:Name="btnRetrive" WidthRequest="200" Text="استعادة بالباركود" Clicked="BtnRetrive_Clicked" FontSize="Small" BackgroundColor="#300333ff" CornerRadius="10"/>
                     </StackLayout>
                     <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                         <Button x:Name="btnUpdate" WidthRequest="200" Text="تحديث" Clicked="BtnUpdate_Clicked" FontSize="Small" BackgroundColor="Green" CornerRadius="10"/>

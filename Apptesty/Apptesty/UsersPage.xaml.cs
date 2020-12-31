@@ -42,7 +42,7 @@ namespace Apptesty
             };
             txtName.Completed += (object sender, EventArgs e) =>
             {
-                _ = txtPoint.Focus();
+                _ = txtPoint1.Focus();
             };
             txtPoint.Completed += (object sender, EventArgs e) =>
             {
@@ -62,7 +62,7 @@ namespace Apptesty
         }
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {
-            await firebaseHelper.AddPerson((int)Convert.ToInt64(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), Convert.ToInt32(txtPoint1.Text), Convert.ToInt32(txtPoint2.Text), txtPh.Text);
+            await firebaseHelper.AddPerson((int)Convert.ToInt64(txtId.Text), txtName.Text, Convert.ToInt32(txtPoint.Text), Convert.ToInt32(txtPoint1.Text) + Convert.ToInt32(txtPoint.Text), Convert.ToInt32(txtPoint2.Text), txtPh.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             txtPoint.Text = string.Empty;
@@ -76,7 +76,7 @@ namespace Apptesty
 
         private async void BtnRetrive_Clicked(object sender, EventArgs e)
         {
-            btnDelete.IsEnabled = false;
+           
             btnAdd.IsEnabled = false;
             //txtName.IsReadOnly = true;
             //txtPoint.IsReadOnly = true;

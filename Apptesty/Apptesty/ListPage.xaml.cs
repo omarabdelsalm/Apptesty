@@ -34,7 +34,7 @@ namespace Apptesty
                 Name = "خدمات بيع",
                 Location = "تقسيط وكاش",
                 ImageUrl = "ab.jpg",
-                Url = "https://www.google.com.eg/webhp?tab=rw"
+                Url = "https://elaabed611.blogspot.com/search/label/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D9%83%D8%A7%D8%B4%20%D9%88%D8%AA%D9%82%D8%B3%D9%8A%D8%B7"
             }) ;
             Monkeys.Add(new Monkey
             {
@@ -90,7 +90,7 @@ namespace Apptesty
                 Name = "Samsung",
                 Location = "كل انواع Samsung",
                 ImageUrl = "samsung.jpg",
-                Url = "https://www.google.com.eg/webhp?tab=rw"
+                Url = "https://elaabed611.blogspot.com/search/label/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC"
             });
             BindingContext = this;
         }

@@ -30,6 +30,7 @@ namespace Apptesty
             {
                 await DisplayAlert("", "please insert ip and port for your printer", "ok");
                 return;
+                
             }
             // Variables
             string ipAddress = ipaddress.Text.ToString();
@@ -61,7 +62,9 @@ namespace Apptesty
                 {
                     // Exception here could mean difficulties in connecting to the printer etc
                      DisplayAlert("Error", $"Failed to print redemption slip\nReason: {ex.Message}", "OK");
-                }
+                ipaddress.Text = "";
+                port.Text = "";
+            }
             
 
         }
