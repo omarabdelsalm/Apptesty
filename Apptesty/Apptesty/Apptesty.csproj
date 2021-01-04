@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CarouselView.FormsPlugin" Version="6.0.0" />
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.8" />
     <PackageReference Include="FirebaseAuthentication.net" Version="3.4.0" />
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
@@ -37,6 +38,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="CarouselPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Contactpage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -68,6 +72,7 @@
 
   <ItemGroup>
     <Folder Include="urlDisplay\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
 
   <ItemGroup>

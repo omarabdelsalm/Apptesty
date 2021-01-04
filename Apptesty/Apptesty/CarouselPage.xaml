@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             x:Class="Apptesty.CarouselPage">
+    <ContentPage.Content>
+       
+        <!--<StackLayout>
+            <Label Text="hello"/>
+            <CarouselView ItemsSource="{Binding Birds}" PeekAreaInsets="50">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackLayout>
+                            <Frame BorderColor="Gray" Margin="8" HasShadow="True" HeightRequest="250" CornerRadius="20" VerticalOptions="CenterAndExpand">
+                                <StackLayout>
+                                    <Image Source="{Binding ImagePath}"/>
+                                    <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </StackLayout>-->
+        <StackLayout>
+            
+                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <cv:CarouselViewControl x:Name="cvWalkthrough" ShowIndicators="true" IndicatorsShape="Circle" IndicatorsTintColor="LightGray"
+                                CurrentPageIndicatorTintColor="#FF0088" Orientation="Horizontal" InterPageSpacing="0"  
+                                ItemsSource="{Binding WalkthroughItems}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+                                AnimateTransition="True">
+                    <cv:CarouselViewControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HorizontalOptions="FillAndExpand">
+                                <Image Source="{Binding Image}" Aspect="Fill" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                                <StackLayout Orientation="Vertical" Spacing="20" HorizontalOptions="Start" VerticalOptions="End" WidthRequest="300" Margin="20,50">
+                                    <Frame HasShadow="False" BackgroundColor="#FF0088" CornerRadius="15" 
+                                   Padding="0" HorizontalOptions="Start" VerticalOptions="Start"
+                                   WidthRequest="100" HeightRequest="30">
+                                        <Label Text="{Binding Heading}" FontSize="14" TextColor="White" HorizontalTextAlignment="Center" VerticalOptions="Center"/>
+                                    </Frame>
+                                    <Label x:Name="CaptionTxt" Text="{Binding Caption}" FontSize="20" TextColor="White" Margin="0,0,0,70"/>
+                                    <Image Source="chevron.png" HeightRequest="30" WidthRequest="30" Aspect="Fill" HorizontalOptions="End" VerticalOptions="End"/>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </cv:CarouselViewControl.ItemTemplate>
+                </cv:CarouselViewControl>
+            </Grid>
+            <StackLayout >
+                
+                    <Button BackgroundColor="Aqua" Text="الاقسام" Clicked="Button_Clicked" CornerRadius="50" />
+                <Button BackgroundColor="Red" Text="تسجيل الدخول" Clicked="Button_Clicked_1" CornerRadius="50" />
+                   
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

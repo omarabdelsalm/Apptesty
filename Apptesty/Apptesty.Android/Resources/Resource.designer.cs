@@ -25,6 +25,3206 @@ namespace Apptesty.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_fade_in = global::Apptesty.Droid.Resource.Animation.abc_fade_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_fade_out = global::Apptesty.Droid.Resource.Animation.abc_fade_out;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Apptesty.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_popup_enter = global::Apptesty.Droid.Resource.Animation.abc_popup_enter;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_popup_exit = global::Apptesty.Droid.Resource.Animation.abc_popup_exit;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Apptesty.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_slide_in_bottom = global::Apptesty.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_slide_in_top = global::Apptesty.Droid.Resource.Animation.abc_slide_in_top;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_slide_out_bottom = global::Apptesty.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_slide_out_top = global::Apptesty.Droid.Resource.Animation.abc_slide_out_top;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_tooltip_enter = global::Apptesty.Droid.Resource.Animation.abc_tooltip_enter;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_tooltip_exit = global::Apptesty.Droid.Resource.Animation.abc_tooltip_exit;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::Apptesty.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::Apptesty.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::Apptesty.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::Apptesty.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::Apptesty.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::Apptesty.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::Apptesty.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::Apptesty.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::Apptesty.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::Apptesty.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::Apptesty.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::Apptesty.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Apptesty.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Apptesty.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.design_snackbar_in = global::Apptesty.Droid.Resource.Animation.design_snackbar_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.design_snackbar_out = global::Apptesty.Droid.Resource.Animation.design_snackbar_out;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.EnterFromLeft = global::Apptesty.Droid.Resource.Animation.EnterFromLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.EnterFromRight = global::Apptesty.Droid.Resource.Animation.EnterFromRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.ExitToLeft = global::Apptesty.Droid.Resource.Animation.ExitToLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animation.ExitToRight = global::Apptesty.Droid.Resource.Animation.ExitToRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.design_appbar_state_list_animator = global::Apptesty.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Apptesty.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.design_fab_show_motion_spec = global::Apptesty.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::Apptesty.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Apptesty.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::Apptesty.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::Apptesty.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::Apptesty.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Apptesty.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Apptesty.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarDivider = global::Apptesty.Droid.Resource.Attribute.actionBarDivider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarItemBackground = global::Apptesty.Droid.Resource.Attribute.actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarPopupTheme = global::Apptesty.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarSize = global::Apptesty.Droid.Resource.Attribute.actionBarSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarSplitStyle = global::Apptesty.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarStyle = global::Apptesty.Droid.Resource.Attribute.actionBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarTabBarStyle = global::Apptesty.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarTabStyle = global::Apptesty.Droid.Resource.Attribute.actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarTabTextStyle = global::Apptesty.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarTheme = global::Apptesty.Droid.Resource.Attribute.actionBarTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionBarWidgetTheme = global::Apptesty.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionButtonStyle = global::Apptesty.Droid.Resource.Attribute.actionButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionDropDownStyle = global::Apptesty.Droid.Resource.Attribute.actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionLayout = global::Apptesty.Droid.Resource.Attribute.actionLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionMenuTextAppearance = global::Apptesty.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionMenuTextColor = global::Apptesty.Droid.Resource.Attribute.actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeBackground = global::Apptesty.Droid.Resource.Attribute.actionModeBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Apptesty.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeCloseDrawable = global::Apptesty.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeCopyDrawable = global::Apptesty.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeCutDrawable = global::Apptesty.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeFindDrawable = global::Apptesty.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModePasteDrawable = global::Apptesty.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Apptesty.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Apptesty.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeShareDrawable = global::Apptesty.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeSplitBackground = global::Apptesty.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeStyle = global::Apptesty.Droid.Resource.Attribute.actionModeStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Apptesty.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Apptesty.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Apptesty.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionProviderClass = global::Apptesty.Droid.Resource.Attribute.actionProviderClass;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.actionViewClass = global::Apptesty.Droid.Resource.Attribute.actionViewClass;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.activityChooserViewStyle = global::Apptesty.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Apptesty.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.alertDialogCenterButtons = global::Apptesty.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.alertDialogStyle = global::Apptesty.Droid.Resource.Attribute.alertDialogStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.alertDialogTheme = global::Apptesty.Droid.Resource.Attribute.alertDialogTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.allowStacking = global::Apptesty.Droid.Resource.Attribute.allowStacking;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.alpha = global::Apptesty.Droid.Resource.Attribute.alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.alphabeticModifiers = global::Apptesty.Droid.Resource.Attribute.alphabeticModifiers;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.arrowHeadLength = global::Apptesty.Droid.Resource.Attribute.arrowHeadLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.arrowShaftLength = global::Apptesty.Droid.Resource.Attribute.arrowShaftLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Apptesty.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.autoSizeMaxTextSize = global::Apptesty.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.autoSizeMinTextSize = global::Apptesty.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.autoSizePresetSizes = global::Apptesty.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.autoSizeStepGranularity = global::Apptesty.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.autoSizeTextType = global::Apptesty.Droid.Resource.Attribute.autoSizeTextType;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.background = global::Apptesty.Droid.Resource.Attribute.background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundSplit = global::Apptesty.Droid.Resource.Attribute.backgroundSplit;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundStacked = global::Apptesty.Droid.Resource.Attribute.backgroundStacked;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundTint = global::Apptesty.Droid.Resource.Attribute.backgroundTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundTintMode = global::Apptesty.Droid.Resource.Attribute.backgroundTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.barLength = global::Apptesty.Droid.Resource.Attribute.barLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_autoHide = global::Apptesty.Droid.Resource.Attribute.behavior_autoHide;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_fitToContents = global::Apptesty.Droid.Resource.Attribute.behavior_fitToContents;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_hideable = global::Apptesty.Droid.Resource.Attribute.behavior_hideable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_overlapTop = global::Apptesty.Droid.Resource.Attribute.behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_peekHeight = global::Apptesty.Droid.Resource.Attribute.behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_skipCollapsed = global::Apptesty.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.borderlessButtonStyle = global::Apptesty.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.borderWidth = global::Apptesty.Droid.Resource.Attribute.borderWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.bottomAppBarStyle = global::Apptesty.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.bottomNavigationStyle = global::Apptesty.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Apptesty.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.bottomSheetStyle = global::Apptesty.Droid.Resource.Attribute.bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxBackgroundColor = global::Apptesty.Droid.Resource.Attribute.boxBackgroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxBackgroundMode = global::Apptesty.Droid.Resource.Attribute.boxBackgroundMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::Apptesty.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::Apptesty.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::Apptesty.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::Apptesty.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::Apptesty.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxStrokeColor = global::Apptesty.Droid.Resource.Attribute.boxStrokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxStrokeWidth = global::Apptesty.Droid.Resource.Attribute.boxStrokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarButtonStyle = global::Apptesty.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Apptesty.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Apptesty.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Apptesty.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarStyle = global::Apptesty.Droid.Resource.Attribute.buttonBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonCompat = global::Apptesty.Droid.Resource.Attribute.buttonCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonGravity = global::Apptesty.Droid.Resource.Attribute.buttonGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonIconDimen = global::Apptesty.Droid.Resource.Attribute.buttonIconDimen;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonPanelSideLayout = global::Apptesty.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonStyle = global::Apptesty.Droid.Resource.Attribute.buttonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonStyleSmall = global::Apptesty.Droid.Resource.Attribute.buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonTint = global::Apptesty.Droid.Resource.Attribute.buttonTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonTintMode = global::Apptesty.Droid.Resource.Attribute.buttonTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardBackgroundColor = global::Apptesty.Droid.Resource.Attribute.cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardCornerRadius = global::Apptesty.Droid.Resource.Attribute.cardCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardElevation = global::Apptesty.Droid.Resource.Attribute.cardElevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardMaxElevation = global::Apptesty.Droid.Resource.Attribute.cardMaxElevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Apptesty.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardUseCompatPadding = global::Apptesty.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardViewStyle = global::Apptesty.Droid.Resource.Attribute.cardViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkboxStyle = global::Apptesty.Droid.Resource.Attribute.checkboxStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedChip = global::Apptesty.Droid.Resource.Attribute.checkedChip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedIcon = global::Apptesty.Droid.Resource.Attribute.checkedIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedIconEnabled = global::Apptesty.Droid.Resource.Attribute.checkedIconEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedIconVisible = global::Apptesty.Droid.Resource.Attribute.checkedIconVisible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedTextViewStyle = global::Apptesty.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipBackgroundColor = global::Apptesty.Droid.Resource.Attribute.chipBackgroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipCornerRadius = global::Apptesty.Droid.Resource.Attribute.chipCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipEndPadding = global::Apptesty.Droid.Resource.Attribute.chipEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipGroupStyle = global::Apptesty.Droid.Resource.Attribute.chipGroupStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipIcon = global::Apptesty.Droid.Resource.Attribute.chipIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipIconEnabled = global::Apptesty.Droid.Resource.Attribute.chipIconEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipIconSize = global::Apptesty.Droid.Resource.Attribute.chipIconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipIconTint = global::Apptesty.Droid.Resource.Attribute.chipIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipIconVisible = global::Apptesty.Droid.Resource.Attribute.chipIconVisible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipMinHeight = global::Apptesty.Droid.Resource.Attribute.chipMinHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipSpacing = global::Apptesty.Droid.Resource.Attribute.chipSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipSpacingHorizontal = global::Apptesty.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipSpacingVertical = global::Apptesty.Droid.Resource.Attribute.chipSpacingVertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipStandaloneStyle = global::Apptesty.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipStartPadding = global::Apptesty.Droid.Resource.Attribute.chipStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipStrokeColor = global::Apptesty.Droid.Resource.Attribute.chipStrokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipStrokeWidth = global::Apptesty.Droid.Resource.Attribute.chipStrokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipStyle = global::Apptesty.Droid.Resource.Attribute.chipStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIcon = global::Apptesty.Droid.Resource.Attribute.closeIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconEnabled = global::Apptesty.Droid.Resource.Attribute.closeIconEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconEndPadding = global::Apptesty.Droid.Resource.Attribute.closeIconEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconSize = global::Apptesty.Droid.Resource.Attribute.closeIconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconStartPadding = global::Apptesty.Droid.Resource.Attribute.closeIconStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconTint = global::Apptesty.Droid.Resource.Attribute.closeIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconVisible = global::Apptesty.Droid.Resource.Attribute.closeIconVisible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeItemLayout = global::Apptesty.Droid.Resource.Attribute.closeItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapseContentDescription = global::Apptesty.Droid.Resource.Attribute.collapseContentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapsedTitleGravity = global::Apptesty.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Apptesty.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapseIcon = global::Apptesty.Droid.Resource.Attribute.collapseIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collectionViewStyle = global::Apptesty.Droid.Resource.Attribute.collectionViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.color = global::Apptesty.Droid.Resource.Attribute.color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorAccent = global::Apptesty.Droid.Resource.Attribute.colorAccent;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorBackgroundFloating = global::Apptesty.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorButtonNormal = global::Apptesty.Droid.Resource.Attribute.colorButtonNormal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorControlActivated = global::Apptesty.Droid.Resource.Attribute.colorControlActivated;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorControlHighlight = global::Apptesty.Droid.Resource.Attribute.colorControlHighlight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorControlNormal = global::Apptesty.Droid.Resource.Attribute.colorControlNormal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorError = global::Apptesty.Droid.Resource.Attribute.colorError;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorPrimary = global::Apptesty.Droid.Resource.Attribute.colorPrimary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorPrimaryDark = global::Apptesty.Droid.Resource.Attribute.colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorSecondary = global::Apptesty.Droid.Resource.Attribute.colorSecondary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Apptesty.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.commitIcon = global::Apptesty.Droid.Resource.Attribute.commitIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentDescription = global::Apptesty.Droid.Resource.Attribute.contentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetEnd = global::Apptesty.Droid.Resource.Attribute.contentInsetEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetEndWithActions = global::Apptesty.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetLeft = global::Apptesty.Droid.Resource.Attribute.contentInsetLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetRight = global::Apptesty.Droid.Resource.Attribute.contentInsetRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetStart = global::Apptesty.Droid.Resource.Attribute.contentInsetStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::Apptesty.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPadding = global::Apptesty.Droid.Resource.Attribute.contentPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingBottom = global::Apptesty.Droid.Resource.Attribute.contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingLeft = global::Apptesty.Droid.Resource.Attribute.contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingRight = global::Apptesty.Droid.Resource.Attribute.contentPaddingRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingTop = global::Apptesty.Droid.Resource.Attribute.contentPaddingTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentScrim = global::Apptesty.Droid.Resource.Attribute.contentScrim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.controlBackground = global::Apptesty.Droid.Resource.Attribute.controlBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.coordinatorLayoutStyle = global::Apptesty.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cornerRadius = global::Apptesty.Droid.Resource.Attribute.cornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterEnabled = global::Apptesty.Droid.Resource.Attribute.counterEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterMaxLength = global::Apptesty.Droid.Resource.Attribute.counterMaxLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Apptesty.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterTextAppearance = global::Apptesty.Droid.Resource.Attribute.counterTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.customNavigationLayout = global::Apptesty.Droid.Resource.Attribute.customNavigationLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.defaultQueryHint = global::Apptesty.Droid.Resource.Attribute.defaultQueryHint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dialogCornerRadius = global::Apptesty.Droid.Resource.Attribute.dialogCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dialogPreferredPadding = global::Apptesty.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dialogTheme = global::Apptesty.Droid.Resource.Attribute.dialogTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.displayOptions = global::Apptesty.Droid.Resource.Attribute.displayOptions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.divider = global::Apptesty.Droid.Resource.Attribute.divider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dividerHorizontal = global::Apptesty.Droid.Resource.Attribute.dividerHorizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dividerPadding = global::Apptesty.Droid.Resource.Attribute.dividerPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dividerVertical = global::Apptesty.Droid.Resource.Attribute.dividerVertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableBottomCompat = global::Apptesty.Droid.Resource.Attribute.drawableBottomCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableEndCompat = global::Apptesty.Droid.Resource.Attribute.drawableEndCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableLeftCompat = global::Apptesty.Droid.Resource.Attribute.drawableLeftCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableRightCompat = global::Apptesty.Droid.Resource.Attribute.drawableRightCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableSize = global::Apptesty.Droid.Resource.Attribute.drawableSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableStartCompat = global::Apptesty.Droid.Resource.Attribute.drawableStartCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableTint = global::Apptesty.Droid.Resource.Attribute.drawableTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableTintMode = global::Apptesty.Droid.Resource.Attribute.drawableTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawableTopCompat = global::Apptesty.Droid.Resource.Attribute.drawableTopCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.drawerArrowStyle = global::Apptesty.Droid.Resource.Attribute.drawerArrowStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Apptesty.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dropDownListViewStyle = global::Apptesty.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.editTextBackground = global::Apptesty.Droid.Resource.Attribute.editTextBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.editTextColor = global::Apptesty.Droid.Resource.Attribute.editTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.editTextStyle = global::Apptesty.Droid.Resource.Attribute.editTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.elevation = global::Apptesty.Droid.Resource.Attribute.elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.enforceMaterialTheme = global::Apptesty.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.enforceTextAppearance = global::Apptesty.Droid.Resource.Attribute.enforceTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.errorEnabled = global::Apptesty.Droid.Resource.Attribute.errorEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.errorTextAppearance = global::Apptesty.Droid.Resource.Attribute.errorTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Apptesty.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expanded = global::Apptesty.Droid.Resource.Attribute.expanded;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleGravity = global::Apptesty.Droid.Resource.Attribute.expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleMargin = global::Apptesty.Droid.Resource.Attribute.expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Apptesty.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Apptesty.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginStart = global::Apptesty.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginTop = global::Apptesty.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Apptesty.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabAlignmentMode = global::Apptesty.Droid.Resource.Attribute.fabAlignmentMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabCradleMargin = global::Apptesty.Droid.Resource.Attribute.fabCradleMargin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::Apptesty.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabCradleVerticalOffset = global::Apptesty.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabCustomSize = global::Apptesty.Droid.Resource.Attribute.fabCustomSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabSize = global::Apptesty.Droid.Resource.Attribute.fabSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollEnabled = global::Apptesty.Droid.Resource.Attribute.fastScrollEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Apptesty.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Apptesty.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Apptesty.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Apptesty.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.firstBaselineToTopHeight = global::Apptesty.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.floatingActionButtonStyle = global::Apptesty.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.font = global::Apptesty.Droid.Resource.Attribute.font;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontFamily = global::Apptesty.Droid.Resource.Attribute.fontFamily;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontProviderAuthority = global::Apptesty.Droid.Resource.Attribute.fontProviderAuthority;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontProviderCerts = global::Apptesty.Droid.Resource.Attribute.fontProviderCerts;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontProviderFetchStrategy = global::Apptesty.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontProviderFetchTimeout = global::Apptesty.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontProviderPackage = global::Apptesty.Droid.Resource.Attribute.fontProviderPackage;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontProviderQuery = global::Apptesty.Droid.Resource.Attribute.fontProviderQuery;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontStyle = global::Apptesty.Droid.Resource.Attribute.fontStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontVariationSettings = global::Apptesty.Droid.Resource.Attribute.fontVariationSettings;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fontWeight = global::Apptesty.Droid.Resource.Attribute.fontWeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.foregroundInsidePadding = global::Apptesty.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.gapBetweenBars = global::Apptesty.Droid.Resource.Attribute.gapBetweenBars;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.goIcon = global::Apptesty.Droid.Resource.Attribute.goIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.headerLayout = global::Apptesty.Droid.Resource.Attribute.headerLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.height = global::Apptesty.Droid.Resource.Attribute.height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.helperText = global::Apptesty.Droid.Resource.Attribute.helperText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.helperTextEnabled = global::Apptesty.Droid.Resource.Attribute.helperTextEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.helperTextTextAppearance = global::Apptesty.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hideMotionSpec = global::Apptesty.Droid.Resource.Attribute.hideMotionSpec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hideOnContentScroll = global::Apptesty.Droid.Resource.Attribute.hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hideOnScroll = global::Apptesty.Droid.Resource.Attribute.hideOnScroll;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hintAnimationEnabled = global::Apptesty.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hintEnabled = global::Apptesty.Droid.Resource.Attribute.hintEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hintTextAppearance = global::Apptesty.Droid.Resource.Attribute.hintTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.homeAsUpIndicator = global::Apptesty.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.homeLayout = global::Apptesty.Droid.Resource.Attribute.homeLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::Apptesty.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.icon = global::Apptesty.Droid.Resource.Attribute.icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconEndPadding = global::Apptesty.Droid.Resource.Attribute.iconEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconGravity = global::Apptesty.Droid.Resource.Attribute.iconGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconifiedByDefault = global::Apptesty.Droid.Resource.Attribute.iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconPadding = global::Apptesty.Droid.Resource.Attribute.iconPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconSize = global::Apptesty.Droid.Resource.Attribute.iconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconStartPadding = global::Apptesty.Droid.Resource.Attribute.iconStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconTint = global::Apptesty.Droid.Resource.Attribute.iconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconTintMode = global::Apptesty.Droid.Resource.Attribute.iconTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.imageButtonStyle = global::Apptesty.Droid.Resource.Attribute.imageButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.indeterminateProgressStyle = global::Apptesty.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.initialActivityCount = global::Apptesty.Droid.Resource.Attribute.initialActivityCount;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.insetForeground = global::Apptesty.Droid.Resource.Attribute.insetForeground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.isLightTheme = global::Apptesty.Droid.Resource.Attribute.isLightTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemBackground = global::Apptesty.Droid.Resource.Attribute.itemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemHorizontalPadding = global::Apptesty.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::Apptesty.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemIconPadding = global::Apptesty.Droid.Resource.Attribute.itemIconPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemIconSize = global::Apptesty.Droid.Resource.Attribute.itemIconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemIconTint = global::Apptesty.Droid.Resource.Attribute.itemIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemPadding = global::Apptesty.Droid.Resource.Attribute.itemPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemSpacing = global::Apptesty.Droid.Resource.Attribute.itemSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemTextAppearance = global::Apptesty.Droid.Resource.Attribute.itemTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemTextAppearanceActive = global::Apptesty.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemTextAppearanceInactive = global::Apptesty.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemTextColor = global::Apptesty.Droid.Resource.Attribute.itemTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.keylines = global::Apptesty.Droid.Resource.Attribute.keylines;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.labelVisibilityMode = global::Apptesty.Droid.Resource.Attribute.labelVisibilityMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::Apptesty.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout = global::Apptesty.Droid.Resource.Attribute.layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layoutManager = global::Apptesty.Droid.Resource.Attribute.layoutManager;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_anchor = global::Apptesty.Droid.Resource.Attribute.layout_anchor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_anchorGravity = global::Apptesty.Droid.Resource.Attribute.layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_behavior = global::Apptesty.Droid.Resource.Attribute.layout_behavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_collapseMode = global::Apptesty.Droid.Resource.Attribute.layout_collapseMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Apptesty.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::Apptesty.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_insetEdge = global::Apptesty.Droid.Resource.Attribute.layout_insetEdge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_keyline = global::Apptesty.Droid.Resource.Attribute.layout_keyline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_scrollFlags = global::Apptesty.Droid.Resource.Attribute.layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_scrollInterpolator = global::Apptesty.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.liftOnScroll = global::Apptesty.Droid.Resource.Attribute.liftOnScroll;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.lineHeight = global::Apptesty.Droid.Resource.Attribute.lineHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.lineSpacing = global::Apptesty.Droid.Resource.Attribute.lineSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Apptesty.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::Apptesty.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::Apptesty.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listDividerAlertDialog = global::Apptesty.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listItemLayout = global::Apptesty.Droid.Resource.Attribute.listItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listLayout = global::Apptesty.Droid.Resource.Attribute.listLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listMenuViewStyle = global::Apptesty.Droid.Resource.Attribute.listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPopupWindowStyle = global::Apptesty.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPreferredItemHeight = global::Apptesty.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Apptesty.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Apptesty.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPreferredItemPaddingEnd = global::Apptesty.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Apptesty.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Apptesty.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listPreferredItemPaddingStart = global::Apptesty.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.logo = global::Apptesty.Droid.Resource.Attribute.logo;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.logoDescription = global::Apptesty.Droid.Resource.Attribute.logoDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.materialButtonStyle = global::Apptesty.Droid.Resource.Attribute.materialButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.materialCardViewStyle = global::Apptesty.Droid.Resource.Attribute.materialCardViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.maxActionInlineWidth = global::Apptesty.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.maxButtonHeight = global::Apptesty.Droid.Resource.Attribute.maxButtonHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.maxImageSize = global::Apptesty.Droid.Resource.Attribute.maxImageSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.measureWithLargestChild = global::Apptesty.Droid.Resource.Attribute.measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.menu = global::Apptesty.Droid.Resource.Attribute.menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.multiChoiceItemLayout = global::Apptesty.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.navigationContentDescription = global::Apptesty.Droid.Resource.Attribute.navigationContentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.navigationIcon = global::Apptesty.Droid.Resource.Attribute.navigationIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.navigationMode = global::Apptesty.Droid.Resource.Attribute.navigationMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.navigationViewStyle = global::Apptesty.Droid.Resource.Attribute.navigationViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.numericModifiers = global::Apptesty.Droid.Resource.Attribute.numericModifiers;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.overlapAnchor = global::Apptesty.Droid.Resource.Attribute.overlapAnchor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.paddingBottomNoButtons = global::Apptesty.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.paddingEnd = global::Apptesty.Droid.Resource.Attribute.paddingEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.paddingStart = global::Apptesty.Droid.Resource.Attribute.paddingStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.paddingTopNoTitle = global::Apptesty.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.panelBackground = global::Apptesty.Droid.Resource.Attribute.panelBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.panelMenuListTheme = global::Apptesty.Droid.Resource.Attribute.panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.panelMenuListWidth = global::Apptesty.Droid.Resource.Attribute.panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleContentDescription = global::Apptesty.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleDrawable = global::Apptesty.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleEnabled = global::Apptesty.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleTint = global::Apptesty.Droid.Resource.Attribute.passwordToggleTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleTintMode = global::Apptesty.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.popupMenuStyle = global::Apptesty.Droid.Resource.Attribute.popupMenuStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.popupTheme = global::Apptesty.Droid.Resource.Attribute.popupTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.popupWindowStyle = global::Apptesty.Droid.Resource.Attribute.popupWindowStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.preserveIconSpacing = global::Apptesty.Droid.Resource.Attribute.preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.pressedTranslationZ = global::Apptesty.Droid.Resource.Attribute.pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.progressBarPadding = global::Apptesty.Droid.Resource.Attribute.progressBarPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.progressBarStyle = global::Apptesty.Droid.Resource.Attribute.progressBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.queryBackground = global::Apptesty.Droid.Resource.Attribute.queryBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.queryHint = global::Apptesty.Droid.Resource.Attribute.queryHint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.radioButtonStyle = global::Apptesty.Droid.Resource.Attribute.radioButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.ratingBarStyle = global::Apptesty.Droid.Resource.Attribute.ratingBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Apptesty.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.ratingBarStyleSmall = global::Apptesty.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.recyclerViewStyle = global::Apptesty.Droid.Resource.Attribute.recyclerViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.reverseLayout = global::Apptesty.Droid.Resource.Attribute.reverseLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.rippleColor = global::Apptesty.Droid.Resource.Attribute.rippleColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.scrimAnimationDuration = global::Apptesty.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.scrimBackground = global::Apptesty.Droid.Resource.Attribute.scrimBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Apptesty.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.scrollViewStyle = global::Apptesty.Droid.Resource.Attribute.scrollViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.searchHintIcon = global::Apptesty.Droid.Resource.Attribute.searchHintIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.searchIcon = global::Apptesty.Droid.Resource.Attribute.searchIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.searchViewStyle = global::Apptesty.Droid.Resource.Attribute.searchViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.seekBarStyle = global::Apptesty.Droid.Resource.Attribute.seekBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.selectableItemBackground = global::Apptesty.Droid.Resource.Attribute.selectableItemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Apptesty.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showAsAction = global::Apptesty.Droid.Resource.Attribute.showAsAction;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showDividers = global::Apptesty.Droid.Resource.Attribute.showDividers;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showMotionSpec = global::Apptesty.Droid.Resource.Attribute.showMotionSpec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showText = global::Apptesty.Droid.Resource.Attribute.showText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showTitle = global::Apptesty.Droid.Resource.Attribute.showTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.singleChoiceItemLayout = global::Apptesty.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.singleLine = global::Apptesty.Droid.Resource.Attribute.singleLine;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.singleSelection = global::Apptesty.Droid.Resource.Attribute.singleSelection;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.snackbarButtonStyle = global::Apptesty.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.snackbarStyle = global::Apptesty.Droid.Resource.Attribute.snackbarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.spanCount = global::Apptesty.Droid.Resource.Attribute.spanCount;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.spinBars = global::Apptesty.Droid.Resource.Attribute.spinBars;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Apptesty.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.spinnerStyle = global::Apptesty.Droid.Resource.Attribute.spinnerStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.splitTrack = global::Apptesty.Droid.Resource.Attribute.splitTrack;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.srcCompat = global::Apptesty.Droid.Resource.Attribute.srcCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.stackFromEnd = global::Apptesty.Droid.Resource.Attribute.stackFromEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_above_anchor = global::Apptesty.Droid.Resource.Attribute.state_above_anchor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_collapsed = global::Apptesty.Droid.Resource.Attribute.state_collapsed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_collapsible = global::Apptesty.Droid.Resource.Attribute.state_collapsible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_liftable = global::Apptesty.Droid.Resource.Attribute.state_liftable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_lifted = global::Apptesty.Droid.Resource.Attribute.state_lifted;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.statusBarBackground = global::Apptesty.Droid.Resource.Attribute.statusBarBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.statusBarScrim = global::Apptesty.Droid.Resource.Attribute.statusBarScrim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.strokeColor = global::Apptesty.Droid.Resource.Attribute.strokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.strokeWidth = global::Apptesty.Droid.Resource.Attribute.strokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.subMenuArrow = global::Apptesty.Droid.Resource.Attribute.subMenuArrow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.submitBackground = global::Apptesty.Droid.Resource.Attribute.submitBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.subtitle = global::Apptesty.Droid.Resource.Attribute.subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.subtitleTextAppearance = global::Apptesty.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.subtitleTextColor = global::Apptesty.Droid.Resource.Attribute.subtitleTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.subtitleTextStyle = global::Apptesty.Droid.Resource.Attribute.subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.suggestionRowLayout = global::Apptesty.Droid.Resource.Attribute.suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.switchMinWidth = global::Apptesty.Droid.Resource.Attribute.switchMinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.switchPadding = global::Apptesty.Droid.Resource.Attribute.switchPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.switchStyle = global::Apptesty.Droid.Resource.Attribute.switchStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.switchTextAppearance = global::Apptesty.Droid.Resource.Attribute.switchTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabBackground = global::Apptesty.Droid.Resource.Attribute.tabBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabContentStart = global::Apptesty.Droid.Resource.Attribute.tabContentStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabGravity = global::Apptesty.Droid.Resource.Attribute.tabGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIconTint = global::Apptesty.Droid.Resource.Attribute.tabIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIconTintMode = global::Apptesty.Droid.Resource.Attribute.tabIconTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIndicator = global::Apptesty.Droid.Resource.Attribute.tabIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::Apptesty.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIndicatorColor = global::Apptesty.Droid.Resource.Attribute.tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIndicatorFullWidth = global::Apptesty.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIndicatorGravity = global::Apptesty.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabIndicatorHeight = global::Apptesty.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabInlineLabel = global::Apptesty.Droid.Resource.Attribute.tabInlineLabel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabMaxWidth = global::Apptesty.Droid.Resource.Attribute.tabMaxWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabMinWidth = global::Apptesty.Droid.Resource.Attribute.tabMinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabMode = global::Apptesty.Droid.Resource.Attribute.tabMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabPadding = global::Apptesty.Droid.Resource.Attribute.tabPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabPaddingBottom = global::Apptesty.Droid.Resource.Attribute.tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabPaddingEnd = global::Apptesty.Droid.Resource.Attribute.tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabPaddingStart = global::Apptesty.Droid.Resource.Attribute.tabPaddingStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabPaddingTop = global::Apptesty.Droid.Resource.Attribute.tabPaddingTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabRippleColor = global::Apptesty.Droid.Resource.Attribute.tabRippleColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabSelectedTextColor = global::Apptesty.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabStyle = global::Apptesty.Droid.Resource.Attribute.tabStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabTextAppearance = global::Apptesty.Droid.Resource.Attribute.tabTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabTextColor = global::Apptesty.Droid.Resource.Attribute.tabTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabUnboundedRipple = global::Apptesty.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAllCaps = global::Apptesty.Droid.Resource.Attribute.textAllCaps;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceBody1 = global::Apptesty.Droid.Resource.Attribute.textAppearanceBody1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceBody2 = global::Apptesty.Droid.Resource.Attribute.textAppearanceBody2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceButton = global::Apptesty.Droid.Resource.Attribute.textAppearanceButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceCaption = global::Apptesty.Droid.Resource.Attribute.textAppearanceCaption;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline1 = global::Apptesty.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline2 = global::Apptesty.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline3 = global::Apptesty.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline4 = global::Apptesty.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline5 = global::Apptesty.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline6 = global::Apptesty.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Apptesty.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItem = global::Apptesty.Droid.Resource.Attribute.textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::Apptesty.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Apptesty.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceOverline = global::Apptesty.Droid.Resource.Attribute.textAppearanceOverline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::Apptesty.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Apptesty.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Apptesty.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Apptesty.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::Apptesty.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::Apptesty.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Apptesty.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textColorSearchUrl = global::Apptesty.Droid.Resource.Attribute.textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textEndPadding = global::Apptesty.Droid.Resource.Attribute.textEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textInputStyle = global::Apptesty.Droid.Resource.Attribute.textInputStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textLocale = global::Apptesty.Droid.Resource.Attribute.textLocale;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textStartPadding = global::Apptesty.Droid.Resource.Attribute.textStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.theme = global::Apptesty.Droid.Resource.Attribute.theme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.thickness = global::Apptesty.Droid.Resource.Attribute.thickness;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.thumbTextPadding = global::Apptesty.Droid.Resource.Attribute.thumbTextPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.thumbTint = global::Apptesty.Droid.Resource.Attribute.thumbTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.thumbTintMode = global::Apptesty.Droid.Resource.Attribute.thumbTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tickMark = global::Apptesty.Droid.Resource.Attribute.tickMark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tickMarkTint = global::Apptesty.Droid.Resource.Attribute.tickMarkTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tickMarkTintMode = global::Apptesty.Droid.Resource.Attribute.tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tint = global::Apptesty.Droid.Resource.Attribute.tint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tintMode = global::Apptesty.Droid.Resource.Attribute.tintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.title = global::Apptesty.Droid.Resource.Attribute.title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleEnabled = global::Apptesty.Droid.Resource.Attribute.titleEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleMargin = global::Apptesty.Droid.Resource.Attribute.titleMargin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleMarginBottom = global::Apptesty.Droid.Resource.Attribute.titleMarginBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleMarginEnd = global::Apptesty.Droid.Resource.Attribute.titleMarginEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleMargins = global::Apptesty.Droid.Resource.Attribute.titleMargins;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleMarginStart = global::Apptesty.Droid.Resource.Attribute.titleMarginStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleMarginTop = global::Apptesty.Droid.Resource.Attribute.titleMarginTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleTextAppearance = global::Apptesty.Droid.Resource.Attribute.titleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleTextColor = global::Apptesty.Droid.Resource.Attribute.titleTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleTextStyle = global::Apptesty.Droid.Resource.Attribute.titleTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.toolbarId = global::Apptesty.Droid.Resource.Attribute.toolbarId;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Apptesty.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.toolbarStyle = global::Apptesty.Droid.Resource.Attribute.toolbarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tooltipForegroundColor = global::Apptesty.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tooltipFrameBackground = global::Apptesty.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tooltipText = global::Apptesty.Droid.Resource.Attribute.tooltipText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.track = global::Apptesty.Droid.Resource.Attribute.track;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.trackTint = global::Apptesty.Droid.Resource.Attribute.trackTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.trackTintMode = global::Apptesty.Droid.Resource.Attribute.trackTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.ttcIndex = global::Apptesty.Droid.Resource.Attribute.ttcIndex;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.useCompatPadding = global::Apptesty.Droid.Resource.Attribute.useCompatPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.viewInflaterClass = global::Apptesty.Droid.Resource.Attribute.viewInflaterClass;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.voiceIcon = global::Apptesty.Droid.Resource.Attribute.voiceIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiCentered = global::Apptesty.Droid.Resource.Attribute.vpiCentered;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle = global::Apptesty.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiFillColor = global::Apptesty.Droid.Resource.Attribute.vpiFillColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiOrientation = global::Apptesty.Droid.Resource.Attribute.vpiOrientation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiPageColor = global::Apptesty.Droid.Resource.Attribute.vpiPageColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiRadius = global::Apptesty.Droid.Resource.Attribute.vpiRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiSnap = global::Apptesty.Droid.Resource.Attribute.vpiSnap;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiStrokeColor = global::Apptesty.Droid.Resource.Attribute.vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiStrokeWidth = global::Apptesty.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowActionBar = global::Apptesty.Droid.Resource.Attribute.windowActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowActionBarOverlay = global::Apptesty.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowActionModeOverlay = global::Apptesty.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowFixedHeightMajor = global::Apptesty.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowFixedHeightMinor = global::Apptesty.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowFixedWidthMajor = global::Apptesty.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowFixedWidthMinor = global::Apptesty.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowMinWidthMajor = global::Apptesty.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowMinWidthMinor = global::Apptesty.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowNoTitle = global::Apptesty.Droid.Resource.Attribute.windowNoTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Apptesty.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Apptesty.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Apptesty.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.default_circle_indicator_centered = global::Apptesty.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.default_circle_indicator_snap = global::Apptesty.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Apptesty.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Apptesty.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Apptesty.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::Apptesty.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_btn_colored_text_material = global::Apptesty.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_color_highlight_material = global::Apptesty.Droid.Resource.Color.abc_color_highlight_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_hint_foreground_material_dark = global::Apptesty.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_hint_foreground_material_light = global::Apptesty.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_input_method_navigation_guard = global::Apptesty.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Apptesty.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Apptesty.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_primary_text_material_dark = global::Apptesty.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_primary_text_material_light = global::Apptesty.Droid.Resource.Color.abc_primary_text_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_search_url_text = global::Apptesty.Droid.Resource.Color.abc_search_url_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_search_url_text_normal = global::Apptesty.Droid.Resource.Color.abc_search_url_text_normal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_search_url_text_pressed = global::Apptesty.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_search_url_text_selected = global::Apptesty.Droid.Resource.Color.abc_search_url_text_selected;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_secondary_text_material_dark = global::Apptesty.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_secondary_text_material_light = global::Apptesty.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_tint_btn_checkable = global::Apptesty.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_tint_default = global::Apptesty.Droid.Resource.Color.abc_tint_default;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_tint_edittext = global::Apptesty.Droid.Resource.Color.abc_tint_edittext;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_tint_seek_thumb = global::Apptesty.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_tint_spinner = global::Apptesty.Droid.Resource.Color.abc_tint_spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.abc_tint_switch_track = global::Apptesty.Droid.Resource.Color.abc_tint_switch_track;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.accent_material_dark = global::Apptesty.Droid.Resource.Color.accent_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.accent_material_light = global::Apptesty.Droid.Resource.Color.accent_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.background_floating_material_dark = global::Apptesty.Droid.Resource.Color.background_floating_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.background_floating_material_light = global::Apptesty.Droid.Resource.Color.background_floating_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.background_material_dark = global::Apptesty.Droid.Resource.Color.background_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.background_material_light = global::Apptesty.Droid.Resource.Color.background_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Apptesty.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Apptesty.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Apptesty.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Apptesty.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_material_dark = global::Apptesty.Droid.Resource.Color.bright_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_material_light = global::Apptesty.Droid.Resource.Color.bright_foreground_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_bg_grey = global::Apptesty.Droid.Resource.Color.browser_actions_bg_grey;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_divider_color = global::Apptesty.Droid.Resource.Color.browser_actions_divider_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_text_color = global::Apptesty.Droid.Resource.Color.browser_actions_text_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_title_color = global::Apptesty.Droid.Resource.Color.browser_actions_title_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.button_material_dark = global::Apptesty.Droid.Resource.Color.button_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.button_material_light = global::Apptesty.Droid.Resource.Color.button_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.cardview_dark_background = global::Apptesty.Droid.Resource.Color.cardview_dark_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.cardview_light_background = global::Apptesty.Droid.Resource.Color.cardview_light_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.cardview_shadow_end_color = global::Apptesty.Droid.Resource.Color.cardview_shadow_end_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.cardview_shadow_start_color = global::Apptesty.Droid.Resource.Color.cardview_shadow_start_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.default_circle_indicator_fill_color = global::Apptesty.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.default_circle_indicator_page_color = global::Apptesty.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.default_circle_indicator_stroke_color = global::Apptesty.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::Apptesty.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_default_color_primary = global::Apptesty.Droid.Resource.Color.design_default_color_primary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_default_color_primary_dark = global::Apptesty.Droid.Resource.Color.design_default_color_primary_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_error = global::Apptesty.Droid.Resource.Color.design_error;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_shadow_end_color = global::Apptesty.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_shadow_mid_color = global::Apptesty.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_shadow_start_color = global::Apptesty.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Apptesty.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Apptesty.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Apptesty.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Apptesty.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_snackbar_background_color = global::Apptesty.Droid.Resource.Color.design_snackbar_background_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_tint_password_toggle = global::Apptesty.Droid.Resource.Color.design_tint_password_toggle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Apptesty.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Apptesty.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.dim_foreground_material_dark = global::Apptesty.Droid.Resource.Color.dim_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.dim_foreground_material_light = global::Apptesty.Droid.Resource.Color.dim_foreground_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.error_color_material_dark = global::Apptesty.Droid.Resource.Color.error_color_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.error_color_material_light = global::Apptesty.Droid.Resource.Color.error_color_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.foreground_material_dark = global::Apptesty.Droid.Resource.Color.foreground_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.foreground_material_light = global::Apptesty.Droid.Resource.Color.foreground_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.highlighted_text_material_dark = global::Apptesty.Droid.Resource.Color.highlighted_text_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.highlighted_text_material_light = global::Apptesty.Droid.Resource.Color.highlighted_text_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_blue_grey_800 = global::Apptesty.Droid.Resource.Color.material_blue_grey_800;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_blue_grey_900 = global::Apptesty.Droid.Resource.Color.material_blue_grey_900;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_blue_grey_950 = global::Apptesty.Droid.Resource.Color.material_blue_grey_950;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_deep_teal_200 = global::Apptesty.Droid.Resource.Color.material_deep_teal_200;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_deep_teal_500 = global::Apptesty.Droid.Resource.Color.material_deep_teal_500;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_grey_100 = global::Apptesty.Droid.Resource.Color.material_grey_100;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_grey_300 = global::Apptesty.Droid.Resource.Color.material_grey_300;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_grey_50 = global::Apptesty.Droid.Resource.Color.material_grey_50;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_grey_600 = global::Apptesty.Droid.Resource.Color.material_grey_600;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_grey_800 = global::Apptesty.Droid.Resource.Color.material_grey_800;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_grey_850 = global::Apptesty.Droid.Resource.Color.material_grey_850;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.material_grey_900 = global::Apptesty.Droid.Resource.Color.material_grey_900;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Apptesty.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::Apptesty.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::Apptesty.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::Apptesty.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_ripple_color = global::Apptesty.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::Apptesty.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Apptesty.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::Apptesty.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_text_color_selector = global::Apptesty.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::Apptesty.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_chip_background_color = global::Apptesty.Droid.Resource.Color.mtrl_chip_background_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::Apptesty.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_chip_ripple_color = global::Apptesty.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_chip_text_color = global::Apptesty.Droid.Resource.Color.mtrl_chip_text_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_fab_ripple_color = global::Apptesty.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_scrim_color = global::Apptesty.Droid.Resource.Color.mtrl_scrim_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::Apptesty.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::Apptesty.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Apptesty.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Apptesty.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_ripple_color = global::Apptesty.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Apptesty.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_disabled_color = global::Apptesty.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Apptesty.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Apptesty.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::Apptesty.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.notification_action_color_filter = global::Apptesty.Droid.Resource.Color.notification_action_color_filter;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.notification_icon_bg_color = global::Apptesty.Droid.Resource.Color.notification_icon_bg_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.notification_material_background_media_default_color = global::Apptesty.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_dark_material_dark = global::Apptesty.Droid.Resource.Color.primary_dark_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_dark_material_light = global::Apptesty.Droid.Resource.Color.primary_dark_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_material_dark = global::Apptesty.Droid.Resource.Color.primary_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_material_light = global::Apptesty.Droid.Resource.Color.primary_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_text_default_material_dark = global::Apptesty.Droid.Resource.Color.primary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_text_default_material_light = global::Apptesty.Droid.Resource.Color.primary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_text_disabled_material_dark = global::Apptesty.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.primary_text_disabled_material_light = global::Apptesty.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.ripple_material_dark = global::Apptesty.Droid.Resource.Color.ripple_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.ripple_material_light = global::Apptesty.Droid.Resource.Color.ripple_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.secondary_text_default_material_dark = global::Apptesty.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.secondary_text_default_material_light = global::Apptesty.Droid.Resource.Color.secondary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Apptesty.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.secondary_text_disabled_material_light = global::Apptesty.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Apptesty.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Apptesty.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.switch_thumb_material_dark = global::Apptesty.Droid.Resource.Color.switch_thumb_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.switch_thumb_material_light = global::Apptesty.Droid.Resource.Color.switch_thumb_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Apptesty.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.switch_thumb_normal_material_light = global::Apptesty.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.tooltip_background_dark = global::Apptesty.Droid.Resource.Color.tooltip_background_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.tooltip_background_light = global::Apptesty.Droid.Resource.Color.tooltip_background_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__background_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__background_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__background_holo_light = global::Apptesty.Droid.Resource.Color.vpi__background_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_holo_light = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Apptesty.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Apptesty.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Apptesty.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Apptesty.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Apptesty.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::Apptesty.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Apptesty.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Apptesty.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Apptesty.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Apptesty.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Apptesty.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Apptesty.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_control_corner_material = global::Apptesty.Droid.Resource.Dimension.abc_control_corner_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_control_inset_material = global::Apptesty.Droid.Resource.Dimension.abc_control_inset_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_control_padding_material = global::Apptesty.Droid.Resource.Dimension.abc_control_padding_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::Apptesty.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Apptesty.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Apptesty.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Apptesty.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Apptesty.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Apptesty.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Apptesty.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Apptesty.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Apptesty.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_padding_material = global::Apptesty.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Apptesty.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::Apptesty.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Apptesty.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Apptesty.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Apptesty.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Apptesty.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Apptesty.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Apptesty.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Apptesty.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Apptesty.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_floating_window_z = global::Apptesty.Droid.Resource.Dimension.abc_floating_window_z;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_list_item_height_large_material = global::Apptesty.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_list_item_height_material = global::Apptesty.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_list_item_height_small_material = global::Apptesty.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Apptesty.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Apptesty.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_progress_bar_height_material = global::Apptesty.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_search_view_preferred_height = global::Apptesty.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Apptesty.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Apptesty.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Apptesty.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Apptesty.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_switch_padding = global::Apptesty.Droid.Resource.Dimension.abc_switch_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_button_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_caption_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_headline_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_large_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_medium_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_menu_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_small_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Apptesty.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_title_material = global::Apptesty.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Apptesty.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::Apptesty.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::Apptesty.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Apptesty.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.cardview_default_elevation = global::Apptesty.Droid.Resource.Dimension.cardview_default_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.cardview_default_radius = global::Apptesty.Droid.Resource.Dimension.cardview_default_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::Apptesty.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::Apptesty.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Apptesty.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::Apptesty.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_control_corner_material = global::Apptesty.Droid.Resource.Dimension.compat_control_corner_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::Apptesty.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::Apptesty.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.default_circle_indicator_radius = global::Apptesty.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.default_circle_indicator_stroke_width = global::Apptesty.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_appbar_elevation = global::Apptesty.Droid.Resource.Dimension.design_appbar_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_height = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::Apptesty.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Apptesty.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Apptesty.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_fab_border_width = global::Apptesty.Droid.Resource.Dimension.design_fab_border_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_fab_elevation = global::Apptesty.Droid.Resource.Dimension.design_fab_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_fab_image_size = global::Apptesty.Droid.Resource.Dimension.design_fab_image_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_fab_size_mini = global::Apptesty.Droid.Resource.Dimension.design_fab_size_mini;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_fab_size_normal = global::Apptesty.Droid.Resource.Dimension.design_fab_size_normal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Apptesty.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Apptesty.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_elevation = global::Apptesty.Droid.Resource.Dimension.design_navigation_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_icon_padding = global::Apptesty.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_icon_size = global::Apptesty.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::Apptesty.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::Apptesty.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_max_width = global::Apptesty.Droid.Resource.Dimension.design_navigation_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Apptesty.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Apptesty.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Apptesty.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Apptesty.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_elevation = global::Apptesty.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Apptesty.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_max_width = global::Apptesty.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_min_width = global::Apptesty.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Apptesty.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Apptesty.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Apptesty.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_snackbar_text_size = global::Apptesty.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_tab_max_width = global::Apptesty.Droid.Resource.Dimension.design_tab_max_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Apptesty.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_tab_text_size = global::Apptesty.Droid.Resource.Dimension.design_tab_text_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_tab_text_size_2line = global::Apptesty.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::Apptesty.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Apptesty.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.disabled_alpha_material_light = global::Apptesty.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.fastscroll_default_thickness = global::Apptesty.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.fastscroll_margin = global::Apptesty.Droid.Resource.Dimension.fastscroll_margin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.fastscroll_minimum_range = global::Apptesty.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Apptesty.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Apptesty.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.highlight_alpha_material_light = global::Apptesty.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.hint_alpha_material_dark = global::Apptesty.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.hint_alpha_material_light = global::Apptesty.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::Apptesty.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::Apptesty.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Apptesty.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Apptesty.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Apptesty.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Apptesty.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Apptesty.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Apptesty.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Apptesty.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::Apptesty.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_elevation = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_focused_z = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_inset = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_padding_left = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_padding_right = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_padding_top = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_text_size = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_btn_z = global::Apptesty.Droid.Resource.Dimension.mtrl_btn_z;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_card_elevation = global::Apptesty.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_card_spacing = global::Apptesty.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Apptesty.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_chip_text_size = global::Apptesty.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_fab_elevation = global::Apptesty.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Apptesty.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Apptesty.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_navigation_elevation = global::Apptesty.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Apptesty.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Apptesty.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Apptesty.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_snackbar_margin = global::Apptesty.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Apptesty.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::Apptesty.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_action_icon_size = global::Apptesty.Droid.Resource.Dimension.notification_action_icon_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_action_text_size = global::Apptesty.Droid.Resource.Dimension.notification_action_text_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_big_circle_margin = global::Apptesty.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_content_margin_start = global::Apptesty.Droid.Resource.Dimension.notification_content_margin_start;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_large_icon_height = global::Apptesty.Droid.Resource.Dimension.notification_large_icon_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_large_icon_width = global::Apptesty.Droid.Resource.Dimension.notification_large_icon_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_main_column_padding_top = global::Apptesty.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_media_narrow_margin = global::Apptesty.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_right_icon_size = global::Apptesty.Droid.Resource.Dimension.notification_right_icon_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_right_side_padding_top = global::Apptesty.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_small_icon_background_padding = global::Apptesty.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::Apptesty.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_subtext_size = global::Apptesty.Droid.Resource.Dimension.notification_subtext_size;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_top_pad = global::Apptesty.Droid.Resource.Dimension.notification_top_pad;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_top_pad_large_text = global::Apptesty.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.subtitle_corner_radius = global::Apptesty.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.subtitle_outline_width = global::Apptesty.Droid.Resource.Dimension.subtitle_outline_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.subtitle_shadow_offset = global::Apptesty.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.subtitle_shadow_radius = global::Apptesty.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_corner_radius = global::Apptesty.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Apptesty.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_margin = global::Apptesty.Droid.Resource.Dimension.tooltip_margin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Apptesty.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::Apptesty.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_vertical_padding = global::Apptesty.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::Apptesty.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.tooltip_y_offset_touch = global::Apptesty.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Apptesty.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_borderless_material = global::Apptesty.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_check_material = global::Apptesty.Droid.Resource.Drawable.abc_btn_check_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_check_material_anim = global::Apptesty.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Apptesty.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Apptesty.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_colored_material = global::Apptesty.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Apptesty.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_radio_material = global::Apptesty.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_radio_material_anim = global::Apptesty.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Apptesty.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Apptesty.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Apptesty.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Apptesty.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Apptesty.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_cab_background_top_material = global::Apptesty.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_control_background_material = global::Apptesty.Droid.Resource.Drawable.abc_control_background_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_dialog_material_background = global::Apptesty.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_edit_text_material = global::Apptesty.Droid.Resource.Drawable.abc_edit_text_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_ab_back_material = global::Apptesty.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Apptesty.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_clear_material = global::Apptesty.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::Apptesty.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Apptesty.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::Apptesty.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Apptesty.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_search_api_material = global::Apptesty.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Apptesty.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Apptesty.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::Apptesty.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Apptesty.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Apptesty.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::Apptesty.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::Apptesty.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Apptesty.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_item_background_holo_light = global::Apptesty.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_divider_material = global::Apptesty.Droid.Resource.Drawable.abc_list_divider_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_focused_holo = global::Apptesty.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Apptesty.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Apptesty.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Apptesty.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Apptesty.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Apptesty.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Apptesty.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Apptesty.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Apptesty.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Apptesty.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Apptesty.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Apptesty.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Apptesty.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ratingbar_material = global::Apptesty.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Apptesty.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Apptesty.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Apptesty.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Apptesty.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::Apptesty.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_seekbar_track_material = global::Apptesty.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Apptesty.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Apptesty.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_switch_thumb_material = global::Apptesty.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_tab_indicator_material = global::Apptesty.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Apptesty.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_textfield_search_material = global::Apptesty.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_text_cursor_material = global::Apptesty.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Apptesty.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Apptesty.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Apptesty.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Apptesty.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Apptesty.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Apptesty.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.abc_vector_test = global::Apptesty.Droid.Resource.Drawable.abc_vector_test;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.avd_hide_password = global::Apptesty.Droid.Resource.Drawable.avd_hide_password;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.avd_show_password = global::Apptesty.Droid.Resource.Drawable.avd_show_password;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_checkbox_checked_mtrl = global::Apptesty.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::Apptesty.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::Apptesty.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::Apptesty.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_radio_off_mtrl = global::Apptesty.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::Apptesty.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_radio_on_mtrl = global::Apptesty.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::Apptesty.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::Apptesty.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.design_fab_background = global::Apptesty.Droid.Resource.Drawable.design_fab_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.design_ic_visibility = global::Apptesty.Droid.Resource.Drawable.design_ic_visibility;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.design_ic_visibility_off = global::Apptesty.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.design_password_eye = global::Apptesty.Droid.Resource.Drawable.design_password_eye;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.design_snackbar_background = global::Apptesty.Droid.Resource.Drawable.design_snackbar_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Down = global::Apptesty.Droid.Resource.Drawable.Down;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::Apptesty.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Apptesty.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::Apptesty.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.mtrl_snackbar_background = global::Apptesty.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::Apptesty.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.navigation_empty_icon = global::Apptesty.Droid.Resource.Drawable.navigation_empty_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Next = global::Apptesty.Droid.Resource.Drawable.Next;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_action_background = global::Apptesty.Droid.Resource.Drawable.notification_action_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_bg = global::Apptesty.Droid.Resource.Drawable.notification_bg;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_bg_low = global::Apptesty.Droid.Resource.Drawable.notification_bg_low;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_bg_low_normal = global::Apptesty.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_bg_low_pressed = global::Apptesty.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_bg_normal = global::Apptesty.Droid.Resource.Drawable.notification_bg_normal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_bg_normal_pressed = global::Apptesty.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_icon_background = global::Apptesty.Droid.Resource.Drawable.notification_icon_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_template_icon_bg = global::Apptesty.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_template_icon_low_bg = global::Apptesty.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notification_tile_bg = global::Apptesty.Droid.Resource.Drawable.notification_tile_bg;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::Apptesty.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Prev = global::Apptesty.Droid.Resource.Drawable.Prev;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.tooltip_frame_dark = global::Apptesty.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.tooltip_frame_light = global::Apptesty.Droid.Resource.Drawable.tooltip_frame_light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Up = global::Apptesty.Droid.Resource.Drawable.Up;
+			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.watermark = global::Apptesty.Droid.Resource.Drawable.watermark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_action_clickable_span = global::Apptesty.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_0 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_0;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_1 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_10 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_10;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_11 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_11;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_12 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_12;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_13 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_13;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_14 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_14;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_15 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_15;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_16 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_16;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_17 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_17;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_18 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_18;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_19 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_19;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_2 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_20 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_20;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_21 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_21;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_22 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_22;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_23 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_23;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_24 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_24;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_25 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_25;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_26 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_26;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_27 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_27;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_28 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_28;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_29 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_29;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_3 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_3;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_30 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_30;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_31 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_31;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_4 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_4;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_5 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_5;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_6 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_6;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_7 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_7;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_8 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_8;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.accessibility_custom_action_9 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_9;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action0 = global::Apptesty.Droid.Resource.Id.action0;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.actions = global::Apptesty.Droid.Resource.Id.actions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_bar = global::Apptesty.Droid.Resource.Id.action_bar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_bar_activity_content = global::Apptesty.Droid.Resource.Id.action_bar_activity_content;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_bar_container = global::Apptesty.Droid.Resource.Id.action_bar_container;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_bar_root = global::Apptesty.Droid.Resource.Id.action_bar_root;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_bar_spinner = global::Apptesty.Droid.Resource.Id.action_bar_spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_bar_subtitle = global::Apptesty.Droid.Resource.Id.action_bar_subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_bar_title = global::Apptesty.Droid.Resource.Id.action_bar_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_container = global::Apptesty.Droid.Resource.Id.action_container;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_context_bar = global::Apptesty.Droid.Resource.Id.action_context_bar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_divider = global::Apptesty.Droid.Resource.Id.action_divider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_image = global::Apptesty.Droid.Resource.Id.action_image;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_menu_divider = global::Apptesty.Droid.Resource.Id.action_menu_divider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_menu_presenter = global::Apptesty.Droid.Resource.Id.action_menu_presenter;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_mode_bar = global::Apptesty.Droid.Resource.Id.action_mode_bar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_mode_bar_stub = global::Apptesty.Droid.Resource.Id.action_mode_bar_stub;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_mode_close_button = global::Apptesty.Droid.Resource.Id.action_mode_close_button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.action_text = global::Apptesty.Droid.Resource.Id.action_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.activity_chooser_view_content = global::Apptesty.Droid.Resource.Id.activity_chooser_view_content;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.add = global::Apptesty.Droid.Resource.Id.add;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.alertTitle = global::Apptesty.Droid.Resource.Id.alertTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.all = global::Apptesty.Droid.Resource.Id.all;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.ALT = global::Apptesty.Droid.Resource.Id.ALT;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.always = global::Apptesty.Droid.Resource.Id.always;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.async = global::Apptesty.Droid.Resource.Id.async;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.auto = global::Apptesty.Droid.Resource.Id.auto;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.beginning = global::Apptesty.Droid.Resource.Id.beginning;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.blocking = global::Apptesty.Droid.Resource.Id.blocking;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.bottom = global::Apptesty.Droid.Resource.Id.bottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.bottomtab_navarea = global::Apptesty.Droid.Resource.Id.bottomtab_navarea;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.bottomtab_tabbar = global::Apptesty.Droid.Resource.Id.bottomtab_tabbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_header_text = global::Apptesty.Droid.Resource.Id.browser_actions_header_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_menu_items = global::Apptesty.Droid.Resource.Id.browser_actions_menu_items;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_menu_item_icon = global::Apptesty.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_menu_item_text = global::Apptesty.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_menu_view = global::Apptesty.Droid.Resource.Id.browser_actions_menu_view;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.buttonPanel = global::Apptesty.Droid.Resource.Id.buttonPanel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.cancel_action = global::Apptesty.Droid.Resource.Id.cancel_action;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.center = global::Apptesty.Droid.Resource.Id.center;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.center_horizontal = global::Apptesty.Droid.Resource.Id.center_horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.center_vertical = global::Apptesty.Droid.Resource.Id.center_vertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.checkbox = global::Apptesty.Droid.Resource.Id.checkbox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.@checked = global::Apptesty.Droid.Resource.Id.@checked;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.chronometer = global::Apptesty.Droid.Resource.Id.chronometer;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.clip_horizontal = global::Apptesty.Droid.Resource.Id.clip_horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.clip_vertical = global::Apptesty.Droid.Resource.Id.clip_vertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.collapseActionView = global::Apptesty.Droid.Resource.Id.collapseActionView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.container = global::Apptesty.Droid.Resource.Id.container;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.content = global::Apptesty.Droid.Resource.Id.content;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.contentPanel = global::Apptesty.Droid.Resource.Id.contentPanel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.coordinator = global::Apptesty.Droid.Resource.Id.coordinator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.CTRL = global::Apptesty.Droid.Resource.Id.CTRL;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.custom = global::Apptesty.Droid.Resource.Id.custom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.customPanel = global::Apptesty.Droid.Resource.Id.customPanel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.decor_content_parent = global::Apptesty.Droid.Resource.Id.decor_content_parent;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.default_activity_button = global::Apptesty.Droid.Resource.Id.default_activity_button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.design_bottom_sheet = global::Apptesty.Droid.Resource.Id.design_bottom_sheet;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.design_menu_item_action_area = global::Apptesty.Droid.Resource.Id.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.design_menu_item_action_area_stub = global::Apptesty.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.design_menu_item_text = global::Apptesty.Droid.Resource.Id.design_menu_item_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.design_navigation_view = global::Apptesty.Droid.Resource.Id.design_navigation_view;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.dialog_button = global::Apptesty.Droid.Resource.Id.dialog_button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.disableHome = global::Apptesty.Droid.Resource.Id.disableHome;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.edit_query = global::Apptesty.Droid.Resource.Id.edit_query;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.end = global::Apptesty.Droid.Resource.Id.end;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.end_padder = global::Apptesty.Droid.Resource.Id.end_padder;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.enterAlways = global::Apptesty.Droid.Resource.Id.enterAlways;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.enterAlwaysCollapsed = global::Apptesty.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.exitUntilCollapsed = global::Apptesty.Droid.Resource.Id.exitUntilCollapsed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.expanded_menu = global::Apptesty.Droid.Resource.Id.expanded_menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.expand_activities_button = global::Apptesty.Droid.Resource.Id.expand_activities_button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.fill = global::Apptesty.Droid.Resource.Id.fill;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.filled = global::Apptesty.Droid.Resource.Id.filled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.fill_horizontal = global::Apptesty.Droid.Resource.Id.fill_horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.fill_vertical = global::Apptesty.Droid.Resource.Id.fill_vertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.@fixed = global::Apptesty.Droid.Resource.Id.@fixed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.flyoutcontent_appbar = global::Apptesty.Droid.Resource.Id.flyoutcontent_appbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.flyoutcontent_recycler = global::Apptesty.Droid.Resource.Id.flyoutcontent_recycler;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.forever = global::Apptesty.Droid.Resource.Id.forever;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.FUNCTION = global::Apptesty.Droid.Resource.Id.FUNCTION;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.ghost_view = global::Apptesty.Droid.Resource.Id.ghost_view;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.ghost_view_holder = global::Apptesty.Droid.Resource.Id.ghost_view_holder;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.group_divider = global::Apptesty.Droid.Resource.Id.group_divider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.home = global::Apptesty.Droid.Resource.Id.home;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.homeAsUp = global::Apptesty.Droid.Resource.Id.homeAsUp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.horizontal = global::Apptesty.Droid.Resource.Id.horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.icon = global::Apptesty.Droid.Resource.Id.icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.icon_group = global::Apptesty.Droid.Resource.Id.icon_group;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.ifRoom = global::Apptesty.Droid.Resource.Id.ifRoom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.image = global::Apptesty.Droid.Resource.Id.image;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.indicator = global::Apptesty.Droid.Resource.Id.indicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.info = global::Apptesty.Droid.Resource.Id.info;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.italic = global::Apptesty.Droid.Resource.Id.italic;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Apptesty.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.labeled = global::Apptesty.Droid.Resource.Id.labeled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.largeLabel = global::Apptesty.Droid.Resource.Id.largeLabel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.left = global::Apptesty.Droid.Resource.Id.left;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.line1 = global::Apptesty.Droid.Resource.Id.line1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.line3 = global::Apptesty.Droid.Resource.Id.line3;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.listMode = global::Apptesty.Droid.Resource.Id.listMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.list_item = global::Apptesty.Droid.Resource.Id.list_item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_appbar = global::Apptesty.Droid.Resource.Id.main_appbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_tablayout = global::Apptesty.Droid.Resource.Id.main_tablayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_toolbar = global::Apptesty.Droid.Resource.Id.main_toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_viewpager = global::Apptesty.Droid.Resource.Id.main_viewpager;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.masked = global::Apptesty.Droid.Resource.Id.masked;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.media_actions = global::Apptesty.Droid.Resource.Id.media_actions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.message = global::Apptesty.Droid.Resource.Id.message;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.META = global::Apptesty.Droid.Resource.Id.META;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.middle = global::Apptesty.Droid.Resource.Id.middle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.mini = global::Apptesty.Droid.Resource.Id.mini;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.mtrl_child_content_container = global::Apptesty.Droid.Resource.Id.mtrl_child_content_container;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::Apptesty.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.multiply = global::Apptesty.Droid.Resource.Id.multiply;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.navigation_header_container = global::Apptesty.Droid.Resource.Id.navigation_header_container;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.never = global::Apptesty.Droid.Resource.Id.never;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.next = global::Apptesty.Droid.Resource.Id.next;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.nextArrow = global::Apptesty.Droid.Resource.Id.nextArrow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.none = global::Apptesty.Droid.Resource.Id.none;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.normal = global::Apptesty.Droid.Resource.Id.normal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.notification_background = global::Apptesty.Droid.Resource.Id.notification_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.notification_main_column = global::Apptesty.Droid.Resource.Id.notification_main_column;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.notification_main_column_container = global::Apptesty.Droid.Resource.Id.notification_main_column_container;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.off = global::Apptesty.Droid.Resource.Id.off;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.on = global::Apptesty.Droid.Resource.Id.on;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.outline = global::Apptesty.Droid.Resource.Id.outline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.pager = global::Apptesty.Droid.Resource.Id.pager;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.parallax = global::Apptesty.Droid.Resource.Id.parallax;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.parentPanel = global::Apptesty.Droid.Resource.Id.parentPanel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.parent_matrix = global::Apptesty.Droid.Resource.Id.parent_matrix;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.pin = global::Apptesty.Droid.Resource.Id.pin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.prev = global::Apptesty.Droid.Resource.Id.prev;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.prevArrow = global::Apptesty.Droid.Resource.Id.prevArrow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.progress_circular = global::Apptesty.Droid.Resource.Id.progress_circular;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.progress_horizontal = global::Apptesty.Droid.Resource.Id.progress_horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.radio = global::Apptesty.Droid.Resource.Id.radio;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.right = global::Apptesty.Droid.Resource.Id.right;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.right_icon = global::Apptesty.Droid.Resource.Id.right_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.right_side = global::Apptesty.Droid.Resource.Id.right_side;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.save_non_transition_alpha = global::Apptesty.Droid.Resource.Id.save_non_transition_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.save_overlay_view = global::Apptesty.Droid.Resource.Id.save_overlay_view;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.screen = global::Apptesty.Droid.Resource.Id.screen;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.scroll = global::Apptesty.Droid.Resource.Id.scroll;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollable = global::Apptesty.Droid.Resource.Id.scrollable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollIndicatorDown = global::Apptesty.Droid.Resource.Id.scrollIndicatorDown;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollIndicatorUp = global::Apptesty.Droid.Resource.Id.scrollIndicatorUp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollView = global::Apptesty.Droid.Resource.Id.scrollView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_badge = global::Apptesty.Droid.Resource.Id.search_badge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_bar = global::Apptesty.Droid.Resource.Id.search_bar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_button = global::Apptesty.Droid.Resource.Id.search_button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_close_btn = global::Apptesty.Droid.Resource.Id.search_close_btn;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_edit_frame = global::Apptesty.Droid.Resource.Id.search_edit_frame;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_go_btn = global::Apptesty.Droid.Resource.Id.search_go_btn;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_mag_icon = global::Apptesty.Droid.Resource.Id.search_mag_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_plate = global::Apptesty.Droid.Resource.Id.search_plate;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_src_text = global::Apptesty.Droid.Resource.Id.search_src_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.search_voice_btn = global::Apptesty.Droid.Resource.Id.search_voice_btn;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.selected = global::Apptesty.Droid.Resource.Id.selected;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.select_dialog_listview = global::Apptesty.Droid.Resource.Id.select_dialog_listview;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.shellcontent_appbar = global::Apptesty.Droid.Resource.Id.shellcontent_appbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.shellcontent_toolbar = global::Apptesty.Droid.Resource.Id.shellcontent_toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.SHIFT = global::Apptesty.Droid.Resource.Id.SHIFT;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.shortcut = global::Apptesty.Droid.Resource.Id.shortcut;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.showCustom = global::Apptesty.Droid.Resource.Id.showCustom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.showHome = global::Apptesty.Droid.Resource.Id.showHome;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.showTitle = global::Apptesty.Droid.Resource.Id.showTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.sliding_tabs = global::Apptesty.Droid.Resource.Id.sliding_tabs;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.smallLabel = global::Apptesty.Droid.Resource.Id.smallLabel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.snackbar_action = global::Apptesty.Droid.Resource.Id.snackbar_action;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.snackbar_text = global::Apptesty.Droid.Resource.Id.snackbar_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.snap = global::Apptesty.Droid.Resource.Id.snap;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.snapMargins = global::Apptesty.Droid.Resource.Id.snapMargins;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.spacer = global::Apptesty.Droid.Resource.Id.spacer;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.split_action_bar = global::Apptesty.Droid.Resource.Id.split_action_bar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.src_atop = global::Apptesty.Droid.Resource.Id.src_atop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.src_in = global::Apptesty.Droid.Resource.Id.src_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.src_over = global::Apptesty.Droid.Resource.Id.src_over;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.start = global::Apptesty.Droid.Resource.Id.start;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.status_bar_latest_event_content = global::Apptesty.Droid.Resource.Id.status_bar_latest_event_content;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.stretch = global::Apptesty.Droid.Resource.Id.stretch;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.submenuarrow = global::Apptesty.Droid.Resource.Id.submenuarrow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.submit_area = global::Apptesty.Droid.Resource.Id.submit_area;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.SYM = global::Apptesty.Droid.Resource.Id.SYM;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tabMode = global::Apptesty.Droid.Resource.Id.tabMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_accessibility_actions = global::Apptesty.Droid.Resource.Id.tag_accessibility_actions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_accessibility_clickable_spans = global::Apptesty.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_accessibility_heading = global::Apptesty.Droid.Resource.Id.tag_accessibility_heading;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_accessibility_pane_title = global::Apptesty.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_screen_reader_focusable = global::Apptesty.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_transition_group = global::Apptesty.Droid.Resource.Id.tag_transition_group;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_unhandled_key_event_manager = global::Apptesty.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.tag_unhandled_key_listeners = global::Apptesty.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.text = global::Apptesty.Droid.Resource.Id.text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.text2 = global::Apptesty.Droid.Resource.Id.text2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.textinput_counter = global::Apptesty.Droid.Resource.Id.textinput_counter;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.textinput_error = global::Apptesty.Droid.Resource.Id.textinput_error;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.textinput_helper_text = global::Apptesty.Droid.Resource.Id.textinput_helper_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.textSpacerNoButtons = global::Apptesty.Droid.Resource.Id.textSpacerNoButtons;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.textSpacerNoTitle = global::Apptesty.Droid.Resource.Id.textSpacerNoTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.textStart = global::Apptesty.Droid.Resource.Id.textStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.text_input_password_toggle = global::Apptesty.Droid.Resource.Id.text_input_password_toggle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.time = global::Apptesty.Droid.Resource.Id.time;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.title = global::Apptesty.Droid.Resource.Id.title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.titleDividerNoCustom = global::Apptesty.Droid.Resource.Id.titleDividerNoCustom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.title_template = global::Apptesty.Droid.Resource.Id.title_template;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.toolbar = global::Apptesty.Droid.Resource.Id.toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.top = global::Apptesty.Droid.Resource.Id.top;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.topPanel = global::Apptesty.Droid.Resource.Id.topPanel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.touch_outside = global::Apptesty.Droid.Resource.Id.touch_outside;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_current_scene = global::Apptesty.Droid.Resource.Id.transition_current_scene;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_layout_save = global::Apptesty.Droid.Resource.Id.transition_layout_save;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_position = global::Apptesty.Droid.Resource.Id.transition_position;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_scene_layoutid_cache = global::Apptesty.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_transform = global::Apptesty.Droid.Resource.Id.transition_transform;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.@unchecked = global::Apptesty.Droid.Resource.Id.@unchecked;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.uniform = global::Apptesty.Droid.Resource.Id.uniform;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.unlabeled = global::Apptesty.Droid.Resource.Id.unlabeled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.up = global::Apptesty.Droid.Resource.Id.up;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.useLogo = global::Apptesty.Droid.Resource.Id.useLogo;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.vertical = global::Apptesty.Droid.Resource.Id.vertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.view_offset_helper = global::Apptesty.Droid.Resource.Id.view_offset_helper;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.visible = global::Apptesty.Droid.Resource.Id.visible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.withText = global::Apptesty.Droid.Resource.Id.withText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Id.wrap_content = global::Apptesty.Droid.Resource.Id.wrap_content;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Apptesty.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.abc_config_activityShortDur = global::Apptesty.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::Apptesty.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Apptesty.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.cancel_button_image_alpha = global::Apptesty.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.config_tooltipAnimTime = global::Apptesty.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.default_circle_indicator_orientation = global::Apptesty.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Apptesty.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Apptesty.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.hide_password_duration = global::Apptesty.Droid.Resource.Integer.hide_password_duration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::Apptesty.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::Apptesty.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.mtrl_chip_anim_duration = global::Apptesty.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Apptesty.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.show_password_duration = global::Apptesty.Droid.Resource.Integer.show_password_duration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Apptesty.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::Apptesty.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::Apptesty.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::Apptesty.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::Apptesty.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::Apptesty.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::Apptesty.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.fast_out_slow_in = global::Apptesty.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::Apptesty.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::Apptesty.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.mtrl_linear = global::Apptesty.Droid.Resource.Interpolator.mtrl_linear;
+			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::Apptesty.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_action_bar_title_item = global::Apptesty.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_action_bar_up_container = global::Apptesty.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_action_menu_item_layout = global::Apptesty.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_action_menu_layout = global::Apptesty.Droid.Resource.Layout.abc_action_menu_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_action_mode_bar = global::Apptesty.Droid.Resource.Layout.abc_action_mode_bar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Apptesty.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_activity_chooser_view = global::Apptesty.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Apptesty.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Apptesty.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_alert_dialog_material = global::Apptesty.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_alert_dialog_title_material = global::Apptesty.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::Apptesty.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_dialog_title_material = global::Apptesty.Droid.Resource.Layout.abc_dialog_title_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_expanded_menu_layout = global::Apptesty.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Apptesty.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_icon = global::Apptesty.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_layout = global::Apptesty.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_radio = global::Apptesty.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::Apptesty.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Apptesty.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_screen_content_include = global::Apptesty.Droid.Resource.Layout.abc_screen_content_include;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_screen_simple = global::Apptesty.Droid.Resource.Layout.abc_screen_simple;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Apptesty.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_screen_toolbar = global::Apptesty.Droid.Resource.Layout.abc_screen_toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Apptesty.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_search_view = global::Apptesty.Droid.Resource.Layout.abc_search_view;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_select_dialog_material = global::Apptesty.Droid.Resource.Layout.abc_select_dialog_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.abc_tooltip = global::Apptesty.Droid.Resource.Layout.abc_tooltip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.BottomTabLayout = global::Apptesty.Droid.Resource.Layout.BottomTabLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.browser_actions_context_menu_page = global::Apptesty.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.browser_actions_context_menu_row = global::Apptesty.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.custom_dialog = global::Apptesty.Droid.Resource.Layout.custom_dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_bottom_navigation_item = global::Apptesty.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Apptesty.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_layout_snackbar = global::Apptesty.Droid.Resource.Layout.design_layout_snackbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_layout_snackbar_include = global::Apptesty.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_layout_tab_icon = global::Apptesty.Droid.Resource.Layout.design_layout_tab_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_layout_tab_text = global::Apptesty.Droid.Resource.Layout.design_layout_tab_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_menu_item_action_area = global::Apptesty.Droid.Resource.Layout.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_navigation_item = global::Apptesty.Droid.Resource.Layout.design_navigation_item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_navigation_item_header = global::Apptesty.Droid.Resource.Layout.design_navigation_item_header;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_navigation_item_separator = global::Apptesty.Droid.Resource.Layout.design_navigation_item_separator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_navigation_item_subheader = global::Apptesty.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_navigation_menu = global::Apptesty.Droid.Resource.Layout.design_navigation_menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_navigation_menu_item = global::Apptesty.Droid.Resource.Layout.design_navigation_menu_item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.design_text_input_password_icon = global::Apptesty.Droid.Resource.Layout.design_text_input_password_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.FallbackTabbarDoNotUse = global::Apptesty.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.FallbackToolbarDoNotUse = global::Apptesty.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.FlyoutContent = global::Apptesty.Droid.Resource.Layout.FlyoutContent;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.horizontal_viewpager = global::Apptesty.Droid.Resource.Layout.horizontal_viewpager;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.mtrl_layout_snackbar = global::Apptesty.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Apptesty.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_action = global::Apptesty.Droid.Resource.Layout.notification_action;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_action_tombstone = global::Apptesty.Droid.Resource.Layout.notification_action_tombstone;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_media_action = global::Apptesty.Droid.Resource.Layout.notification_media_action;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_media_cancel_action = global::Apptesty.Droid.Resource.Layout.notification_media_cancel_action;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_big_media = global::Apptesty.Droid.Resource.Layout.notification_template_big_media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_big_media_custom = global::Apptesty.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_big_media_narrow = global::Apptesty.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::Apptesty.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_custom_big = global::Apptesty.Droid.Resource.Layout.notification_template_custom_big;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_icon_group = global::Apptesty.Droid.Resource.Layout.notification_template_icon_group;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_lines_media = global::Apptesty.Droid.Resource.Layout.notification_template_lines_media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_media = global::Apptesty.Droid.Resource.Layout.notification_template_media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_media_custom = global::Apptesty.Droid.Resource.Layout.notification_template_media_custom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_part_chronometer = global::Apptesty.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.notification_template_part_time = global::Apptesty.Droid.Resource.Layout.notification_template_part_time;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.RootLayout = global::Apptesty.Droid.Resource.Layout.RootLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.select_dialog_item_material = global::Apptesty.Droid.Resource.Layout.select_dialog_item_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.select_dialog_multichoice_material = global::Apptesty.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Apptesty.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.ShellContent = global::Apptesty.Droid.Resource.Layout.ShellContent;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Apptesty.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.Tabbar = global::Apptesty.Droid.Resource.Layout.Tabbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.Toolbar = global::Apptesty.Droid.Resource.Layout.Toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Layout.vertical_viewpager = global::Apptesty.Droid.Resource.Layout.vertical_viewpager;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_action_bar_home_description = global::Apptesty.Droid.Resource.String.abc_action_bar_home_description;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_action_bar_up_description = global::Apptesty.Droid.Resource.String.abc_action_bar_up_description;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_action_menu_overflow_description = global::Apptesty.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_action_mode_done = global::Apptesty.Droid.Resource.String.abc_action_mode_done;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_activitychooserview_choose_application = global::Apptesty.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Apptesty.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_capital_off = global::Apptesty.Droid.Resource.String.abc_capital_off;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_capital_on = global::Apptesty.Droid.Resource.String.abc_capital_on;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_alt_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_delete_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_enter_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_function_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_meta_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_shift_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_space_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_menu_sym_shortcut_label = global::Apptesty.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_prepend_shortcut_label = global::Apptesty.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_searchview_description_clear = global::Apptesty.Droid.Resource.String.abc_searchview_description_clear;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_searchview_description_query = global::Apptesty.Droid.Resource.String.abc_searchview_description_query;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_searchview_description_search = global::Apptesty.Droid.Resource.String.abc_searchview_description_search;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_searchview_description_submit = global::Apptesty.Droid.Resource.String.abc_searchview_description_submit;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_searchview_description_voice = global::Apptesty.Droid.Resource.String.abc_searchview_description_voice;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_search_hint = global::Apptesty.Droid.Resource.String.abc_search_hint;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_shareactionprovider_share_with = global::Apptesty.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Apptesty.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_toolbar_collapse_description = global::Apptesty.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.appbar_scrolling_view_behavior = global::Apptesty.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.bottom_sheet_behavior = global::Apptesty.Droid.Resource.String.bottom_sheet_behavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.character_counter_content_description = global::Apptesty.Droid.Resource.String.character_counter_content_description;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.character_counter_pattern = global::Apptesty.Droid.Resource.String.character_counter_pattern;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.fab_transformation_scrim_behavior = global::Apptesty.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.fab_transformation_sheet_behavior = global::Apptesty.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::Apptesty.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.library_name = global::Apptesty.Droid.Resource.String.library_name;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::Apptesty.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.overflow_tab_title = global::Apptesty.Droid.Resource.String.overflow_tab_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.password_toggle_content_description = global::Apptesty.Droid.Resource.String.password_toggle_content_description;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.path_password_eye = global::Apptesty.Droid.Resource.String.path_password_eye;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.path_password_eye_mask_strike_through = global::Apptesty.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.path_password_eye_mask_visible = global::Apptesty.Droid.Resource.String.path_password_eye_mask_visible;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.path_password_strike_through = global::Apptesty.Droid.Resource.String.path_password_strike_through;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.search_menu_title = global::Apptesty.Droid.Resource.String.search_menu_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.String.status_bar_notification_info_overflow = global::Apptesty.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.AlertDialog_AppCompat = global::Apptesty.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Apptesty.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Apptesty.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::Apptesty.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Apptesty.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.AppCompatDialogStyle = global::Apptesty.Droid.Resource.Style.AppCompatDialogStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Apptesty.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Apptesty.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Apptesty.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_CardView = global::Apptesty.Droid.Resource.Style.Base_CardView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Apptesty.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Apptesty.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Apptesty.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Apptesty.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::Apptesty.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Apptesty.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Apptesty.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Apptesty.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Apptesty.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Apptesty.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Apptesty.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Apptesty.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Apptesty.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Apptesty.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Apptesty.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Apptesty.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Apptesty.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_TextView = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Apptesty.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Apptesty.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Apptesty.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Apptesty.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Apptesty.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.CardView = global::Apptesty.Droid.Resource.Style.CardView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.CardView_Dark = global::Apptesty.Droid.Resource.Style.CardView_Dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.CardView_Light = global::Apptesty.Droid.Resource.Style.CardView_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.collectionViewTheme = global::Apptesty.Droid.Resource.Style.collectionViewTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.MainTheme = global::Apptesty.Droid.Resource.Style.MainTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.MainTheme_Base = global::Apptesty.Droid.Resource.Style.MainTheme_Base;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_AppCompat = global::Apptesty.Droid.Resource.Style.Platform_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents = global::Apptesty.Droid.Resource.Style.Platform_MaterialComponents;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::Apptesty.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents_Light = global::Apptesty.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Apptesty.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Apptesty.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Apptesty.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_V21_AppCompat = global::Apptesty.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_V25_AppCompat = global::Apptesty.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Apptesty.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Apptesty.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Apptesty.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Apptesty.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Apptesty.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.scrollViewScrollBars = global::Apptesty.Droid.Resource.Style.scrollViewScrollBars;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.scrollViewTheme = global::Apptesty.Droid.Resource.Style.scrollViewTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Apptesty.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Counter = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Error = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_HelperText = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Hint = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Tab = global::Apptesty.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Apptesty.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Apptesty.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Apptesty.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Apptesty.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Apptesty.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat = global::Apptesty.Droid.Resource.Style.Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Apptesty.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design = global::Apptesty.Droid.Resource.Style.Theme_Design;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Apptesty.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design_Light = global::Apptesty.Droid.Resource.Style.Theme_Design_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Apptesty.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Apptesty.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design_NoActionBar = global::Apptesty.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Apptesty.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_PageIndicatorDefaults = global::Apptesty.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget = global::Apptesty.Droid.Resource.Style.Widget;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_EditText = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_TextView = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Apptesty.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_CirclePageIndicator = global::Apptesty.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::Apptesty.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::Apptesty.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Apptesty.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::Apptesty.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Apptesty.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Apptesty.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Apptesty.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_NavigationView = global::Apptesty.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Apptesty.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_Snackbar = global::Apptesty.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_TabLayout = global::Apptesty.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Apptesty.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::Apptesty.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::Apptesty.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar = global::Apptesty.Droid.Resource.Styleable.ActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBarLayout = global::Apptesty.Droid.Resource.Styleable.ActionBarLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Apptesty.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_background = global::Apptesty.Droid.Resource.Styleable.ActionBar_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Apptesty.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Apptesty.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Apptesty.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Apptesty.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Apptesty.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Apptesty.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Apptesty.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Apptesty.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Apptesty.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_displayOptions = global::Apptesty.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_divider = global::Apptesty.Droid.Resource.Styleable.ActionBar_divider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_elevation = global::Apptesty.Droid.Resource.Styleable.ActionBar_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_height = global::Apptesty.Droid.Resource.Styleable.ActionBar_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Apptesty.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Apptesty.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_homeLayout = global::Apptesty.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_icon = global::Apptesty.Droid.Resource.Styleable.ActionBar_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Apptesty.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_itemPadding = global::Apptesty.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_logo = global::Apptesty.Droid.Resource.Styleable.ActionBar_logo;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_navigationMode = global::Apptesty.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_popupTheme = global::Apptesty.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Apptesty.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Apptesty.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_subtitle = global::Apptesty.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Apptesty.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_title = global::Apptesty.Droid.Resource.Styleable.ActionBar_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Apptesty.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMenuItemView = global::Apptesty.Droid.Resource.Styleable.ActionMenuItemView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Apptesty.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMenuView = global::Apptesty.Droid.Resource.Styleable.ActionMenuView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMode = global::Apptesty.Droid.Resource.Styleable.ActionMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMode_background = global::Apptesty.Droid.Resource.Styleable.ActionMode_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Apptesty.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Apptesty.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMode_height = global::Apptesty.Droid.Resource.Styleable.ActionMode_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Apptesty.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Apptesty.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActivityChooserView = global::Apptesty.Droid.Resource.Styleable.ActivityChooserView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Apptesty.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Apptesty.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog = global::Apptesty.Droid.Resource.Styleable.AlertDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_android_layout = global::Apptesty.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::Apptesty.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Apptesty.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Apptesty.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_listLayout = global::Apptesty.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Apptesty.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_showTitle = global::Apptesty.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Apptesty.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Apptesty.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout = global::Apptesty.Droid.Resource.Styleable.AppBarLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates = global::Apptesty.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Apptesty.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Apptesty.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Apptesty.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Apptesty.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_android_background = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_elevation = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_expanded = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::Apptesty.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView = global::Apptesty.Droid.Resource.Styleable.AppCompatImageView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Apptesty.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Apptesty.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_tint = global::Apptesty.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::Apptesty.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar = global::Apptesty.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Apptesty.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::Apptesty.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Apptesty.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Apptesty.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Apptesty.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableTint = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_textLocale = global::Apptesty.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorError = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Apptesty.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar = global::Apptesty.Droid.Resource.Styleable.BottomAppBar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::Apptesty.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Apptesty.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Apptesty.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Apptesty.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Apptesty.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::Apptesty.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_elevation = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_menu = global::Apptesty.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Apptesty.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Apptesty.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Apptesty.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Apptesty.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Apptesty.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ButtonBarLayout = global::Apptesty.Droid.Resource.Styleable.ButtonBarLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Apptesty.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView = global::Apptesty.Droid.Resource.Styleable.CardView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_android_minHeight = global::Apptesty.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_android_minWidth = global::Apptesty.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Apptesty.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Apptesty.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_cardElevation = global::Apptesty.Droid.Resource.Styleable.CardView_cardElevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Apptesty.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Apptesty.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Apptesty.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_contentPadding = global::Apptesty.Droid.Resource.Styleable.CardView_contentPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Apptesty.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Apptesty.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Apptesty.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Apptesty.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip = global::Apptesty.Droid.Resource.Styleable.Chip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ChipGroup = global::Apptesty.Droid.Resource.Styleable.ChipGroup;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ChipGroup_checkedChip = global::Apptesty.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::Apptesty.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Apptesty.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Apptesty.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ChipGroup_singleLine = global::Apptesty.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ChipGroup_singleSelection = global::Apptesty.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_android_checkable = global::Apptesty.Droid.Resource.Styleable.Chip_android_checkable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_android_ellipsize = global::Apptesty.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_android_maxWidth = global::Apptesty.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_android_text = global::Apptesty.Droid.Resource.Styleable.Chip_android_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_android_textAppearance = global::Apptesty.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_checkedIcon = global::Apptesty.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::Apptesty.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_checkedIconVisible = global::Apptesty.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::Apptesty.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipCornerRadius = global::Apptesty.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipEndPadding = global::Apptesty.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipIcon = global::Apptesty.Droid.Resource.Styleable.Chip_chipIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipIconEnabled = global::Apptesty.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipIconSize = global::Apptesty.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipIconTint = global::Apptesty.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipIconVisible = global::Apptesty.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipMinHeight = global::Apptesty.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipStartPadding = global::Apptesty.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipStrokeColor = global::Apptesty.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::Apptesty.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_closeIcon = global::Apptesty.Droid.Resource.Styleable.Chip_closeIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_closeIconEnabled = global::Apptesty.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::Apptesty.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_closeIconSize = global::Apptesty.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::Apptesty.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_closeIconTint = global::Apptesty.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_closeIconVisible = global::Apptesty.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_hideMotionSpec = global::Apptesty.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_iconEndPadding = global::Apptesty.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_iconStartPadding = global::Apptesty.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_rippleColor = global::Apptesty.Droid.Resource.Styleable.Chip_rippleColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_showMotionSpec = global::Apptesty.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_textEndPadding = global::Apptesty.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Chip_textStartPadding = global::Apptesty.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Apptesty.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_alpha = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_android_color = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton = global::Apptesty.Droid.Resource.Styleable.CompoundButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton_android_button = global::Apptesty.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonCompat = global::Apptesty.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Apptesty.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Apptesty.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DesignTheme = global::Apptesty.Droid.Resource.Styleable.DesignTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Apptesty.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Apptesty.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Apptesty.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Apptesty.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FlowLayout = global::Apptesty.Droid.Resource.Styleable.FlowLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::Apptesty.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::Apptesty.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily = global::Apptesty.Droid.Resource.Styleable.FontFamily;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_font = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_font = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout = global::Apptesty.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Apptesty.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Apptesty.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Apptesty.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor = global::Apptesty.Droid.Resource.Styleable.GradientColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColorItem = global::Apptesty.Droid.Resource.Styleable.GradientColorItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColorItem_android_color = global::Apptesty.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColorItem_android_offset = global::Apptesty.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_centerColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_centerX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_centerY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_endColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_endX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_endY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_startColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_startX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_startY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_tileMode = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor_android_type = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_type;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ItemsViewRendererTheme = global::Apptesty.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::Apptesty.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Apptesty.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow = global::Apptesty.Droid.Resource.Styleable.ListPopupWindow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Apptesty.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Apptesty.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton = global::Apptesty.Droid.Resource.Styleable.MaterialButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::Apptesty.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::Apptesty.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::Apptesty.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::Apptesty.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::Apptesty.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::Apptesty.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::Apptesty.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_icon = global::Apptesty.Droid.Resource.Styleable.MaterialButton_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_iconGravity = global::Apptesty.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_iconPadding = global::Apptesty.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_iconSize = global::Apptesty.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_iconTint = global::Apptesty.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::Apptesty.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_rippleColor = global::Apptesty.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_strokeColor = global::Apptesty.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::Apptesty.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialCardView = global::Apptesty.Droid.Resource.Styleable.MaterialCardView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::Apptesty.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::Apptesty.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Apptesty.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup = global::Apptesty.Droid.Resource.Styleable.MenuGroup;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Apptesty.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Apptesty.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_id = global::Apptesty.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Apptesty.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Apptesty.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_visible = global::Apptesty.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem = global::Apptesty.Droid.Resource.Styleable.MenuItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_actionLayout = global::Apptesty.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Apptesty.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Apptesty.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::Apptesty.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_checkable = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_checked = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_enabled = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_icon = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_id = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_id;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_onClick = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_title = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_visible = global::Apptesty.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_contentDescription = global::Apptesty.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_iconTint = global::Apptesty.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_iconTintMode = global::Apptesty.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_numericModifiers = global::Apptesty.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_showAsAction = global::Apptesty.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuItem_tooltipText = global::Apptesty.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView = global::Apptesty.Droid.Resource.Styleable.MenuView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Apptesty.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Apptesty.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Apptesty.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Apptesty.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Apptesty.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Apptesty.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Apptesty.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Apptesty.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_subMenuArrow = global::Apptesty.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView = global::Apptesty.Droid.Resource.Styleable.NavigationView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_background = global::Apptesty.Droid.Resource.Styleable.NavigationView_android_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Apptesty.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Apptesty.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_elevation = global::Apptesty.Droid.Resource.Styleable.NavigationView_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_headerLayout = global::Apptesty.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemBackground = global::Apptesty.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Apptesty.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::Apptesty.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Apptesty.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Apptesty.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Apptesty.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_menu = global::Apptesty.Droid.Resource.Styleable.NavigationView_menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindow = global::Apptesty.Droid.Resource.Styleable.PopupWindow;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Apptesty.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Apptesty.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Apptesty.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Apptesty.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Apptesty.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecycleListView = global::Apptesty.Droid.Resource.Styleable.RecycleListView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Apptesty.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Apptesty.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView = global::Apptesty.Droid.Resource.Styleable.RecyclerView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_android_clipToPadding = global::Apptesty.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Apptesty.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Apptesty.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Apptesty.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Apptesty.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Apptesty.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Apptesty.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Apptesty.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Apptesty.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Apptesty.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_spanCount = global::Apptesty.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Apptesty.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Apptesty.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Apptesty.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::Apptesty.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Apptesty.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrollViewRendererTheme = global::Apptesty.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::Apptesty.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView = global::Apptesty.Droid.Resource.Styleable.SearchView;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_android_focusable = global::Apptesty.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Apptesty.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_android_inputType = global::Apptesty.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Apptesty.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_closeIcon = global::Apptesty.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_commitIcon = global::Apptesty.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Apptesty.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_goIcon = global::Apptesty.Droid.Resource.Styleable.SearchView_goIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Apptesty.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_layout = global::Apptesty.Droid.Resource.Styleable.SearchView_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_queryBackground = global::Apptesty.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_queryHint = global::Apptesty.Droid.Resource.Styleable.SearchView_queryHint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Apptesty.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_searchIcon = global::Apptesty.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_submitBackground = global::Apptesty.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Apptesty.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_voiceIcon = global::Apptesty.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Snackbar = global::Apptesty.Droid.Resource.Styleable.Snackbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout = global::Apptesty.Droid.Resource.Styleable.SnackbarLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Apptesty.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Apptesty.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Apptesty.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Apptesty.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::Apptesty.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner = global::Apptesty.Droid.Resource.Styleable.Spinner;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Apptesty.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_entries = global::Apptesty.Droid.Resource.Styleable.Spinner_android_entries;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Apptesty.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_prompt = global::Apptesty.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_popupTheme = global::Apptesty.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable = global::Apptesty.Droid.Resource.Styleable.StateListDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawableItem = global::Apptesty.Droid.Resource.Styleable.StateListDrawableItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::Apptesty.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::Apptesty.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_dither = global::Apptesty.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Apptesty.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Apptesty.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::Apptesty.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_visible = global::Apptesty.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat = global::Apptesty.Droid.Resource.Styleable.SwitchCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_showText = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_track = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_track;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_trackTint = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::Apptesty.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabItem = global::Apptesty.Droid.Resource.Styleable.TabItem;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabItem_android_icon = global::Apptesty.Droid.Resource.Styleable.TabItem_android_icon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabItem_android_layout = global::Apptesty.Droid.Resource.Styleable.TabItem_android_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabItem_android_text = global::Apptesty.Droid.Resource.Styleable.TabItem_android_text;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout = global::Apptesty.Droid.Resource.Styleable.TabLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabBackground = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabGravity = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIconTint = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicator = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabMode = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPadding = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Apptesty.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance = global::Apptesty.Droid.Resource.Styleable.TextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textFontWeight = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Apptesty.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_fontFamily = global::Apptesty.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Apptesty.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_textLocale = global::Apptesty.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout = global::Apptesty.Droid.Resource.Styleable.TextInputLayout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_helperText = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Apptesty.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ThemeEnforcement = global::Apptesty.Droid.Resource.Styleable.ThemeEnforcement;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Apptesty.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Apptesty.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Apptesty.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar = global::Apptesty.Droid.Resource.Styleable.Toolbar;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_android_gravity = global::Apptesty.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Apptesty.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_buttonGravity = global::Apptesty.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Apptesty.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Apptesty.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Apptesty.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Apptesty.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Apptesty.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Apptesty.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Apptesty.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Apptesty.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_logo = global::Apptesty.Droid.Resource.Styleable.Toolbar_logo;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_logoDescription = global::Apptesty.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Apptesty.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_menu = global::Apptesty.Droid.Resource.Styleable.Toolbar_menu;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Apptesty.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Apptesty.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_popupTheme = global::Apptesty.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_subtitle = global::Apptesty.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Apptesty.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Apptesty.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_title = global::Apptesty.Droid.Resource.Styleable.Toolbar_title;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMargin = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMargins = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Apptesty.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.View = global::Apptesty.Droid.Resource.Styleable.View;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper = global::Apptesty.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Apptesty.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Apptesty.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Apptesty.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewPagerIndicator = global::Apptesty.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::Apptesty.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat = global::Apptesty.Droid.Resource.Styleable.ViewStubCompat;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Apptesty.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Apptesty.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Apptesty.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.View_android_focusable = global::Apptesty.Droid.Resource.Styleable.View_android_focusable;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.View_android_theme = global::Apptesty.Droid.Resource.Styleable.View_android_theme;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.View_paddingEnd = global::Apptesty.Droid.Resource.Styleable.View_paddingEnd;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.View_paddingStart = global::Apptesty.Droid.Resource.Styleable.View_paddingStart;
+			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.View_theme = global::Apptesty.Droid.Resource.Styleable.View_theme;
+			global::Com.Android.DeskClock.Resource.Attribute.alpha = global::Apptesty.Droid.Resource.Attribute.alpha;
+			global::Com.Android.DeskClock.Resource.Attribute.font = global::Apptesty.Droid.Resource.Attribute.font;
+			global::Com.Android.DeskClock.Resource.Attribute.fontProviderAuthority = global::Apptesty.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Com.Android.DeskClock.Resource.Attribute.fontProviderCerts = global::Apptesty.Droid.Resource.Attribute.fontProviderCerts;
+			global::Com.Android.DeskClock.Resource.Attribute.fontProviderFetchStrategy = global::Apptesty.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Com.Android.DeskClock.Resource.Attribute.fontProviderFetchTimeout = global::Apptesty.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Com.Android.DeskClock.Resource.Attribute.fontProviderPackage = global::Apptesty.Droid.Resource.Attribute.fontProviderPackage;
+			global::Com.Android.DeskClock.Resource.Attribute.fontProviderQuery = global::Apptesty.Droid.Resource.Attribute.fontProviderQuery;
+			global::Com.Android.DeskClock.Resource.Attribute.fontStyle = global::Apptesty.Droid.Resource.Attribute.fontStyle;
+			global::Com.Android.DeskClock.Resource.Attribute.fontVariationSettings = global::Apptesty.Droid.Resource.Attribute.fontVariationSettings;
+			global::Com.Android.DeskClock.Resource.Attribute.fontWeight = global::Apptesty.Droid.Resource.Attribute.fontWeight;
+			global::Com.Android.DeskClock.Resource.Attribute.ttcIndex = global::Apptesty.Droid.Resource.Attribute.ttcIndex;
+			global::Com.Android.DeskClock.Resource.Color.notification_action_color_filter = global::Apptesty.Droid.Resource.Color.notification_action_color_filter;
+			global::Com.Android.DeskClock.Resource.Color.notification_icon_bg_color = global::Apptesty.Droid.Resource.Color.notification_icon_bg_color;
+			global::Com.Android.DeskClock.Resource.Color.ripple_material_light = global::Apptesty.Droid.Resource.Color.ripple_material_light;
+			global::Com.Android.DeskClock.Resource.Color.secondary_text_default_material_light = global::Apptesty.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Com.Android.DeskClock.Resource.Dimension.compat_button_inset_horizontal_material = global::Apptesty.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Com.Android.DeskClock.Resource.Dimension.compat_button_inset_vertical_material = global::Apptesty.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Com.Android.DeskClock.Resource.Dimension.compat_button_padding_horizontal_material = global::Apptesty.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Com.Android.DeskClock.Resource.Dimension.compat_button_padding_vertical_material = global::Apptesty.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Com.Android.DeskClock.Resource.Dimension.compat_control_corner_material = global::Apptesty.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Com.Android.DeskClock.Resource.Dimension.compat_notification_large_icon_max_height = global::Apptesty.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Com.Android.DeskClock.Resource.Dimension.compat_notification_large_icon_max_width = global::Apptesty.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_action_icon_size = global::Apptesty.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_action_text_size = global::Apptesty.Droid.Resource.Dimension.notification_action_text_size;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_big_circle_margin = global::Apptesty.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_content_margin_start = global::Apptesty.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_large_icon_height = global::Apptesty.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_large_icon_width = global::Apptesty.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_main_column_padding_top = global::Apptesty.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_media_narrow_margin = global::Apptesty.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_right_icon_size = global::Apptesty.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_right_side_padding_top = global::Apptesty.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_small_icon_background_padding = global::Apptesty.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_small_icon_size_as_large = global::Apptesty.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_subtext_size = global::Apptesty.Droid.Resource.Dimension.notification_subtext_size;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_top_pad = global::Apptesty.Droid.Resource.Dimension.notification_top_pad;
+			global::Com.Android.DeskClock.Resource.Dimension.notification_top_pad_large_text = global::Apptesty.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_action_background = global::Apptesty.Droid.Resource.Drawable.notification_action_background;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_bg = global::Apptesty.Droid.Resource.Drawable.notification_bg;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_bg_low = global::Apptesty.Droid.Resource.Drawable.notification_bg_low;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_bg_low_normal = global::Apptesty.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_bg_low_pressed = global::Apptesty.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_bg_normal = global::Apptesty.Droid.Resource.Drawable.notification_bg_normal;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_bg_normal_pressed = global::Apptesty.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_icon_background = global::Apptesty.Droid.Resource.Drawable.notification_icon_background;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_template_icon_bg = global::Apptesty.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_template_icon_low_bg = global::Apptesty.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Com.Android.DeskClock.Resource.Drawable.notification_tile_bg = global::Apptesty.Droid.Resource.Drawable.notification_tile_bg;
+			global::Com.Android.DeskClock.Resource.Drawable.notify_panel_notification_icon_bg = global::Apptesty.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_action_clickable_span = global::Apptesty.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_0 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_1 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_10 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_11 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_12 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_13 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_14 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_15 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_16 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_17 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_18 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_19 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_2 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_20 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_21 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_22 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_23 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_24 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_25 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_26 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_27 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_28 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_29 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_3 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_30 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_31 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_4 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_5 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_6 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_7 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_8 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Com.Android.DeskClock.Resource.Id.accessibility_custom_action_9 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Com.Android.DeskClock.Resource.Id.actions = global::Apptesty.Droid.Resource.Id.actions;
+			global::Com.Android.DeskClock.Resource.Id.action_container = global::Apptesty.Droid.Resource.Id.action_container;
+			global::Com.Android.DeskClock.Resource.Id.action_divider = global::Apptesty.Droid.Resource.Id.action_divider;
+			global::Com.Android.DeskClock.Resource.Id.action_image = global::Apptesty.Droid.Resource.Id.action_image;
+			global::Com.Android.DeskClock.Resource.Id.action_text = global::Apptesty.Droid.Resource.Id.action_text;
+			global::Com.Android.DeskClock.Resource.Id.async = global::Apptesty.Droid.Resource.Id.async;
+			global::Com.Android.DeskClock.Resource.Id.blocking = global::Apptesty.Droid.Resource.Id.blocking;
+			global::Com.Android.DeskClock.Resource.Id.chronometer = global::Apptesty.Droid.Resource.Id.chronometer;
+			global::Com.Android.DeskClock.Resource.Id.dialog_button = global::Apptesty.Droid.Resource.Id.dialog_button;
+			global::Com.Android.DeskClock.Resource.Id.forever = global::Apptesty.Droid.Resource.Id.forever;
+			global::Com.Android.DeskClock.Resource.Id.icon = global::Apptesty.Droid.Resource.Id.icon;
+			global::Com.Android.DeskClock.Resource.Id.icon_group = global::Apptesty.Droid.Resource.Id.icon_group;
+			global::Com.Android.DeskClock.Resource.Id.info = global::Apptesty.Droid.Resource.Id.info;
+			global::Com.Android.DeskClock.Resource.Id.italic = global::Apptesty.Droid.Resource.Id.italic;
+			global::Com.Android.DeskClock.Resource.Id.line1 = global::Apptesty.Droid.Resource.Id.line1;
+			global::Com.Android.DeskClock.Resource.Id.line3 = global::Apptesty.Droid.Resource.Id.line3;
+			global::Com.Android.DeskClock.Resource.Id.normal = global::Apptesty.Droid.Resource.Id.normal;
+			global::Com.Android.DeskClock.Resource.Id.notification_background = global::Apptesty.Droid.Resource.Id.notification_background;
+			global::Com.Android.DeskClock.Resource.Id.notification_main_column = global::Apptesty.Droid.Resource.Id.notification_main_column;
+			global::Com.Android.DeskClock.Resource.Id.notification_main_column_container = global::Apptesty.Droid.Resource.Id.notification_main_column_container;
+			global::Com.Android.DeskClock.Resource.Id.right_icon = global::Apptesty.Droid.Resource.Id.right_icon;
+			global::Com.Android.DeskClock.Resource.Id.right_side = global::Apptesty.Droid.Resource.Id.right_side;
+			global::Com.Android.DeskClock.Resource.Id.tag_accessibility_actions = global::Apptesty.Droid.Resource.Id.tag_accessibility_actions;
+			global::Com.Android.DeskClock.Resource.Id.tag_accessibility_clickable_spans = global::Apptesty.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Com.Android.DeskClock.Resource.Id.tag_accessibility_heading = global::Apptesty.Droid.Resource.Id.tag_accessibility_heading;
+			global::Com.Android.DeskClock.Resource.Id.tag_accessibility_pane_title = global::Apptesty.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Com.Android.DeskClock.Resource.Id.tag_screen_reader_focusable = global::Apptesty.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Com.Android.DeskClock.Resource.Id.tag_transition_group = global::Apptesty.Droid.Resource.Id.tag_transition_group;
+			global::Com.Android.DeskClock.Resource.Id.tag_unhandled_key_event_manager = global::Apptesty.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Com.Android.DeskClock.Resource.Id.tag_unhandled_key_listeners = global::Apptesty.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Com.Android.DeskClock.Resource.Id.text = global::Apptesty.Droid.Resource.Id.text;
+			global::Com.Android.DeskClock.Resource.Id.text2 = global::Apptesty.Droid.Resource.Id.text2;
+			global::Com.Android.DeskClock.Resource.Id.time = global::Apptesty.Droid.Resource.Id.time;
+			global::Com.Android.DeskClock.Resource.Id.title = global::Apptesty.Droid.Resource.Id.title;
+			global::Com.Android.DeskClock.Resource.Integer.status_bar_notification_info_maxnum = global::Apptesty.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Com.Android.DeskClock.Resource.Layout.custom_dialog = global::Apptesty.Droid.Resource.Layout.custom_dialog;
+			global::Com.Android.DeskClock.Resource.Layout.notification_action = global::Apptesty.Droid.Resource.Layout.notification_action;
+			global::Com.Android.DeskClock.Resource.Layout.notification_action_tombstone = global::Apptesty.Droid.Resource.Layout.notification_action_tombstone;
+			global::Com.Android.DeskClock.Resource.Layout.notification_template_custom_big = global::Apptesty.Droid.Resource.Layout.notification_template_custom_big;
+			global::Com.Android.DeskClock.Resource.Layout.notification_template_icon_group = global::Apptesty.Droid.Resource.Layout.notification_template_icon_group;
+			global::Com.Android.DeskClock.Resource.Layout.notification_template_part_chronometer = global::Apptesty.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Com.Android.DeskClock.Resource.Layout.notification_template_part_time = global::Apptesty.Droid.Resource.Layout.notification_template_part_time;
+			global::Com.Android.DeskClock.Resource.String.library_name = global::Apptesty.Droid.Resource.String.library_name;
+			global::Com.Android.DeskClock.Resource.String.status_bar_notification_info_overflow = global::Apptesty.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Com.Android.DeskClock.Resource.Style.TextAppearance_Compat_Notification = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Com.Android.DeskClock.Resource.Style.TextAppearance_Compat_Notification_Info = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Com.Android.DeskClock.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Com.Android.DeskClock.Resource.Style.TextAppearance_Compat_Notification_Time = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Com.Android.DeskClock.Resource.Style.TextAppearance_Compat_Notification_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Com.Android.DeskClock.Resource.Style.Widget_Compat_NotificationActionContainer = global::Apptesty.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Com.Android.DeskClock.Resource.Style.Widget_Compat_NotificationActionText = global::Apptesty.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Com.Android.DeskClock.Resource.Styleable.ColorStateListItem = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem;
+			global::Com.Android.DeskClock.Resource.Styleable.ColorStateListItem_alpha = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Com.Android.DeskClock.Resource.Styleable.ColorStateListItem_android_alpha = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Com.Android.DeskClock.Resource.Styleable.ColorStateListItem_android_color = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamily = global::Apptesty.Droid.Resource.Styleable.FontFamily;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_android_font = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_font = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_fontStyle = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_fontWeight = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamilyFont_ttcIndex = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamily_fontProviderAuthority = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamily_fontProviderCerts = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamily_fontProviderPackage = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Com.Android.DeskClock.Resource.Styleable.FontFamily_fontProviderQuery = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor = global::Apptesty.Droid.Resource.Styleable.GradientColor;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColorItem = global::Apptesty.Droid.Resource.Styleable.GradientColorItem;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColorItem_android_color = global::Apptesty.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColorItem_android_offset = global::Apptesty.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_centerColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_centerX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_centerY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_endColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_endX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_endY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_gradientRadius = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_startColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_startX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_startY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_tileMode = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Com.Android.DeskClock.Resource.Styleable.GradientColor_android_type = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Com.ViewPagerIndicator.Resource.Attribute.alpha = global::Apptesty.Droid.Resource.Attribute.alpha;
+			global::Com.ViewPagerIndicator.Resource.Attribute.coordinatorLayoutStyle = global::Apptesty.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Com.ViewPagerIndicator.Resource.Attribute.font = global::Apptesty.Droid.Resource.Attribute.font;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontProviderAuthority = global::Apptesty.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontProviderCerts = global::Apptesty.Droid.Resource.Attribute.fontProviderCerts;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontProviderFetchStrategy = global::Apptesty.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontProviderFetchTimeout = global::Apptesty.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontProviderPackage = global::Apptesty.Droid.Resource.Attribute.fontProviderPackage;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontProviderQuery = global::Apptesty.Droid.Resource.Attribute.fontProviderQuery;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontStyle = global::Apptesty.Droid.Resource.Attribute.fontStyle;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontVariationSettings = global::Apptesty.Droid.Resource.Attribute.fontVariationSettings;
+			global::Com.ViewPagerIndicator.Resource.Attribute.fontWeight = global::Apptesty.Droid.Resource.Attribute.fontWeight;
+			global::Com.ViewPagerIndicator.Resource.Attribute.keylines = global::Apptesty.Droid.Resource.Attribute.keylines;
+			global::Com.ViewPagerIndicator.Resource.Attribute.layout_anchor = global::Apptesty.Droid.Resource.Attribute.layout_anchor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.layout_anchorGravity = global::Apptesty.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Com.ViewPagerIndicator.Resource.Attribute.layout_behavior = global::Apptesty.Droid.Resource.Attribute.layout_behavior;
+			global::Com.ViewPagerIndicator.Resource.Attribute.layout_dodgeInsetEdges = global::Apptesty.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Com.ViewPagerIndicator.Resource.Attribute.layout_insetEdge = global::Apptesty.Droid.Resource.Attribute.layout_insetEdge;
+			global::Com.ViewPagerIndicator.Resource.Attribute.layout_keyline = global::Apptesty.Droid.Resource.Attribute.layout_keyline;
+			global::Com.ViewPagerIndicator.Resource.Attribute.statusBarBackground = global::Apptesty.Droid.Resource.Attribute.statusBarBackground;
+			global::Com.ViewPagerIndicator.Resource.Attribute.ttcIndex = global::Apptesty.Droid.Resource.Attribute.ttcIndex;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCentered = global::Apptesty.Droid.Resource.Attribute.vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCirclePageIndicatorStyle = global::Apptesty.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiFillColor = global::Apptesty.Droid.Resource.Attribute.vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiOrientation = global::Apptesty.Droid.Resource.Attribute.vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiPageColor = global::Apptesty.Droid.Resource.Attribute.vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiRadius = global::Apptesty.Droid.Resource.Attribute.vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiSnap = global::Apptesty.Droid.Resource.Attribute.vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeColor = global::Apptesty.Droid.Resource.Attribute.vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeWidth = global::Apptesty.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_centered = global::Apptesty.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_snap = global::Apptesty.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_fill_color = global::Apptesty.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_page_color = global::Apptesty.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_stroke_color = global::Apptesty.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::Com.ViewPagerIndicator.Resource.Color.notification_action_color_filter = global::Apptesty.Droid.Resource.Color.notification_action_color_filter;
+			global::Com.ViewPagerIndicator.Resource.Color.notification_icon_bg_color = global::Apptesty.Droid.Resource.Color.notification_icon_bg_color;
+			global::Com.ViewPagerIndicator.Resource.Color.notification_material_background_media_default_color = global::Apptesty.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Com.ViewPagerIndicator.Resource.Color.primary_text_default_material_dark = global::Apptesty.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.ripple_material_light = global::Apptesty.Droid.Resource.Color.ripple_material_light;
+			global::Com.ViewPagerIndicator.Resource.Color.secondary_text_default_material_dark = global::Apptesty.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.secondary_text_default_material_light = global::Apptesty.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__background_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_light = global::Apptesty.Droid.Resource.Color.vpi__background_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_light = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::Apptesty.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Dimension.compat_button_inset_horizontal_material = global::Apptesty.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Com.ViewPagerIndicator.Resource.Dimension.compat_button_inset_vertical_material = global::Apptesty.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Com.ViewPagerIndicator.Resource.Dimension.compat_button_padding_horizontal_material = global::Apptesty.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Com.ViewPagerIndicator.Resource.Dimension.compat_button_padding_vertical_material = global::Apptesty.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Com.ViewPagerIndicator.Resource.Dimension.compat_control_corner_material = global::Apptesty.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Com.ViewPagerIndicator.Resource.Dimension.compat_notification_large_icon_max_height = global::Apptesty.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Com.ViewPagerIndicator.Resource.Dimension.compat_notification_large_icon_max_width = global::Apptesty.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_radius = global::Apptesty.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_stroke_width = global::Apptesty.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_action_icon_size = global::Apptesty.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_action_text_size = global::Apptesty.Droid.Resource.Dimension.notification_action_text_size;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_big_circle_margin = global::Apptesty.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_content_margin_start = global::Apptesty.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_large_icon_height = global::Apptesty.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_large_icon_width = global::Apptesty.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_main_column_padding_top = global::Apptesty.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_media_narrow_margin = global::Apptesty.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_right_icon_size = global::Apptesty.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_right_side_padding_top = global::Apptesty.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_small_icon_background_padding = global::Apptesty.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_small_icon_size_as_large = global::Apptesty.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_subtext_size = global::Apptesty.Droid.Resource.Dimension.notification_subtext_size;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_top_pad = global::Apptesty.Droid.Resource.Dimension.notification_top_pad;
+			global::Com.ViewPagerIndicator.Resource.Dimension.notification_top_pad_large_text = global::Apptesty.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Com.ViewPagerIndicator.Resource.Dimension.subtitle_corner_radius = global::Apptesty.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Com.ViewPagerIndicator.Resource.Dimension.subtitle_outline_width = global::Apptesty.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Com.ViewPagerIndicator.Resource.Dimension.subtitle_shadow_offset = global::Apptesty.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Com.ViewPagerIndicator.Resource.Dimension.subtitle_shadow_radius = global::Apptesty.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_action_background = global::Apptesty.Droid.Resource.Drawable.notification_action_background;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_bg = global::Apptesty.Droid.Resource.Drawable.notification_bg;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_bg_low = global::Apptesty.Droid.Resource.Drawable.notification_bg_low;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_bg_low_normal = global::Apptesty.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_bg_low_pressed = global::Apptesty.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_bg_normal = global::Apptesty.Droid.Resource.Drawable.notification_bg_normal;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_bg_normal_pressed = global::Apptesty.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_icon_background = global::Apptesty.Droid.Resource.Drawable.notification_icon_background;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_template_icon_bg = global::Apptesty.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_template_icon_low_bg = global::Apptesty.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notification_tile_bg = global::Apptesty.Droid.Resource.Drawable.notification_tile_bg;
+			global::Com.ViewPagerIndicator.Resource.Drawable.notify_panel_notification_icon_bg = global::Apptesty.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_action_clickable_span = global::Apptesty.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_0 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_1 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_10 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_11 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_12 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_13 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_14 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_15 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_16 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_17 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_18 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_19 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_2 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_20 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_21 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_22 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_23 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_24 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_25 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_26 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_27 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_28 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_29 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_3 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_30 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_31 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_4 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_5 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_6 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_7 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_8 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Com.ViewPagerIndicator.Resource.Id.accessibility_custom_action_9 = global::Apptesty.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Com.ViewPagerIndicator.Resource.Id.action0 = global::Apptesty.Droid.Resource.Id.action0;
+			global::Com.ViewPagerIndicator.Resource.Id.actions = global::Apptesty.Droid.Resource.Id.actions;
+			global::Com.ViewPagerIndicator.Resource.Id.action_container = global::Apptesty.Droid.Resource.Id.action_container;
+			global::Com.ViewPagerIndicator.Resource.Id.action_divider = global::Apptesty.Droid.Resource.Id.action_divider;
+			global::Com.ViewPagerIndicator.Resource.Id.action_image = global::Apptesty.Droid.Resource.Id.action_image;
+			global::Com.ViewPagerIndicator.Resource.Id.action_text = global::Apptesty.Droid.Resource.Id.action_text;
+			global::Com.ViewPagerIndicator.Resource.Id.all = global::Apptesty.Droid.Resource.Id.all;
+			global::Com.ViewPagerIndicator.Resource.Id.async = global::Apptesty.Droid.Resource.Id.async;
+			global::Com.ViewPagerIndicator.Resource.Id.blocking = global::Apptesty.Droid.Resource.Id.blocking;
+			global::Com.ViewPagerIndicator.Resource.Id.bottom = global::Apptesty.Droid.Resource.Id.bottom;
+			global::Com.ViewPagerIndicator.Resource.Id.cancel_action = global::Apptesty.Droid.Resource.Id.cancel_action;
+			global::Com.ViewPagerIndicator.Resource.Id.center = global::Apptesty.Droid.Resource.Id.center;
+			global::Com.ViewPagerIndicator.Resource.Id.center_horizontal = global::Apptesty.Droid.Resource.Id.center_horizontal;
+			global::Com.ViewPagerIndicator.Resource.Id.center_vertical = global::Apptesty.Droid.Resource.Id.center_vertical;
+			global::Com.ViewPagerIndicator.Resource.Id.chronometer = global::Apptesty.Droid.Resource.Id.chronometer;
+			global::Com.ViewPagerIndicator.Resource.Id.clip_horizontal = global::Apptesty.Droid.Resource.Id.clip_horizontal;
+			global::Com.ViewPagerIndicator.Resource.Id.clip_vertical = global::Apptesty.Droid.Resource.Id.clip_vertical;
+			global::Com.ViewPagerIndicator.Resource.Id.dialog_button = global::Apptesty.Droid.Resource.Id.dialog_button;
+			global::Com.ViewPagerIndicator.Resource.Id.end = global::Apptesty.Droid.Resource.Id.end;
+			global::Com.ViewPagerIndicator.Resource.Id.end_padder = global::Apptesty.Droid.Resource.Id.end_padder;
+			global::Com.ViewPagerIndicator.Resource.Id.fill = global::Apptesty.Droid.Resource.Id.fill;
+			global::Com.ViewPagerIndicator.Resource.Id.fill_horizontal = global::Apptesty.Droid.Resource.Id.fill_horizontal;
+			global::Com.ViewPagerIndicator.Resource.Id.fill_vertical = global::Apptesty.Droid.Resource.Id.fill_vertical;
+			global::Com.ViewPagerIndicator.Resource.Id.forever = global::Apptesty.Droid.Resource.Id.forever;
+			global::Com.ViewPagerIndicator.Resource.Id.horizontal = global::Apptesty.Droid.Resource.Id.horizontal;
+			global::Com.ViewPagerIndicator.Resource.Id.icon = global::Apptesty.Droid.Resource.Id.icon;
+			global::Com.ViewPagerIndicator.Resource.Id.icon_group = global::Apptesty.Droid.Resource.Id.icon_group;
+			global::Com.ViewPagerIndicator.Resource.Id.info = global::Apptesty.Droid.Resource.Id.info;
+			global::Com.ViewPagerIndicator.Resource.Id.italic = global::Apptesty.Droid.Resource.Id.italic;
+			global::Com.ViewPagerIndicator.Resource.Id.left = global::Apptesty.Droid.Resource.Id.left;
+			global::Com.ViewPagerIndicator.Resource.Id.line1 = global::Apptesty.Droid.Resource.Id.line1;
+			global::Com.ViewPagerIndicator.Resource.Id.line3 = global::Apptesty.Droid.Resource.Id.line3;
+			global::Com.ViewPagerIndicator.Resource.Id.media_actions = global::Apptesty.Droid.Resource.Id.media_actions;
+			global::Com.ViewPagerIndicator.Resource.Id.none = global::Apptesty.Droid.Resource.Id.none;
+			global::Com.ViewPagerIndicator.Resource.Id.normal = global::Apptesty.Droid.Resource.Id.normal;
+			global::Com.ViewPagerIndicator.Resource.Id.notification_background = global::Apptesty.Droid.Resource.Id.notification_background;
+			global::Com.ViewPagerIndicator.Resource.Id.notification_main_column = global::Apptesty.Droid.Resource.Id.notification_main_column;
+			global::Com.ViewPagerIndicator.Resource.Id.notification_main_column_container = global::Apptesty.Droid.Resource.Id.notification_main_column_container;
+			global::Com.ViewPagerIndicator.Resource.Id.right = global::Apptesty.Droid.Resource.Id.right;
+			global::Com.ViewPagerIndicator.Resource.Id.right_icon = global::Apptesty.Droid.Resource.Id.right_icon;
+			global::Com.ViewPagerIndicator.Resource.Id.right_side = global::Apptesty.Droid.Resource.Id.right_side;
+			global::Com.ViewPagerIndicator.Resource.Id.start = global::Apptesty.Droid.Resource.Id.start;
+			global::Com.ViewPagerIndicator.Resource.Id.status_bar_latest_event_content = global::Apptesty.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_accessibility_actions = global::Apptesty.Droid.Resource.Id.tag_accessibility_actions;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_accessibility_clickable_spans = global::Apptesty.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_accessibility_heading = global::Apptesty.Droid.Resource.Id.tag_accessibility_heading;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_accessibility_pane_title = global::Apptesty.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_screen_reader_focusable = global::Apptesty.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_transition_group = global::Apptesty.Droid.Resource.Id.tag_transition_group;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_unhandled_key_event_manager = global::Apptesty.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Com.ViewPagerIndicator.Resource.Id.tag_unhandled_key_listeners = global::Apptesty.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Com.ViewPagerIndicator.Resource.Id.text = global::Apptesty.Droid.Resource.Id.text;
+			global::Com.ViewPagerIndicator.Resource.Id.text2 = global::Apptesty.Droid.Resource.Id.text2;
+			global::Com.ViewPagerIndicator.Resource.Id.time = global::Apptesty.Droid.Resource.Id.time;
+			global::Com.ViewPagerIndicator.Resource.Id.title = global::Apptesty.Droid.Resource.Id.title;
+			global::Com.ViewPagerIndicator.Resource.Id.top = global::Apptesty.Droid.Resource.Id.top;
+			global::Com.ViewPagerIndicator.Resource.Id.vertical = global::Apptesty.Droid.Resource.Id.vertical;
+			global::Com.ViewPagerIndicator.Resource.Integer.cancel_button_image_alpha = global::Apptesty.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Com.ViewPagerIndicator.Resource.Integer.default_circle_indicator_orientation = global::Apptesty.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::Com.ViewPagerIndicator.Resource.Integer.status_bar_notification_info_maxnum = global::Apptesty.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Com.ViewPagerIndicator.Resource.Layout.custom_dialog = global::Apptesty.Droid.Resource.Layout.custom_dialog;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_action = global::Apptesty.Droid.Resource.Layout.notification_action;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_action_tombstone = global::Apptesty.Droid.Resource.Layout.notification_action_tombstone;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_media_action = global::Apptesty.Droid.Resource.Layout.notification_media_action;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_media_cancel_action = global::Apptesty.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_big_media = global::Apptesty.Droid.Resource.Layout.notification_template_big_media;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_big_media_custom = global::Apptesty.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_big_media_narrow = global::Apptesty.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_big_media_narrow_custom = global::Apptesty.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_custom_big = global::Apptesty.Droid.Resource.Layout.notification_template_custom_big;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_icon_group = global::Apptesty.Droid.Resource.Layout.notification_template_icon_group;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_lines_media = global::Apptesty.Droid.Resource.Layout.notification_template_lines_media;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_media = global::Apptesty.Droid.Resource.Layout.notification_template_media;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_media_custom = global::Apptesty.Droid.Resource.Layout.notification_template_media_custom;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_part_chronometer = global::Apptesty.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Com.ViewPagerIndicator.Resource.Layout.notification_template_part_time = global::Apptesty.Droid.Resource.Layout.notification_template_part_time;
+			global::Com.ViewPagerIndicator.Resource.String.library_name = global::Apptesty.Droid.Resource.String.library_name;
+			global::Com.ViewPagerIndicator.Resource.String.status_bar_notification_info_overflow = global::Apptesty.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Info = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Time = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Title = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Com.ViewPagerIndicator.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Apptesty.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Com.ViewPagerIndicator.Resource.Style.Theme_PageIndicatorDefaults = global::Apptesty.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget = global::Apptesty.Droid.Resource.Style.Widget;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget_CirclePageIndicator = global::Apptesty.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget_Compat_NotificationActionContainer = global::Apptesty.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget_Compat_NotificationActionText = global::Apptesty.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget_Support_CoordinatorLayout = global::Apptesty.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiCentered = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiRadius = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiSnap = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::Apptesty.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem_alpha = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem_android_alpha = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem_android_color = global::Apptesty.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_keylines = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Apptesty.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily = global::Apptesty.Droid.Resource.Styleable.FontFamily;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_android_font = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_font = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_fontStyle = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_fontWeight = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_ttcIndex = global::Apptesty.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily_fontProviderAuthority = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily_fontProviderCerts = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily_fontProviderPackage = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily_fontProviderQuery = global::Apptesty.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor = global::Apptesty.Droid.Resource.Styleable.GradientColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColorItem = global::Apptesty.Droid.Resource.Styleable.GradientColorItem;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColorItem_android_color = global::Apptesty.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColorItem_android_offset = global::Apptesty.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_centerColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_centerX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_centerY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_endColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_endX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_endY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_gradientRadius = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_startColor = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_startX = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_startY = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_tileMode = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Com.ViewPagerIndicator.Resource.Styleable.GradientColor_android_type = global::Apptesty.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::Apptesty.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::Apptesty.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
 			global::Lottie.Forms.Resource.Animation.abc_fade_in = global::Apptesty.Droid.Resource.Animation.abc_fade_in;
 			global::Lottie.Forms.Resource.Animation.abc_fade_out = global::Apptesty.Droid.Resource.Animation.abc_fade_out;
 			global::Lottie.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::Apptesty.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -14435,34 +17635,61 @@ namespace Apptesty.Droid
 			public const int voiceIcon = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int windowActionBar = 2130903541;
+			public const int vpiCentered = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int windowActionBarOverlay = 2130903542;
+			public const int vpiCirclePageIndicatorStyle = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int windowActionModeOverlay = 2130903543;
+			public const int vpiFillColor = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int windowFixedHeightMajor = 2130903544;
+			public const int vpiOrientation = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int windowFixedHeightMinor = 2130903545;
+			public const int vpiPageColor = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int windowFixedWidthMajor = 2130903546;
+			public const int vpiRadius = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int windowFixedWidthMinor = 2130903547;
+			public const int vpiSnap = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int windowMinWidthMajor = 2130903548;
+			public const int vpiStrokeColor = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int windowMinWidthMinor = 2130903549;
+			public const int vpiStrokeWidth = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int windowNoTitle = 2130903550;
+			public const int windowActionBar = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int windowActionBarOverlay = 2130903551;
+			
+			// aapt resource value: 0x7F030200
+			public const int windowActionModeOverlay = 2130903552;
+			
+			// aapt resource value: 0x7F030201
+			public const int windowFixedHeightMajor = 2130903553;
+			
+			// aapt resource value: 0x7F030202
+			public const int windowFixedHeightMinor = 2130903554;
+			
+			// aapt resource value: 0x7F030203
+			public const int windowFixedWidthMajor = 2130903555;
+			
+			// aapt resource value: 0x7F030204
+			public const int windowFixedWidthMinor = 2130903556;
+			
+			// aapt resource value: 0x7F030205
+			public const int windowMinWidthMajor = 2130903557;
+			
+			// aapt resource value: 0x7F030206
+			public const int windowMinWidthMinor = 2130903558;
+			
+			// aapt resource value: 0x7F030207
+			public const int windowNoTitle = 2130903559;
 			
 			static Attribute()
 			{
@@ -14487,7 +17714,13 @@ namespace Apptesty.Droid
 			public const int abc_config_actionMenuItemAllCaps = 2130968578;
 			
 			// aapt resource value: 0x7F040003
-			public const int mtrl_btn_textappearance_all_caps = 2130968579;
+			public const int default_circle_indicator_centered = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int default_circle_indicator_snap = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int mtrl_btn_textappearance_all_caps = 2130968581;
 			
 			static Boolean()
 			{
@@ -14656,265 +17889,298 @@ namespace Apptesty.Droid
 			public const int colorPrimaryDark = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int design_bottom_navigation_shadow_color = 2131034163;
+			public const int default_circle_indicator_fill_color = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int design_default_color_primary = 2131034164;
+			public const int default_circle_indicator_page_color = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int design_default_color_primary_dark = 2131034165;
+			public const int default_circle_indicator_stroke_color = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int design_error = 2131034166;
+			public const int design_bottom_navigation_shadow_color = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int design_fab_shadow_end_color = 2131034167;
+			public const int design_default_color_primary = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int design_fab_shadow_mid_color = 2131034168;
+			public const int design_default_color_primary_dark = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int design_fab_shadow_start_color = 2131034169;
+			public const int design_error = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int design_fab_stroke_end_inner_color = 2131034170;
+			public const int design_fab_shadow_end_color = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int design_fab_stroke_end_outer_color = 2131034171;
+			public const int design_fab_shadow_mid_color = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int design_fab_stroke_top_inner_color = 2131034172;
+			public const int design_fab_shadow_start_color = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int design_fab_stroke_top_outer_color = 2131034173;
+			public const int design_fab_stroke_end_inner_color = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int design_snackbar_background_color = 2131034174;
+			public const int design_fab_stroke_end_outer_color = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int design_tint_password_toggle = 2131034175;
+			public const int design_fab_stroke_top_inner_color = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int dim_foreground_disabled_material_dark = 2131034176;
+			public const int design_fab_stroke_top_outer_color = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int dim_foreground_disabled_material_light = 2131034177;
+			public const int design_snackbar_background_color = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int dim_foreground_material_dark = 2131034178;
+			public const int design_tint_password_toggle = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int dim_foreground_material_light = 2131034179;
+			public const int dim_foreground_disabled_material_dark = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int error_color_material_dark = 2131034180;
+			public const int dim_foreground_disabled_material_light = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int error_color_material_light = 2131034181;
+			public const int dim_foreground_material_dark = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int foreground_material_dark = 2131034182;
+			public const int dim_foreground_material_light = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int foreground_material_light = 2131034183;
+			public const int error_color_material_dark = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int highlighted_text_material_dark = 2131034184;
+			public const int error_color_material_light = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int highlighted_text_material_light = 2131034185;
+			public const int foreground_material_dark = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int launcher_background = 2131034186;
+			public const int foreground_material_light = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int material_blue_grey_800 = 2131034187;
+			public const int highlighted_text_material_dark = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int material_blue_grey_900 = 2131034188;
+			public const int highlighted_text_material_light = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int material_blue_grey_950 = 2131034189;
+			public const int launcher_background = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int material_deep_teal_200 = 2131034190;
+			public const int material_blue_grey_800 = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int material_deep_teal_500 = 2131034191;
+			public const int material_blue_grey_900 = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int material_grey_100 = 2131034192;
+			public const int material_blue_grey_950 = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int material_grey_300 = 2131034193;
+			public const int material_deep_teal_200 = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int material_grey_50 = 2131034194;
+			public const int material_deep_teal_500 = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int material_grey_600 = 2131034195;
+			public const int material_grey_100 = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int material_grey_800 = 2131034196;
+			public const int material_grey_300 = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int material_grey_850 = 2131034197;
+			public const int material_grey_50 = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int material_grey_900 = 2131034198;
+			public const int material_grey_600 = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034199;
+			public const int material_grey_800 = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int mtrl_bottom_nav_item_tint = 2131034200;
+			public const int material_grey_850 = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int mtrl_btn_bg_color_disabled = 2131034201;
+			public const int material_grey_900 = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int mtrl_btn_bg_color_selector = 2131034202;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int mtrl_btn_ripple_color = 2131034203;
+			public const int mtrl_bottom_nav_item_tint = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int mtrl_btn_stroke_color_selector = 2131034204;
+			public const int mtrl_btn_bg_color_disabled = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int mtrl_btn_text_btn_ripple_color = 2131034205;
+			public const int mtrl_btn_bg_color_selector = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int mtrl_btn_text_color_disabled = 2131034206;
+			public const int mtrl_btn_ripple_color = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int mtrl_btn_text_color_selector = 2131034207;
+			public const int mtrl_btn_stroke_color_selector = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int mtrl_btn_transparent_bg_color = 2131034208;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int mtrl_chip_background_color = 2131034209;
+			public const int mtrl_btn_text_color_disabled = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int mtrl_chip_close_icon_tint = 2131034210;
+			public const int mtrl_btn_text_color_selector = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int mtrl_chip_ripple_color = 2131034211;
+			public const int mtrl_btn_transparent_bg_color = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int mtrl_chip_text_color = 2131034212;
+			public const int mtrl_chip_background_color = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int mtrl_fab_ripple_color = 2131034213;
+			public const int mtrl_chip_close_icon_tint = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int mtrl_scrim_color = 2131034214;
+			public const int mtrl_chip_ripple_color = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int mtrl_tabs_colored_ripple_color = 2131034215;
+			public const int mtrl_chip_text_color = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int mtrl_tabs_icon_color_selector = 2131034216;
+			public const int mtrl_fab_ripple_color = 2131034216;
 			
 			// aapt resource value: 0x7F050069
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034217;
+			public const int mtrl_scrim_color = 2131034217;
 			
 			// aapt resource value: 0x7F05006A
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034218;
+			public const int mtrl_tabs_colored_ripple_color = 2131034218;
 			
 			// aapt resource value: 0x7F05006B
-			public const int mtrl_tabs_ripple_color = 2131034219;
-			
-			// aapt resource value: 0x7F05006D
-			public const int mtrl_textinput_default_box_stroke_color = 2131034221;
-			
-			// aapt resource value: 0x7F05006E
-			public const int mtrl_textinput_disabled_color = 2131034222;
-			
-			// aapt resource value: 0x7F05006F
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034223;
-			
-			// aapt resource value: 0x7F050070
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034224;
+			public const int mtrl_tabs_icon_color_selector = 2131034219;
 			
 			// aapt resource value: 0x7F05006C
-			public const int mtrl_text_btn_text_color_selector = 2131034220;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034220;
+			
+			// aapt resource value: 0x7F05006D
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034221;
+			
+			// aapt resource value: 0x7F05006E
+			public const int mtrl_tabs_ripple_color = 2131034222;
+			
+			// aapt resource value: 0x7F050070
+			public const int mtrl_textinput_default_box_stroke_color = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int notification_action_color_filter = 2131034225;
+			public const int mtrl_textinput_disabled_color = 2131034225;
 			
 			// aapt resource value: 0x7F050072
-			public const int notification_icon_bg_color = 2131034226;
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int notification_material_background_media_default_color = 2131034227;
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034227;
+			
+			// aapt resource value: 0x7F05006F
+			public const int mtrl_text_btn_text_color_selector = 2131034223;
 			
 			// aapt resource value: 0x7F050074
-			public const int primary_dark_material_dark = 2131034228;
+			public const int notification_action_color_filter = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int primary_dark_material_light = 2131034229;
+			public const int notification_icon_bg_color = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int primary_material_dark = 2131034230;
+			public const int notification_material_background_media_default_color = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int primary_material_light = 2131034231;
+			public const int primary_dark_material_dark = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int primary_text_default_material_dark = 2131034232;
+			public const int primary_dark_material_light = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int primary_text_default_material_light = 2131034233;
+			public const int primary_material_dark = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int primary_text_disabled_material_dark = 2131034234;
+			public const int primary_material_light = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int primary_text_disabled_material_light = 2131034235;
+			public const int primary_text_default_material_dark = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int ripple_material_dark = 2131034236;
+			public const int primary_text_default_material_light = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int ripple_material_light = 2131034237;
+			public const int primary_text_disabled_material_dark = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int secondary_text_default_material_dark = 2131034238;
+			public const int primary_text_disabled_material_light = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int secondary_text_default_material_light = 2131034239;
+			public const int ripple_material_dark = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int secondary_text_disabled_material_dark = 2131034240;
+			public const int ripple_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int secondary_text_disabled_material_light = 2131034241;
+			public const int secondary_text_default_material_dark = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_disabled_material_dark = 2131034242;
+			public const int secondary_text_default_material_light = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_disabled_material_light = 2131034243;
+			public const int secondary_text_disabled_material_dark = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_material_dark = 2131034244;
+			public const int secondary_text_disabled_material_light = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_material_light = 2131034245;
+			public const int switch_thumb_disabled_material_dark = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int switch_thumb_normal_material_dark = 2131034246;
+			public const int switch_thumb_disabled_material_light = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int switch_thumb_normal_material_light = 2131034247;
+			public const int switch_thumb_material_dark = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int tooltip_background_dark = 2131034248;
+			public const int switch_thumb_material_light = 2131034248;
 			
 			// aapt resource value: 0x7F050089
-			public const int tooltip_background_light = 2131034249;
+			public const int switch_thumb_normal_material_dark = 2131034249;
+			
+			// aapt resource value: 0x7F05008A
+			public const int switch_thumb_normal_material_light = 2131034250;
+			
+			// aapt resource value: 0x7F05008B
+			public const int tooltip_background_dark = 2131034251;
+			
+			// aapt resource value: 0x7F05008C
+			public const int tooltip_background_light = 2131034252;
+			
+			// aapt resource value: 0x7F05008D
+			public const int vpi__background_holo_dark = 2131034253;
+			
+			// aapt resource value: 0x7F05008E
+			public const int vpi__background_holo_light = 2131034254;
+			
+			// aapt resource value: 0x7F05008F
+			public const int vpi__bright_foreground_disabled_holo_dark = 2131034255;
+			
+			// aapt resource value: 0x7F050090
+			public const int vpi__bright_foreground_disabled_holo_light = 2131034256;
+			
+			// aapt resource value: 0x7F050091
+			public const int vpi__bright_foreground_holo_dark = 2131034257;
+			
+			// aapt resource value: 0x7F050092
+			public const int vpi__bright_foreground_holo_light = 2131034258;
+			
+			// aapt resource value: 0x7F050093
+			public const int vpi__bright_foreground_inverse_holo_dark = 2131034259;
+			
+			// aapt resource value: 0x7F050094
+			public const int vpi__bright_foreground_inverse_holo_light = 2131034260;
 			
 			static Color()
 			{
@@ -15200,406 +18466,412 @@ namespace Apptesty.Droid
 			public const int compat_notification_large_icon_max_width = 2131099737;
 			
 			// aapt resource value: 0x7F06005A
-			public const int design_appbar_elevation = 2131099738;
+			public const int default_circle_indicator_radius = 2131099738;
 			
 			// aapt resource value: 0x7F06005B
-			public const int design_bottom_navigation_active_item_max_width = 2131099739;
+			public const int default_circle_indicator_stroke_width = 2131099739;
 			
 			// aapt resource value: 0x7F06005C
-			public const int design_bottom_navigation_active_item_min_width = 2131099740;
+			public const int design_appbar_elevation = 2131099740;
 			
 			// aapt resource value: 0x7F06005D
-			public const int design_bottom_navigation_active_text_size = 2131099741;
+			public const int design_bottom_navigation_active_item_max_width = 2131099741;
 			
 			// aapt resource value: 0x7F06005E
-			public const int design_bottom_navigation_elevation = 2131099742;
+			public const int design_bottom_navigation_active_item_min_width = 2131099742;
 			
 			// aapt resource value: 0x7F06005F
-			public const int design_bottom_navigation_height = 2131099743;
+			public const int design_bottom_navigation_active_text_size = 2131099743;
 			
 			// aapt resource value: 0x7F060060
-			public const int design_bottom_navigation_icon_size = 2131099744;
+			public const int design_bottom_navigation_elevation = 2131099744;
 			
 			// aapt resource value: 0x7F060061
-			public const int design_bottom_navigation_item_max_width = 2131099745;
+			public const int design_bottom_navigation_height = 2131099745;
 			
 			// aapt resource value: 0x7F060062
-			public const int design_bottom_navigation_item_min_width = 2131099746;
+			public const int design_bottom_navigation_icon_size = 2131099746;
 			
 			// aapt resource value: 0x7F060063
-			public const int design_bottom_navigation_margin = 2131099747;
+			public const int design_bottom_navigation_item_max_width = 2131099747;
 			
 			// aapt resource value: 0x7F060064
-			public const int design_bottom_navigation_shadow_height = 2131099748;
+			public const int design_bottom_navigation_item_min_width = 2131099748;
 			
 			// aapt resource value: 0x7F060065
-			public const int design_bottom_navigation_text_size = 2131099749;
+			public const int design_bottom_navigation_margin = 2131099749;
 			
 			// aapt resource value: 0x7F060066
-			public const int design_bottom_sheet_modal_elevation = 2131099750;
+			public const int design_bottom_navigation_shadow_height = 2131099750;
 			
 			// aapt resource value: 0x7F060067
-			public const int design_bottom_sheet_peek_height_min = 2131099751;
+			public const int design_bottom_navigation_text_size = 2131099751;
 			
 			// aapt resource value: 0x7F060068
-			public const int design_fab_border_width = 2131099752;
+			public const int design_bottom_sheet_modal_elevation = 2131099752;
 			
 			// aapt resource value: 0x7F060069
-			public const int design_fab_elevation = 2131099753;
+			public const int design_bottom_sheet_peek_height_min = 2131099753;
 			
 			// aapt resource value: 0x7F06006A
-			public const int design_fab_image_size = 2131099754;
+			public const int design_fab_border_width = 2131099754;
 			
 			// aapt resource value: 0x7F06006B
-			public const int design_fab_size_mini = 2131099755;
+			public const int design_fab_elevation = 2131099755;
 			
 			// aapt resource value: 0x7F06006C
-			public const int design_fab_size_normal = 2131099756;
+			public const int design_fab_image_size = 2131099756;
 			
 			// aapt resource value: 0x7F06006D
-			public const int design_fab_translation_z_hovered_focused = 2131099757;
+			public const int design_fab_size_mini = 2131099757;
 			
 			// aapt resource value: 0x7F06006E
-			public const int design_fab_translation_z_pressed = 2131099758;
+			public const int design_fab_size_normal = 2131099758;
 			
 			// aapt resource value: 0x7F06006F
-			public const int design_navigation_elevation = 2131099759;
+			public const int design_fab_translation_z_hovered_focused = 2131099759;
 			
 			// aapt resource value: 0x7F060070
-			public const int design_navigation_icon_padding = 2131099760;
+			public const int design_fab_translation_z_pressed = 2131099760;
 			
 			// aapt resource value: 0x7F060071
-			public const int design_navigation_icon_size = 2131099761;
+			public const int design_navigation_elevation = 2131099761;
 			
 			// aapt resource value: 0x7F060072
-			public const int design_navigation_item_horizontal_padding = 2131099762;
+			public const int design_navigation_icon_padding = 2131099762;
 			
 			// aapt resource value: 0x7F060073
-			public const int design_navigation_item_icon_padding = 2131099763;
+			public const int design_navigation_icon_size = 2131099763;
 			
 			// aapt resource value: 0x7F060074
-			public const int design_navigation_max_width = 2131099764;
+			public const int design_navigation_item_horizontal_padding = 2131099764;
 			
 			// aapt resource value: 0x7F060075
-			public const int design_navigation_padding_bottom = 2131099765;
+			public const int design_navigation_item_icon_padding = 2131099765;
 			
 			// aapt resource value: 0x7F060076
-			public const int design_navigation_separator_vertical_padding = 2131099766;
+			public const int design_navigation_max_width = 2131099766;
 			
 			// aapt resource value: 0x7F060077
-			public const int design_snackbar_action_inline_max_width = 2131099767;
+			public const int design_navigation_padding_bottom = 2131099767;
 			
 			// aapt resource value: 0x7F060078
-			public const int design_snackbar_background_corner_radius = 2131099768;
+			public const int design_navigation_separator_vertical_padding = 2131099768;
 			
 			// aapt resource value: 0x7F060079
-			public const int design_snackbar_elevation = 2131099769;
+			public const int design_snackbar_action_inline_max_width = 2131099769;
 			
 			// aapt resource value: 0x7F06007A
-			public const int design_snackbar_extra_spacing_horizontal = 2131099770;
+			public const int design_snackbar_background_corner_radius = 2131099770;
 			
 			// aapt resource value: 0x7F06007B
-			public const int design_snackbar_max_width = 2131099771;
+			public const int design_snackbar_elevation = 2131099771;
 			
 			// aapt resource value: 0x7F06007C
-			public const int design_snackbar_min_width = 2131099772;
+			public const int design_snackbar_extra_spacing_horizontal = 2131099772;
 			
 			// aapt resource value: 0x7F06007D
-			public const int design_snackbar_padding_horizontal = 2131099773;
+			public const int design_snackbar_max_width = 2131099773;
 			
 			// aapt resource value: 0x7F06007E
-			public const int design_snackbar_padding_vertical = 2131099774;
+			public const int design_snackbar_min_width = 2131099774;
 			
 			// aapt resource value: 0x7F06007F
-			public const int design_snackbar_padding_vertical_2lines = 2131099775;
+			public const int design_snackbar_padding_horizontal = 2131099775;
 			
 			// aapt resource value: 0x7F060080
-			public const int design_snackbar_text_size = 2131099776;
+			public const int design_snackbar_padding_vertical = 2131099776;
 			
 			// aapt resource value: 0x7F060081
-			public const int design_tab_max_width = 2131099777;
+			public const int design_snackbar_padding_vertical_2lines = 2131099777;
 			
 			// aapt resource value: 0x7F060082
-			public const int design_tab_scrollable_min_width = 2131099778;
+			public const int design_snackbar_text_size = 2131099778;
 			
 			// aapt resource value: 0x7F060083
-			public const int design_tab_text_size = 2131099779;
+			public const int design_tab_max_width = 2131099779;
 			
 			// aapt resource value: 0x7F060084
-			public const int design_tab_text_size_2line = 2131099780;
+			public const int design_tab_scrollable_min_width = 2131099780;
 			
 			// aapt resource value: 0x7F060085
-			public const int design_textinput_caption_translate_y = 2131099781;
+			public const int design_tab_text_size = 2131099781;
 			
 			// aapt resource value: 0x7F060086
-			public const int disabled_alpha_material_dark = 2131099782;
+			public const int design_tab_text_size_2line = 2131099782;
 			
 			// aapt resource value: 0x7F060087
-			public const int disabled_alpha_material_light = 2131099783;
+			public const int design_textinput_caption_translate_y = 2131099783;
 			
 			// aapt resource value: 0x7F060088
-			public const int fastscroll_default_thickness = 2131099784;
+			public const int disabled_alpha_material_dark = 2131099784;
 			
 			// aapt resource value: 0x7F060089
-			public const int fastscroll_margin = 2131099785;
+			public const int disabled_alpha_material_light = 2131099785;
 			
 			// aapt resource value: 0x7F06008A
-			public const int fastscroll_minimum_range = 2131099786;
+			public const int fastscroll_default_thickness = 2131099786;
 			
 			// aapt resource value: 0x7F06008B
-			public const int highlight_alpha_material_colored = 2131099787;
+			public const int fastscroll_margin = 2131099787;
 			
 			// aapt resource value: 0x7F06008C
-			public const int highlight_alpha_material_dark = 2131099788;
+			public const int fastscroll_minimum_range = 2131099788;
 			
 			// aapt resource value: 0x7F06008D
-			public const int highlight_alpha_material_light = 2131099789;
+			public const int highlight_alpha_material_colored = 2131099789;
 			
 			// aapt resource value: 0x7F06008E
-			public const int hint_alpha_material_dark = 2131099790;
+			public const int highlight_alpha_material_dark = 2131099790;
 			
 			// aapt resource value: 0x7F06008F
-			public const int hint_alpha_material_light = 2131099791;
+			public const int highlight_alpha_material_light = 2131099791;
 			
 			// aapt resource value: 0x7F060090
-			public const int hint_pressed_alpha_material_dark = 2131099792;
+			public const int hint_alpha_material_dark = 2131099792;
 			
 			// aapt resource value: 0x7F060091
-			public const int hint_pressed_alpha_material_light = 2131099793;
+			public const int hint_alpha_material_light = 2131099793;
 			
 			// aapt resource value: 0x7F060092
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099794;
+			public const int hint_pressed_alpha_material_dark = 2131099794;
 			
 			// aapt resource value: 0x7F060093
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131099795;
+			public const int hint_pressed_alpha_material_light = 2131099795;
 			
 			// aapt resource value: 0x7F060094
-			public const int item_touch_helper_swipe_escape_velocity = 2131099796;
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099796;
 			
 			// aapt resource value: 0x7F060095
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099797;
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131099797;
 			
 			// aapt resource value: 0x7F060096
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099798;
+			public const int item_touch_helper_swipe_escape_velocity = 2131099798;
 			
 			// aapt resource value: 0x7F060097
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099799;
+			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099799;
 			
 			// aapt resource value: 0x7F060098
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099800;
+			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099800;
 			
 			// aapt resource value: 0x7F060099
-			public const int mtrl_bottomappbar_height = 2131099801;
+			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099801;
 			
 			// aapt resource value: 0x7F06009A
-			public const int mtrl_btn_corner_radius = 2131099802;
+			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099802;
 			
 			// aapt resource value: 0x7F06009B
-			public const int mtrl_btn_dialog_btn_min_width = 2131099803;
+			public const int mtrl_bottomappbar_height = 2131099803;
 			
 			// aapt resource value: 0x7F06009C
-			public const int mtrl_btn_disabled_elevation = 2131099804;
+			public const int mtrl_btn_corner_radius = 2131099804;
 			
 			// aapt resource value: 0x7F06009D
-			public const int mtrl_btn_disabled_z = 2131099805;
+			public const int mtrl_btn_dialog_btn_min_width = 2131099805;
 			
 			// aapt resource value: 0x7F06009E
-			public const int mtrl_btn_elevation = 2131099806;
+			public const int mtrl_btn_disabled_elevation = 2131099806;
 			
 			// aapt resource value: 0x7F06009F
-			public const int mtrl_btn_focused_z = 2131099807;
+			public const int mtrl_btn_disabled_z = 2131099807;
 			
 			// aapt resource value: 0x7F0600A0
-			public const int mtrl_btn_hovered_z = 2131099808;
+			public const int mtrl_btn_elevation = 2131099808;
 			
 			// aapt resource value: 0x7F0600A1
-			public const int mtrl_btn_icon_btn_padding_left = 2131099809;
+			public const int mtrl_btn_focused_z = 2131099809;
 			
 			// aapt resource value: 0x7F0600A2
-			public const int mtrl_btn_icon_padding = 2131099810;
+			public const int mtrl_btn_hovered_z = 2131099810;
 			
 			// aapt resource value: 0x7F0600A3
-			public const int mtrl_btn_inset = 2131099811;
+			public const int mtrl_btn_icon_btn_padding_left = 2131099811;
 			
 			// aapt resource value: 0x7F0600A4
-			public const int mtrl_btn_letter_spacing = 2131099812;
+			public const int mtrl_btn_icon_padding = 2131099812;
 			
 			// aapt resource value: 0x7F0600A5
-			public const int mtrl_btn_padding_bottom = 2131099813;
+			public const int mtrl_btn_inset = 2131099813;
 			
 			// aapt resource value: 0x7F0600A6
-			public const int mtrl_btn_padding_left = 2131099814;
+			public const int mtrl_btn_letter_spacing = 2131099814;
 			
 			// aapt resource value: 0x7F0600A7
-			public const int mtrl_btn_padding_right = 2131099815;
+			public const int mtrl_btn_padding_bottom = 2131099815;
 			
 			// aapt resource value: 0x7F0600A8
-			public const int mtrl_btn_padding_top = 2131099816;
+			public const int mtrl_btn_padding_left = 2131099816;
 			
 			// aapt resource value: 0x7F0600A9
-			public const int mtrl_btn_pressed_z = 2131099817;
+			public const int mtrl_btn_padding_right = 2131099817;
 			
 			// aapt resource value: 0x7F0600AA
-			public const int mtrl_btn_stroke_size = 2131099818;
+			public const int mtrl_btn_padding_top = 2131099818;
 			
 			// aapt resource value: 0x7F0600AB
-			public const int mtrl_btn_text_btn_icon_padding = 2131099819;
+			public const int mtrl_btn_pressed_z = 2131099819;
 			
 			// aapt resource value: 0x7F0600AC
-			public const int mtrl_btn_text_btn_padding_left = 2131099820;
+			public const int mtrl_btn_stroke_size = 2131099820;
 			
 			// aapt resource value: 0x7F0600AD
-			public const int mtrl_btn_text_btn_padding_right = 2131099821;
+			public const int mtrl_btn_text_btn_icon_padding = 2131099821;
 			
 			// aapt resource value: 0x7F0600AE
-			public const int mtrl_btn_text_size = 2131099822;
+			public const int mtrl_btn_text_btn_padding_left = 2131099822;
 			
 			// aapt resource value: 0x7F0600AF
-			public const int mtrl_btn_z = 2131099823;
+			public const int mtrl_btn_text_btn_padding_right = 2131099823;
 			
 			// aapt resource value: 0x7F0600B0
-			public const int mtrl_card_elevation = 2131099824;
+			public const int mtrl_btn_text_size = 2131099824;
 			
 			// aapt resource value: 0x7F0600B1
-			public const int mtrl_card_spacing = 2131099825;
+			public const int mtrl_btn_z = 2131099825;
 			
 			// aapt resource value: 0x7F0600B2
-			public const int mtrl_chip_pressed_translation_z = 2131099826;
+			public const int mtrl_card_elevation = 2131099826;
 			
 			// aapt resource value: 0x7F0600B3
-			public const int mtrl_chip_text_size = 2131099827;
+			public const int mtrl_card_spacing = 2131099827;
 			
 			// aapt resource value: 0x7F0600B4
-			public const int mtrl_fab_elevation = 2131099828;
+			public const int mtrl_chip_pressed_translation_z = 2131099828;
 			
 			// aapt resource value: 0x7F0600B5
-			public const int mtrl_fab_translation_z_hovered_focused = 2131099829;
+			public const int mtrl_chip_text_size = 2131099829;
 			
 			// aapt resource value: 0x7F0600B6
-			public const int mtrl_fab_translation_z_pressed = 2131099830;
+			public const int mtrl_fab_elevation = 2131099830;
 			
 			// aapt resource value: 0x7F0600B7
-			public const int mtrl_navigation_elevation = 2131099831;
+			public const int mtrl_fab_translation_z_hovered_focused = 2131099831;
 			
 			// aapt resource value: 0x7F0600B8
-			public const int mtrl_navigation_item_horizontal_padding = 2131099832;
+			public const int mtrl_fab_translation_z_pressed = 2131099832;
 			
 			// aapt resource value: 0x7F0600B9
-			public const int mtrl_navigation_item_icon_padding = 2131099833;
+			public const int mtrl_navigation_elevation = 2131099833;
 			
 			// aapt resource value: 0x7F0600BA
-			public const int mtrl_snackbar_background_corner_radius = 2131099834;
+			public const int mtrl_navigation_item_horizontal_padding = 2131099834;
 			
 			// aapt resource value: 0x7F0600BB
-			public const int mtrl_snackbar_margin = 2131099835;
+			public const int mtrl_navigation_item_icon_padding = 2131099835;
 			
 			// aapt resource value: 0x7F0600BC
-			public const int mtrl_textinput_box_bottom_offset = 2131099836;
+			public const int mtrl_snackbar_background_corner_radius = 2131099836;
 			
 			// aapt resource value: 0x7F0600BD
-			public const int mtrl_textinput_box_corner_radius_medium = 2131099837;
+			public const int mtrl_snackbar_margin = 2131099837;
 			
 			// aapt resource value: 0x7F0600BE
-			public const int mtrl_textinput_box_corner_radius_small = 2131099838;
+			public const int mtrl_textinput_box_bottom_offset = 2131099838;
 			
 			// aapt resource value: 0x7F0600BF
-			public const int mtrl_textinput_box_label_cutout_padding = 2131099839;
+			public const int mtrl_textinput_box_corner_radius_medium = 2131099839;
 			
 			// aapt resource value: 0x7F0600C0
-			public const int mtrl_textinput_box_padding_end = 2131099840;
+			public const int mtrl_textinput_box_corner_radius_small = 2131099840;
 			
 			// aapt resource value: 0x7F0600C1
-			public const int mtrl_textinput_box_stroke_width_default = 2131099841;
+			public const int mtrl_textinput_box_label_cutout_padding = 2131099841;
 			
 			// aapt resource value: 0x7F0600C2
-			public const int mtrl_textinput_box_stroke_width_focused = 2131099842;
+			public const int mtrl_textinput_box_padding_end = 2131099842;
 			
 			// aapt resource value: 0x7F0600C3
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131099843;
+			public const int mtrl_textinput_box_stroke_width_default = 2131099843;
 			
 			// aapt resource value: 0x7F0600C4
-			public const int mtrl_toolbar_default_height = 2131099844;
+			public const int mtrl_textinput_box_stroke_width_focused = 2131099844;
 			
 			// aapt resource value: 0x7F0600C5
-			public const int notification_action_icon_size = 2131099845;
+			public const int mtrl_textinput_outline_box_expanded_padding = 2131099845;
 			
 			// aapt resource value: 0x7F0600C6
-			public const int notification_action_text_size = 2131099846;
+			public const int mtrl_toolbar_default_height = 2131099846;
 			
 			// aapt resource value: 0x7F0600C7
-			public const int notification_big_circle_margin = 2131099847;
+			public const int notification_action_icon_size = 2131099847;
 			
 			// aapt resource value: 0x7F0600C8
-			public const int notification_content_margin_start = 2131099848;
+			public const int notification_action_text_size = 2131099848;
 			
 			// aapt resource value: 0x7F0600C9
-			public const int notification_large_icon_height = 2131099849;
+			public const int notification_big_circle_margin = 2131099849;
 			
 			// aapt resource value: 0x7F0600CA
-			public const int notification_large_icon_width = 2131099850;
+			public const int notification_content_margin_start = 2131099850;
 			
 			// aapt resource value: 0x7F0600CB
-			public const int notification_main_column_padding_top = 2131099851;
+			public const int notification_large_icon_height = 2131099851;
 			
 			// aapt resource value: 0x7F0600CC
-			public const int notification_media_narrow_margin = 2131099852;
+			public const int notification_large_icon_width = 2131099852;
 			
 			// aapt resource value: 0x7F0600CD
-			public const int notification_right_icon_size = 2131099853;
+			public const int notification_main_column_padding_top = 2131099853;
 			
 			// aapt resource value: 0x7F0600CE
-			public const int notification_right_side_padding_top = 2131099854;
+			public const int notification_media_narrow_margin = 2131099854;
 			
 			// aapt resource value: 0x7F0600CF
-			public const int notification_small_icon_background_padding = 2131099855;
+			public const int notification_right_icon_size = 2131099855;
 			
 			// aapt resource value: 0x7F0600D0
-			public const int notification_small_icon_size_as_large = 2131099856;
+			public const int notification_right_side_padding_top = 2131099856;
 			
 			// aapt resource value: 0x7F0600D1
-			public const int notification_subtext_size = 2131099857;
+			public const int notification_small_icon_background_padding = 2131099857;
 			
 			// aapt resource value: 0x7F0600D2
-			public const int notification_top_pad = 2131099858;
+			public const int notification_small_icon_size_as_large = 2131099858;
 			
 			// aapt resource value: 0x7F0600D3
-			public const int notification_top_pad_large_text = 2131099859;
+			public const int notification_subtext_size = 2131099859;
 			
 			// aapt resource value: 0x7F0600D4
-			public const int subtitle_corner_radius = 2131099860;
+			public const int notification_top_pad = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int subtitle_outline_width = 2131099861;
+			public const int notification_top_pad_large_text = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int subtitle_shadow_offset = 2131099862;
+			public const int subtitle_corner_radius = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int subtitle_shadow_radius = 2131099863;
+			public const int subtitle_outline_width = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int tooltip_corner_radius = 2131099864;
+			public const int subtitle_shadow_offset = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int tooltip_horizontal_padding = 2131099865;
+			public const int subtitle_shadow_radius = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int tooltip_margin = 2131099866;
+			public const int tooltip_corner_radius = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int tooltip_precise_anchor_extra_offset = 2131099867;
+			public const int tooltip_horizontal_padding = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int tooltip_precise_anchor_threshold = 2131099868;
+			public const int tooltip_margin = 2131099868;
 			
 			// aapt resource value: 0x7F0600DD
-			public const int tooltip_vertical_padding = 2131099869;
+			public const int tooltip_precise_anchor_extra_offset = 2131099869;
 			
 			// aapt resource value: 0x7F0600DE
-			public const int tooltip_y_offset_non_touch = 2131099870;
+			public const int tooltip_precise_anchor_threshold = 2131099870;
 			
 			// aapt resource value: 0x7F0600DF
-			public const int tooltip_y_offset_touch = 2131099871;
+			public const int tooltip_vertical_padding = 2131099871;
+			
+			// aapt resource value: 0x7F0600E0
+			public const int tooltip_y_offset_non_touch = 2131099872;
+			
+			// aapt resource value: 0x7F0600E1
+			public const int tooltip_y_offset_touch = 2131099873;
 			
 			static Dimension()
 			{
@@ -15936,97 +19208,112 @@ namespace Apptesty.Droid
 			public const int design_snackbar_background = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int ebd = 2131165297;
+			public const int Down = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int huawei = 2131165298;
+			public const int ebd = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int i11 = 2131165299;
-			
-			// aapt resource value: 0x7F070077
-			public const int iclauncher = 2131165303;
+			public const int huawei = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int ic_mtrl_chip_checked_black = 2131165300;
-			
-			// aapt resource value: 0x7F070075
-			public const int ic_mtrl_chip_checked_circle = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int ic_mtrl_chip_close_circle = 2131165302;
+			public const int i11 = 2131165300;
 			
 			// aapt resource value: 0x7F070078
-			public const int infifinix = 2131165304;
+			public const int iclauncher = 2131165304;
+			
+			// aapt resource value: 0x7F070075
+			public const int ic_mtrl_chip_checked_black = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int ic_mtrl_chip_checked_circle = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int ic_mtrl_chip_close_circle = 2131165303;
 			
 			// aapt resource value: 0x7F070079
-			public const int iphone = 2131165305;
+			public const int infifinix = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_snackbar_background = 2131165306;
+			public const int iphone = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_tabs_default_indicator = 2131165307;
+			public const int mtrl_snackbar_background = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int navigation_empty_icon = 2131165308;
+			public const int mtrl_tabs_default_indicator = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int notification_action_background = 2131165309;
+			public const int navigation_empty_icon = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int notification_bg = 2131165310;
+			public const int Next = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int notification_bg_low = 2131165311;
+			public const int notification_action_background = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_bg_low_normal = 2131165312;
+			public const int notification_bg = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_bg_low_pressed = 2131165313;
+			public const int notification_bg_low = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_bg_normal = 2131165314;
+			public const int notification_bg_low_normal = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg_normal_pressed = 2131165315;
+			public const int notification_bg_low_pressed = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_icon_background = 2131165316;
+			public const int notification_bg_normal = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_template_icon_bg = 2131165317;
+			public const int notification_bg_normal_pressed = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_template_icon_low_bg = 2131165318;
+			public const int notification_icon_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_tile_bg = 2131165319;
+			public const int notification_template_icon_bg = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notify_panel_notification_icon_bg = 2131165320;
+			public const int notification_template_icon_low_bg = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int oppoa73 = 2131165321;
+			public const int notification_tile_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ph = 2131165322;
+			public const int notify_panel_notification_icon_bg = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int Realme = 2131165323;
+			public const int oppoa73 = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int samsung = 2131165324;
+			public const int ph = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int tooltip_frame_dark = 2131165325;
+			public const int Prev = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tooltip_frame_light = 2131165326;
+			public const int Realme = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int Xiaomi = 2131165327;
+			public const int samsung = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int tooltip_frame_dark = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int tooltip_frame_light = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int Up = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int watermark = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int Xiaomi = 2131165332;
 			
 			static Drawable()
 			{
@@ -16411,415 +19698,439 @@ namespace Apptesty.Droid
 			public const int homeAsUp = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int icon = 2131230846;
+			public const int horizontal = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int icon_group = 2131230847;
+			public const int icon = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int ifRoom = 2131230848;
+			public const int icon_group = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int image = 2131230849;
+			public const int ifRoom = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int info = 2131230850;
+			public const int image = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int italic = 2131230851;
+			public const int indicator = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int item_touch_helper_previous_elevation = 2131230852;
+			public const int info = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int labeled = 2131230853;
+			public const int italic = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int largeLabel = 2131230854;
+			public const int item_touch_helper_previous_elevation = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int left = 2131230855;
+			public const int labeled = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int line1 = 2131230856;
+			public const int largeLabel = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int line3 = 2131230857;
+			public const int left = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int listMode = 2131230858;
+			public const int line1 = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int list_item = 2131230859;
+			public const int line3 = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int lottie_layer_name = 2131230860;
+			public const int listMode = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int main_appbar = 2131230861;
+			public const int list_item = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int main_tablayout = 2131230862;
+			public const int lottie_layer_name = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int main_toolbar = 2131230863;
+			public const int main_appbar = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int main_viewpager = 2131230864;
+			public const int main_tablayout = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int masked = 2131230865;
+			public const int main_toolbar = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int media_actions = 2131230866;
+			public const int main_viewpager = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int message = 2131230867;
+			public const int masked = 2131230867;
+			
+			// aapt resource value: 0x7F080094
+			public const int media_actions = 2131230868;
+			
+			// aapt resource value: 0x7F080095
+			public const int message = 2131230869;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080094
-			public const int middle = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int mini = 2131230869;
-			
 			// aapt resource value: 0x7F080096
-			public const int mtrl_child_content_container = 2131230870;
+			public const int middle = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int mtrl_internal_children_alpha_tag = 2131230871;
+			public const int mini = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int multiply = 2131230872;
+			public const int mtrl_child_content_container = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int navigation_header_container = 2131230873;
+			public const int mtrl_internal_children_alpha_tag = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int never = 2131230874;
+			public const int multiply = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int none = 2131230875;
+			public const int navigation_header_container = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int normal = 2131230876;
+			public const int never = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int notification_background = 2131230877;
+			public const int next = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int notification_main_column = 2131230878;
+			public const int nextArrow = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int notification_main_column_container = 2131230879;
+			public const int none = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int off = 2131230880;
+			public const int normal = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int on = 2131230881;
+			public const int notification_background = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int outline = 2131230882;
+			public const int notification_main_column = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int parallax = 2131230883;
+			public const int notification_main_column_container = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int parentPanel = 2131230884;
+			public const int off = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int parent_matrix = 2131230885;
+			public const int on = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int pin = 2131230886;
+			public const int outline = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int progress_circular = 2131230887;
+			public const int pager = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int progress_horizontal = 2131230888;
+			public const int parallax = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int radio = 2131230889;
+			public const int parentPanel = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int restart = 2131230890;
+			public const int parent_matrix = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int reverse = 2131230891;
+			public const int pin = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int right = 2131230892;
+			public const int prev = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int right_icon = 2131230893;
+			public const int prevArrow = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int right_side = 2131230894;
+			public const int progress_circular = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int save_non_transition_alpha = 2131230895;
+			public const int progress_horizontal = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int save_overlay_view = 2131230896;
+			public const int radio = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int screen = 2131230897;
+			public const int restart = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int scroll = 2131230898;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int scrollable = 2131230902;
+			public const int reverse = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int scrollIndicatorDown = 2131230899;
+			public const int right = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int scrollIndicatorUp = 2131230900;
+			public const int right_icon = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int scrollView = 2131230901;
+			public const int right_side = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int save_non_transition_alpha = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int search_badge = 2131230903;
+			public const int save_overlay_view = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int search_bar = 2131230904;
+			public const int screen = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int search_button = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int search_close_btn = 2131230906;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int search_edit_frame = 2131230907;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int search_go_btn = 2131230908;
+			public const int scroll = 2131230905;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int search_mag_icon = 2131230909;
+			public const int scrollable = 2131230909;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int scrollIndicatorDown = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int scrollIndicatorUp = 2131230907;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int scrollView = 2131230908;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int search_plate = 2131230910;
+			public const int search_badge = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int search_src_text = 2131230911;
+			public const int search_bar = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int search_voice_btn = 2131230912;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int selected = 2131230914;
+			public const int search_button = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int select_dialog_listview = 2131230913;
+			public const int search_close_btn = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int search_edit_frame = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int shellcontent_appbar = 2131230915;
+			public const int search_go_btn = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int shellcontent_toolbar = 2131230916;
+			public const int search_mag_icon = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int search_plate = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int search_src_text = 2131230918;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int search_voice_btn = 2131230919;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int selected = 2131230921;
+			
+			// aapt resource value: 0x7F0800C8
+			public const int select_dialog_listview = 2131230920;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int shellcontent_appbar = 2131230922;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int shellcontent_toolbar = 2131230923;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800C5
-			public const int shortcut = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int showCustom = 2131230918;
-			
-			// aapt resource value: 0x7F0800C7
-			public const int showHome = 2131230919;
-			
-			// aapt resource value: 0x7F0800C8
-			public const int showTitle = 2131230920;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int sliding_tabs = 2131230921;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int smallLabel = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int snackbar_action = 2131230923;
-			
 			// aapt resource value: 0x7F0800CC
-			public const int snackbar_text = 2131230924;
+			public const int shortcut = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int snap = 2131230925;
+			public const int showCustom = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int snapMargins = 2131230926;
+			public const int showHome = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int software = 2131230927;
+			public const int showTitle = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int spacer = 2131230928;
+			public const int sliding_tabs = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int split_action_bar = 2131230929;
+			public const int smallLabel = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int src_atop = 2131230930;
+			public const int snackbar_action = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int src_in = 2131230931;
+			public const int snackbar_text = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int src_over = 2131230932;
+			public const int snap = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int start = 2131230933;
+			public const int snapMargins = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int status_bar_latest_event_content = 2131230934;
+			public const int software = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int stretch = 2131230935;
+			public const int spacer = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int submenuarrow = 2131230936;
+			public const int split_action_bar = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int submit_area = 2131230937;
+			public const int src_atop = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int src_in = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int src_over = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int start = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int status_bar_latest_event_content = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int stretch = 2131230942;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int submenuarrow = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int submit_area = 2131230944;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800DA
-			public const int tabMode = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int tag_accessibility_actions = 2131230939;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int tag_accessibility_clickable_spans = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int tag_accessibility_heading = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int tag_accessibility_pane_title = 2131230942;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int tag_screen_reader_focusable = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int tag_transition_group = 2131230944;
-			
 			// aapt resource value: 0x7F0800E1
-			public const int tag_unhandled_key_event_manager = 2131230945;
+			public const int tabMode = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int tag_unhandled_key_listeners = 2131230946;
+			public const int tag_accessibility_actions = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int text = 2131230947;
+			public const int tag_accessibility_clickable_spans = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int text2 = 2131230948;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int textinput_counter = 2131230953;
-			
-			// aapt resource value: 0x7F0800EA
-			public const int textinput_error = 2131230954;
-			
-			// aapt resource value: 0x7F0800EB
-			public const int textinput_helper_text = 2131230955;
+			public const int tag_accessibility_heading = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int textSpacerNoButtons = 2131230949;
+			public const int tag_accessibility_pane_title = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int textSpacerNoTitle = 2131230950;
+			public const int tag_screen_reader_focusable = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int textStart = 2131230951;
+			public const int tag_transition_group = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int text_input_password_toggle = 2131230952;
+			public const int tag_unhandled_key_event_manager = 2131230952;
 			
-			// aapt resource value: 0x7F0800EC
-			public const int time = 2131230956;
+			// aapt resource value: 0x7F0800E9
+			public const int tag_unhandled_key_listeners = 2131230953;
 			
-			// aapt resource value: 0x7F0800ED
-			public const int title = 2131230957;
+			// aapt resource value: 0x7F0800EA
+			public const int text = 2131230954;
 			
-			// aapt resource value: 0x7F0800EE
-			public const int titleDividerNoCustom = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int title_template = 2131230959;
+			// aapt resource value: 0x7F0800EB
+			public const int text2 = 2131230955;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int toolbar = 2131230960;
+			public const int textinput_counter = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int top = 2131230961;
+			public const int textinput_error = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int topPanel = 2131230962;
+			public const int textinput_helper_text = 2131230962;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int textSpacerNoButtons = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int textSpacerNoTitle = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int textStart = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int text_input_password_toggle = 2131230959;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int touch_outside = 2131230963;
+			public const int time = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int transition_current_scene = 2131230964;
+			public const int title = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int transition_layout_save = 2131230965;
+			public const int titleDividerNoCustom = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int transition_position = 2131230966;
+			public const int title_template = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int transition_scene_layoutid_cache = 2131230967;
+			public const int toolbar = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int transition_transform = 2131230968;
+			public const int top = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int @unchecked = 2131230969;
+			public const int topPanel = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int uniform = 2131230970;
+			public const int touch_outside = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int unlabeled = 2131230971;
+			public const int transition_current_scene = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int up = 2131230972;
+			public const int transition_layout_save = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int useLogo = 2131230973;
+			public const int transition_position = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int view_offset_helper = 2131230974;
+			public const int transition_scene_layoutid_cache = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int view_tree_saved_state_registry_owner = 2131230975;
+			public const int transition_transform = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int visible = 2131230976;
+			public const int @unchecked = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int visible_removing_fragment_view_tag = 2131230977;
+			public const int uniform = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int withText = 2131230978;
+			public const int unlabeled = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int wrap_content = 2131230979;
+			public const int up = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int useLogo = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int vertical = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int view_offset_helper = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int view_tree_saved_state_registry_owner = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int visible = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int visible_removing_fragment_view_tag = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int withText = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int wrap_content = 2131230987;
 			
 			static Id()
 			{
@@ -16853,34 +20164,37 @@ namespace Apptesty.Droid
 			public const int config_tooltipAnimTime = 2131296261;
 			
 			// aapt resource value: 0x7F090006
-			public const int design_snackbar_text_max_lines = 2131296262;
+			public const int default_circle_indicator_orientation = 2131296262;
 			
 			// aapt resource value: 0x7F090007
-			public const int design_tab_indicator_anim_duration_ms = 2131296263;
+			public const int design_snackbar_text_max_lines = 2131296263;
 			
 			// aapt resource value: 0x7F090008
-			public const int google_play_services_version = 2131296264;
+			public const int design_tab_indicator_anim_duration_ms = 2131296264;
 			
 			// aapt resource value: 0x7F090009
-			public const int hide_password_duration = 2131296265;
+			public const int google_play_services_version = 2131296265;
 			
 			// aapt resource value: 0x7F09000A
-			public const int mtrl_btn_anim_delay_ms = 2131296266;
+			public const int hide_password_duration = 2131296266;
 			
 			// aapt resource value: 0x7F09000B
-			public const int mtrl_btn_anim_duration_ms = 2131296267;
+			public const int mtrl_btn_anim_delay_ms = 2131296267;
 			
 			// aapt resource value: 0x7F09000C
-			public const int mtrl_chip_anim_duration = 2131296268;
+			public const int mtrl_btn_anim_duration_ms = 2131296268;
 			
 			// aapt resource value: 0x7F09000D
-			public const int mtrl_tab_indicator_anim_duration_ms = 2131296269;
+			public const int mtrl_chip_anim_duration = 2131296269;
 			
 			// aapt resource value: 0x7F09000E
-			public const int show_password_duration = 2131296270;
+			public const int mtrl_tab_indicator_anim_duration_ms = 2131296270;
 			
 			// aapt resource value: 0x7F09000F
-			public const int status_bar_notification_info_maxnum = 2131296271;
+			public const int show_password_duration = 2131296271;
+			
+			// aapt resource value: 0x7F090010
+			public const int status_bar_notification_info_maxnum = 2131296272;
 			
 			static Integer()
 			{
@@ -17089,85 +20403,91 @@ namespace Apptesty.Droid
 			public const int FlyoutContent = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mtrl_layout_snackbar = 2131427377;
+			public const int horizontal_viewpager = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mtrl_layout_snackbar_include = 2131427378;
+			public const int mtrl_layout_snackbar = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_action = 2131427379;
+			public const int mtrl_layout_snackbar_include = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_action_tombstone = 2131427380;
+			public const int notification_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_media_action = 2131427381;
+			public const int notification_action_tombstone = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_media_cancel_action = 2131427382;
+			public const int notification_media_action = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media = 2131427383;
+			public const int notification_media_cancel_action = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_big_media_custom = 2131427384;
+			public const int notification_template_big_media = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_big_media_narrow = 2131427385;
+			public const int notification_template_big_media_custom = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_big_media_narrow_custom = 2131427386;
+			public const int notification_template_big_media_narrow = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_custom_big = 2131427387;
+			public const int notification_template_big_media_narrow_custom = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_icon_group = 2131427388;
+			public const int notification_template_custom_big = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_lines_media = 2131427389;
+			public const int notification_template_icon_group = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_media = 2131427390;
+			public const int notification_template_lines_media = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int notification_template_media_custom = 2131427391;
+			public const int notification_template_media = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int notification_template_part_chronometer = 2131427392;
+			public const int notification_template_media_custom = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int notification_template_part_time = 2131427393;
+			public const int notification_template_part_chronometer = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int RootLayout = 2131427394;
+			public const int notification_template_part_time = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int select_dialog_item_material = 2131427395;
+			public const int RootLayout = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int select_dialog_multichoice_material = 2131427396;
+			public const int select_dialog_item_material = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int select_dialog_singlechoice_material = 2131427397;
+			public const int select_dialog_multichoice_material = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int ShellContent = 2131427398;
+			public const int select_dialog_singlechoice_material = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int support_simple_spinner_dropdown_item = 2131427399;
+			public const int ShellContent = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int Tabbar = 2131427400;
+			public const int support_simple_spinner_dropdown_item = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int Toolbar = 2131427401;
+			public const int Tabbar = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int zxingscanneractivitylayout = 2131427402;
+			public const int Toolbar = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int zxingscannerfragmentlayout = 2131427403;
+			public const int vertical_viewpager = 2131427403;
+			
+			// aapt resource value: 0x7F0B004C
+			public const int zxingscanneractivitylayout = 2131427404;
+			
+			// aapt resource value: 0x7F0B004D
+			public const int zxingscannerfragmentlayout = 2131427405;
 			
 			static Layout()
 			{
@@ -17346,34 +20666,37 @@ namespace Apptesty.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			public const int library_name = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int overflow_tab_title = 2131558447;
+			public const int mtrl_chip_close_icon_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int password_toggle_content_description = 2131558448;
+			public const int overflow_tab_title = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye = 2131558449;
+			public const int password_toggle_content_description = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_strike_through = 2131558450;
+			public const int path_password_eye = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_eye_mask_visible = 2131558451;
+			public const int path_password_eye_mask_strike_through = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int path_password_strike_through = 2131558452;
+			public const int path_password_eye_mask_visible = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int project_id = 2131558453;
+			public const int path_password_strike_through = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int search_menu_title = 2131558454;
+			public const int project_id = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int status_bar_notification_info_overflow = 2131558455;
+			public const int search_menu_title = 2131558455;
+			
+			// aapt resource value: 0x7F0D0038
+			public const int status_bar_notification_info_overflow = 2131558456;
 			
 			static String()
 			{
@@ -17985,8 +21308,8 @@ namespace Apptesty.Droid
 			// aapt resource value: 0x7F0E00C6
 			public const int CardView_Light = 2131624134;
 			
-			// aapt resource value: 0x7F0E01FB
-			public const int collectionViewTheme = 2131624443;
+			// aapt resource value: 0x7F0E01FE
+			public const int collectionViewTheme = 2131624446;
 			
 			// aapt resource value: 0x7F0E00C7
 			public const int MainTheme = 2131624135;
@@ -18087,11 +21410,11 @@ namespace Apptesty.Droid
 			// aapt resource value: 0x7F0E00E7
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
 			
-			// aapt resource value: 0x7F0E01FC
-			public const int scrollViewScrollBars = 2131624444;
+			// aapt resource value: 0x7F0E01FF
+			public const int scrollViewScrollBars = 2131624447;
 			
-			// aapt resource value: 0x7F0E01FD
-			public const int scrollViewTheme = 2131624445;
+			// aapt resource value: 0x7F0E0200
+			public const int scrollViewTheme = 2131624448;
 			
 			// aapt resource value: 0x7F0E00E8
 			public const int TextAppearance_AppCompat = 2131624168;
@@ -18345,68 +21668,68 @@ namespace Apptesty.Droid
 			// aapt resource value: 0x7F0E013B
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624251;
 			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat = 2131624300;
-			
 			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624301;
+			public const int ThemeOverlay_AppCompat = 2131624301;
 			
 			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark = 2131624302;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624302;
 			
 			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624303;
+			public const int ThemeOverlay_AppCompat_Dark = 2131624303;
 			
 			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_DayNight = 2131624304;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624304;
 			
 			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131624305;
+			public const int ThemeOverlay_AppCompat_DayNight = 2131624305;
 			
 			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624306;
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131624306;
 			
 			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624307;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624307;
 			
 			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_AppCompat_Light = 2131624308;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624308;
 			
 			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents = 2131624309;
+			public const int ThemeOverlay_AppCompat_Light = 2131624309;
 			
 			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624310;
+			public const int ThemeOverlay_MaterialComponents = 2131624310;
 			
 			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624311;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624311;
 			
 			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624312;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624312;
 			
 			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624313;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624313;
 			
 			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624314;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624314;
 			
 			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624315;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624315;
 			
 			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624316;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624316;
 			
 			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624317;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624318;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624319;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624320;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624320;
+			
+			// aapt resource value: 0x7F0E0181
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624321;
 			
 			// aapt resource value: 0x7F0E013C
 			public const int Theme_AppCompat = 2131624252;
@@ -18552,371 +21875,380 @@ namespace Apptesty.Droid
 			// aapt resource value: 0x7F0E016B
 			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624299;
 			
-			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar = 2131624321;
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_PageIndicatorDefaults = 2131624300;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624322;
+			public const int Widget = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624323;
+			public const int Widget_AppCompat_ActionBar = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624324;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624325;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionButton = 2131624326;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624327;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624328;
+			public const int Widget_AppCompat_ActionButton = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_ActionMode = 2131624329;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ActivityChooserView = 2131624330;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624331;
+			public const int Widget_AppCompat_ActionMode = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button = 2131624332;
-			
-			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_ButtonBar = 2131624338;
-			
-			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624339;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_Borderless = 2131624333;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624334;
-			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624335;
-			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_Button_Colored = 2131624336;
-			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_Button_Small = 2131624337;
+			public const int Widget_AppCompat_Button = 2131624334;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624340;
+			public const int Widget_AppCompat_ButtonBar = 2131624340;
 			
 			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624341;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624341;
+			
+			// aapt resource value: 0x7F0E018F
+			public const int Widget_AppCompat_Button_Borderless = 2131624335;
+			
+			// aapt resource value: 0x7F0E0190
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624336;
+			
+			// aapt resource value: 0x7F0E0191
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624337;
+			
+			// aapt resource value: 0x7F0E0192
+			public const int Widget_AppCompat_Button_Colored = 2131624338;
+			
+			// aapt resource value: 0x7F0E0193
+			public const int Widget_AppCompat_Button_Small = 2131624339;
 			
 			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624342;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624342;
 			
 			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624343;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624343;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624344;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624344;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_EditText = 2131624345;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_ImageButton = 2131624346;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar = 2131624347;
+			public const int Widget_AppCompat_EditText = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624348;
+			public const int Widget_AppCompat_ImageButton = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624349;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624350;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624351;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624352;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624353;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624354;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionButton = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624358;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624359;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624360;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624361;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624362;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624363;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624364;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624365;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624366;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_Light_SearchView = 2131624367;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624368;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListMenuView = 2131624369;
+			public const int Widget_AppCompat_Light_SearchView = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListPopupWindow = 2131624370;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_ListView = 2131624371;
+			public const int Widget_AppCompat_ListMenuView = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_ListView_DropDown = 2131624372;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_ListView_Menu = 2131624373;
+			public const int Widget_AppCompat_ListView = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_PopupMenu = 2131624374;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624375;
+			public const int Widget_AppCompat_ListView_Menu = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_PopupWindow = 2131624376;
+			public const int Widget_AppCompat_PopupMenu = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_ProgressBar = 2131624377;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624378;
+			public const int Widget_AppCompat_PopupWindow = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_RatingBar = 2131624379;
+			public const int Widget_AppCompat_ProgressBar = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624380;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_RatingBar_Small = 2131624381;
+			public const int Widget_AppCompat_RatingBar = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SearchView = 2131624382;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624383;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_SeekBar = 2131624384;
+			public const int Widget_AppCompat_SearchView = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624385;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner = 2131624386;
+			public const int Widget_AppCompat_SeekBar = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624387;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624388;
+			public const int Widget_AppCompat_Spinner = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624389;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_TextView = 2131624390;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624391;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_AppCompat_Toolbar = 2131624392;
+			public const int Widget_AppCompat_TextView = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624393;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Compat_NotificationActionContainer = 2131624394;
+			public const int Widget_AppCompat_Toolbar = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Compat_NotificationActionText = 2131624395;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_AppBarLayout = 2131624396;
+			public const int Widget_CirclePageIndicator = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_BottomNavigationView = 2131624397;
+			public const int Widget_Compat_NotificationActionContainer = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_BottomSheet_Modal = 2131624398;
+			public const int Widget_Compat_NotificationActionText = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_CollapsingToolbar = 2131624399;
+			public const int Widget_Design_AppBarLayout = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_FloatingActionButton = 2131624400;
+			public const int Widget_Design_BottomNavigationView = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_NavigationView = 2131624401;
+			public const int Widget_Design_BottomSheet_Modal = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624402;
+			public const int Widget_Design_CollapsingToolbar = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_Design_Snackbar = 2131624403;
+			public const int Widget_Design_FloatingActionButton = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_Design_TabLayout = 2131624404;
+			public const int Widget_Design_NavigationView = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_Design_TextInputLayout = 2131624405;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624406;
+			public const int Widget_Design_Snackbar = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624407;
+			public const int Widget_Design_TabLayout = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624408;
+			public const int Widget_Design_TextInputLayout = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624409;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624410;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button = 2131624411;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_Icon = 2131624412;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624413;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624414;
+			public const int Widget_MaterialComponents_Button = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624415;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624416;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624417;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624418;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624419;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624420;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_CardView = 2131624421;
-			
-			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_ChipGroup = 2131624426;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Chip_Action = 2131624422;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624423;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624424;
-			
-			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624425;
-			
-			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624427;
-			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_NavigationView = 2131624428;
+			public const int Widget_MaterialComponents_CardView = 2131624424;
 			
 			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_Snackbar = 2131624429;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624429;
+			
+			// aapt resource value: 0x7F0E01E9
+			public const int Widget_MaterialComponents_Chip_Action = 2131624425;
+			
+			// aapt resource value: 0x7F0E01EA
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624426;
+			
+			// aapt resource value: 0x7F0E01EB
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624427;
+			
+			// aapt resource value: 0x7F0E01EC
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624428;
 			
 			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624430;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624430;
 			
 			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TabLayout = 2131624431;
+			public const int Widget_MaterialComponents_NavigationView = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624432;
+			public const int Widget_MaterialComponents_Snackbar = 2131624432;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624433;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624434;
+			public const int Widget_MaterialComponents_TabLayout = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624435;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624436;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624437;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624438;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624438;
 			
 			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624439;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624439;
 			
 			// aapt resource value: 0x7F0E01F8
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624440;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624440;
 			
 			// aapt resource value: 0x7F0E01F9
-			public const int Widget_MaterialComponents_Toolbar = 2131624441;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624441;
 			
 			// aapt resource value: 0x7F0E01FA
-			public const int Widget_Support_CoordinatorLayout = 2131624442;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624442;
+			
+			// aapt resource value: 0x7F0E01FB
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624443;
+			
+			// aapt resource value: 0x7F0E01FC
+			public const int Widget_MaterialComponents_Toolbar = 2131624444;
+			
+			// aapt resource value: 0x7F0E01FD
+			public const int Widget_Support_CoordinatorLayout = 2131624445;
 			
 			static Style()
 			{
@@ -19411,7 +22743,7 @@ namespace Apptesty.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030055,0x7F030056,0x7F030060,0x7F030065,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F030090,0x7F03009F,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AD,0x7F0300AF,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300F3,0x7F0300FF,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030156,0x7F030157,0x7F030158,0x7F03015E,0x7F030160,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030184,0x7F030185,0x7F03019B,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CD,0x7F0301CE,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301F3,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030055,0x7F030056,0x7F030060,0x7F030065,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F030090,0x7F03009F,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AD,0x7F0300AF,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300F3,0x7F0300FF,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030156,0x7F030157,0x7F030158,0x7F03015E,0x7F030160,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030184,0x7F030185,0x7F03019B,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CD,0x7F0301CE,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301F3,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030206,0x7F030207 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -19528,16 +22860,16 @@ namespace Apptesty.Droid
 					2130903531,
 					2130903532,
 					2130903539,
-					2130903541,
-					2130903542,
-					2130903543,
-					2130903544,
-					2130903545,
-					2130903546,
-					2130903547,
-					2130903548,
-					2130903549,
-					2130903550};
+					2130903550,
+					2130903551,
+					2130903552,
+					2130903553,
+					2130903554,
+					2130903555,
+					2130903556,
+					2130903557,
+					2130903558,
+					2130903559};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -20230,6 +23562,41 @@ namespace Apptesty.Droid
 			
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
+			
+			// aapt resource value: { 0x7F0301F5,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD }
+			public static int[] CirclePageIndicator = new int[] {
+					2130903541,
+					2130903543,
+					2130903544,
+					2130903545,
+					2130903546,
+					2130903547,
+					2130903548,
+					2130903549};
+			
+			// aapt resource value: 0
+			public const int CirclePageIndicator_vpiCentered = 0;
+			
+			// aapt resource value: 1
+			public const int CirclePageIndicator_vpiFillColor = 1;
+			
+			// aapt resource value: 2
+			public const int CirclePageIndicator_vpiOrientation = 2;
+			
+			// aapt resource value: 3
+			public const int CirclePageIndicator_vpiPageColor = 3;
+			
+			// aapt resource value: 4
+			public const int CirclePageIndicator_vpiRadius = 4;
+			
+			// aapt resource value: 5
+			public const int CirclePageIndicator_vpiSnap = 5;
+			
+			// aapt resource value: 6
+			public const int CirclePageIndicator_vpiStrokeColor = 6;
+			
+			// aapt resource value: 7
+			public const int CirclePageIndicator_vpiStrokeWidth = 7;
 			
 			// aapt resource value: { 0x7F030082,0x7F030083,0x7F03009E,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F03016E,0x7F030170,0x7F03018F,0x7F0301DD,0x7F0301DE,0x7F0301E8 }
 			public static int[] CollapsingToolbarLayout = new int[] {
@@ -22019,6 +25386,13 @@ namespace Apptesty.Droid
 			
 			// aapt resource value: 2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
+			
+			// aapt resource value: { 0x7F0301F6 }
+			public static int[] ViewPagerIndicator = new int[] {
+					2130903542};
+			
+			// aapt resource value: 0
+			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
 			
 			// aapt resource value: { 0x10100D0,0x10100F2,0x10100F3 }
 			public static int[] ViewStubCompat = new int[] {
