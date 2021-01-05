@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             Title="العابد6/11"
              x:Class="Apptesty.CarouselPage">
     <ContentPage.Content>
        
@@ -47,12 +49,17 @@
                     </cv:CarouselViewControl.ItemTemplate>
                 </cv:CarouselViewControl>
             </Grid>
-            <StackLayout >
+            <!--<StackLayout >
                 
                     <Button BackgroundColor="Aqua" Text="الاقسام" Clicked="Button_Clicked" CornerRadius="50" />
                 <Button BackgroundColor="Red" Text="تسجيل الدخول" Clicked="Button_Clicked_1" CornerRadius="50" />
                    
-            </StackLayout>
+            </StackLayout>-->
         </StackLayout>
     </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="الاقسام" Clicked="ToolbarItem_Clicked" Priority="0" Order="Secondary" IconImageSource="list.png"/>
+        <ToolbarItem Text="التواصل" Clicked="ToolbarItem_Clicked_2"  IconImageSource="baseline.png"/>
+        <ToolbarItem Text="تسجيل الدخول" Clicked="ToolbarItem_Clicked_1" IconImageSource="baseline_acco.png"/>
+    </ContentPage.ToolbarItems>
 </ContentPage>

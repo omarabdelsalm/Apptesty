@@ -58,35 +58,50 @@ namespace Apptesty
             {
                 new Walkthrough
                 {
-                    Heading ="Mountains",
-                    Caption = "Explore the world from your own point of view. Visit mountains and enjoy the freshness of life.",
-                    Image = "ac.png"
+                    Heading ="العابد",
+                    Caption = "من افتتاح العابد وثقة الناس",
+                    Image = "en.jpg"
                 },
 
                 new Walkthrough
                 {
-                    Heading ="Cities",
-                    Caption = "Experience the blue and grey sights of high rise buildings around the world",
-                    Image = "i11.png"
+                    Heading ="كورن",
+                    Caption = "استمتع باجمل اللحظات مع سماعات كورن",
+                    Image = "nn.jpg"
                 },
 
                 new Walkthrough
                 {
-                    Heading ="Ancient",
-                    Caption = "Understand the history and heritage of different cultures around the world.",
-                    Image = "ae.png"
+                    Heading ="سماعات",
+                    Caption = "افضل واحدث اكسسوارات من العابد",
+                    Image = "n.jpg"
                 }
             });
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        //private async void Button_Clicked(object sender, EventArgs e)
+        //{
+        //    await Navigation.PushAsync(new ListPage());
+        //}
+
+        //private async void Button_Clicked_1(object sender, EventArgs e)
+        //{
+        //    await Navigation.PushAsync(new OnePage());
+        //}
+
+        private async void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListPage());
         }
 
-        private async void Button_Clicked_1(object sender, EventArgs e)
+        private async void ToolbarItem_Clicked_1(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new OnePage());
+        }
+
+        private async void ToolbarItem_Clicked_2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Contactpage());
         }
     }
 
