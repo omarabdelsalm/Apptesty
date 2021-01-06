@@ -208,24 +208,27 @@
     <AndroidResource Include="Resources\drawable\n.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\elaabed.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\elaabed.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\elaabed.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\elaabed.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\elaabed.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\elaabed.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\elaabed.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\elaabed.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\elaabed.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\elaabed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\elaabed.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionApptestyAndroidHideInfoBar="True" TriggeredFromHotReload="False" />
+      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadDebuggerTimeoutExceptionApptestyAndroidHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
