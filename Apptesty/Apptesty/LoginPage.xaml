@@ -57,7 +57,7 @@
                                     <CheckBox IsChecked="False" Color="HotPink" />
                                     <Label Text="Remember me" TextColor="DarkGray" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
 
-                                    <Label Text="Forgot Password" TextColor="HotPink" FontAttributes="Bold" HorizontalOptions="EndAndExpand" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                                   <!-- <Label Text="Forgot Password" TextColor="HotPink" FontAttributes="Bold" HorizontalOptions="EndAndExpand" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" /> -->
 
 
                                 </StackLayout>
@@ -65,7 +65,8 @@
                                 <Button Text="تسجيل حساب جديد" BackgroundColor="HotPink" TextColor="White" CornerRadius="30" Clicked="signupbutton_Clicked" x:Name="signupbutton"/>
                                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                                     <Label Text="Still Not Connected ?" TextColor="DarkGray" FontSize="Small"/>
-                                    <Label Text="Sign Up" TextColor="HotPink" FontAttributes="Bold" FontSize="Small"/>
+                                    <!-- <Label Text="Sign Up" TextColor="HotPink" FontAttributes="Bold" FontSize="Small" x:Name="LblClick"/>-->
+
                                 </StackLayout>
 
                                 <StackLayout Margin="0,25,0,0" Padding="0">

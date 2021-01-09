@@ -45,7 +45,7 @@ namespace Apptesty
 
             Browser.Source = "https://elaabed611.blogspot.com/";
             nxt_Clicked.Clicked += Nxt_Clicked;
-           
+            this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
         }
 
         private async void Nxt_Clicked(object sender, EventArgs e)

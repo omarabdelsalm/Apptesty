@@ -16,6 +16,7 @@ namespace Apptesty
         public Contactpage()
         {
             InitializeComponent();
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
         }
 
         private void Smsbtn(object sender, EventArgs e)

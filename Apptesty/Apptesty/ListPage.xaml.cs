@@ -52,6 +52,21 @@ namespace Apptesty
             });
             Monkeys.Add(new Monkey
             {
+                Name = "اكسسوارات شركة كورن",
+                Location = "كورن",
+                ImageUrl = "ac.jpg",
+                Url = "https://elaabed611.blogspot.com/search/label/%D8%A7%D9%83%D8%B3%D8%B3%D9%88%D8%B1%D8%A7%20%D8%B4%D8%B1%D9%83%D8%A9%20%D9%83%D9%88%D8%B1%D9%86"
+            });
+           
+            Monkeys.Add(new Monkey
+            {
+                Name = "منتجات شركة كورن",
+                Location = "كورن",
+                ImageUrl = "ac.jpg",
+                Url = "https://elaabed611.blogspot.com/search/label/%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA%20%D8%B4%D8%B1%D9%83%D8%A9%20%D9%83%D9%88%D8%B1%D9%86%20%D8%A8%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86"
+            });
+            Monkeys.Add(new Monkey
+            {
                 Name = "تحويلات وهوائي",
                 Location = "كل الخطوط",
                 ImageUrl = "ab.gpj",

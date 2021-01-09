@@ -34,5 +34,11 @@
     <string>Apptesty</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>GADApplicationIdentifier</key>
+	<string>
+		ios alebdca-app-pub-9816794170840872~2557166378
+	</string>
+	<key>GADIsAdManagerApp</key>
+	<true/>
 </dict>
 </plist>

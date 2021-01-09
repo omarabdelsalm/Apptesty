@@ -23,6 +23,7 @@ namespace Apptesty
             {
                 _ = UserNewPassword.Focus();
             };
+           // LblClickfunc();
         }
 
 
@@ -45,7 +46,18 @@ namespace Apptesty
             }
 
         }
-
+        //تعيين حدث ل Lable
+        //void LblClickfunc()
+        //{
+        //    LblClick.GestureRecognizers.Add(new TapGestureRecognizer()
+        //    {
+        //      Command=new Command(() =>
+        //      {
+        //          Navigation.PushAsync(new MyDashboardPage());
+        //      })
+        //    });
+        //}
+        
         //async void loginbutton_Clicked(System.Object sender, System.EventArgs e)
         //{
         //    var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIkey));

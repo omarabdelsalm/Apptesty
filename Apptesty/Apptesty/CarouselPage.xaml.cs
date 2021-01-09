@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MarcTron.Plugin;
 using System.Timers;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -17,6 +18,8 @@ namespace Apptesty
         {
             InitializeComponent();
             this.BindingContext = this;
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
+            this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
         }
 
         private Timer timer;
@@ -92,15 +95,18 @@ namespace Apptesty
         private async void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListPage());
+            CrossMTAdmob.Current.LoadRewardedVideo(AdmobUnitIds.RewardedId);
         }
 
         private async void ToolbarItem_Clicked_1(object sender, EventArgs e)
         {
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
             await Navigation.PushAsync(new OnePage());
         }
 
         private async void ToolbarItem_Clicked_2(object sender, EventArgs e)
         {
+            CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new Contactpage());
         }
     }

@@ -1,32 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              Title="العابد6/11"
              x:Class="Apptesty.CarouselPage">
     <ContentPage.Content>
        
-        <!--<StackLayout>
-            <Label Text="hello"/>
-            <CarouselView ItemsSource="{Binding Birds}" PeekAreaInsets="50">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-
-                        <StackLayout>
-                            <Frame BorderColor="Gray" Margin="8" HasShadow="True" HeightRequest="250" CornerRadius="20" VerticalOptions="CenterAndExpand">
-                                <StackLayout>
-                                    <Image Source="{Binding ImagePath}"/>
-                                    <Label Text="{Binding Title}" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-                                </StackLayout>
-                            </Frame>
-                        </StackLayout>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
-        </StackLayout>-->
         <StackLayout>
-            
-                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+
+            </StackLayout>
+
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <cv:CarouselViewControl x:Name="cvWalkthrough" ShowIndicators="true" IndicatorsShape="Circle" IndicatorsTintColor="LightGray"
                                 CurrentPageIndicatorTintColor="#FF0088" Orientation="Horizontal" InterPageSpacing="0"  
                                 ItemsSource="{Binding WalkthroughItems}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
@@ -55,11 +42,21 @@
                 <Button BackgroundColor="Red" Text="تسجيل الدخول" Clicked="Button_Clicked_1" CornerRadius="50" />
                    
             </StackLayout>-->
-        </StackLayout>
+          
+                <StackLayout>
+                    <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+
+                </StackLayout>
+
+            </StackLayout>
+       
+
+       
     </ContentPage.Content>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="الاقسام" Clicked="ToolbarItem_Clicked" Priority="0" Order="Secondary" IconImageSource="list.png"/>
         <ToolbarItem Text="التواصل" Clicked="ToolbarItem_Clicked_2"  IconImageSource="baseline.png"/>
         <ToolbarItem Text="تسجيل الدخول" Clicked="ToolbarItem_Clicked_1" IconImageSource="baseline_acco.png"/>
+        
     </ContentPage.ToolbarItems>
 </ContentPage>

@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="Apptesty.Contactpage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
+            <StackLayout>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+
+            </StackLayout>
             <Image Source="ae.jpg" Aspect="AspectFill" HeightRequest="400" WidthRequest="100"/>
-            <Button Text="SMS" Clicked="Smsbtn" BackgroundColor="Blue" FontSize="30"/>
-            <Button Text="Email" Clicked="Emlbtn" BackgroundColor="DarkGray" FontSize="30"/>
-            <Button Text="Call Me" Clicked="Callbtn" BackgroundColor="DarkGoldenrod" FontSize="30"/>
+            <Button Text="SMS" Clicked="Smsbtn" BackgroundColor="Blue" FontSize="20"/>
+            <Button Text="Email" Clicked="Emlbtn" BackgroundColor="DarkGray" FontSize="20"/>
+            <Button Text="Call Me" Clicked="Callbtn" BackgroundColor="DarkGoldenrod" FontSize="20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

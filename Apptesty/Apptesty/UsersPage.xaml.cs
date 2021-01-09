@@ -149,10 +149,18 @@ namespace Apptesty
 
         private async void BtnDelete_Clicked(object sender, EventArgs e)
         {
+          
             await firebaseHelper.DeletePerson(Convert.ToInt32(txtId.Text));
             await DisplayAlert("Success", "تم حذف الاسم", "OK");
+            txtId.Text = string.Empty;
+            txtName.Text = string.Empty;
+            txtPoint.Text = string.Empty;
+            txtPoint1.Text = string.Empty;
+            txtPoint2.Text = string.Empty;
+            txtPh.Text = string.Empty;
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
+          
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
