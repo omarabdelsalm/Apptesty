@@ -20,6 +20,7 @@ namespace Apptesty
             nameEt.Text = name;
             phonEt.Text = phon;
             pointEt.Text = point;
+            parcode.BarcodeValue = person;
 
         }
 
@@ -39,8 +40,8 @@ namespace Apptesty
                  perId.Text.ToString() ,
                 nameEt.Text.ToString(),
                  phonEt.Text.ToString(),
-                 pointEt.Text.ToString()
-
+                 pointEt.Text.ToString(),
+                 parcode.BarcodeValue.ToString()
             };
 
             // Try to find the platform specific services

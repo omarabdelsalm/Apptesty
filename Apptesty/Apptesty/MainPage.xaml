@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="Apptesty.MainPage">
     
-    <StackLayout >
+    <StackLayout>
         <StackLayout>
             <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand"/>
 
@@ -11,9 +11,10 @@
         <Label x:Name="LoadingLabel" IsVisible="false"/>
         <WebView x:Name="Browser" HeightRequest="1000" WidthRequest="1000" Navigating="Handle_Navigating" Navigated="Handle_Navigated"/>
         
-            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="20" BackgroundColor="#CEDCD6"/>
-        <Button Text="صفحة المشتركين" Clicked="Btn_Clicked"  FontSize="24" BackgroundColor="#CEDCD6"/>
-
+            
+            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="16" WidthRequest="200" BackgroundColor="#CED00CD6" CornerRadius="50"/>
+        <Button Text="صفحة المشتركين" Clicked="Btn_Clicked"  FontSize="16" BackgroundColor="#C000DCD6" WidthRequest="200" CornerRadius="50"/>
+       
     </StackLayout>
    
  

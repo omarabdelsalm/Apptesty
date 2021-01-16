@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" xmlns:zxingcommon="clr-namespace:ZXing.Common;assembly=zxing"
              x:Class="Apptesty.MyPageDisplays">
     <ContentPage.Content>
         <StackLayout Padding="10" BackgroundColor="Azure">
@@ -16,6 +16,13 @@
             <Label Text="النقاط"
                FontSize="Medium"/>
             <Label x:Name="pointEt"/>
+            <forms:ZXingBarcodeImageView  Grid.Row="1" Grid.Column="3"
+                                      x:Name="parcode" BarcodeFormat="CODE_128" VerticalOptions="EndAndExpand"
+                                       HorizontalOptions="EndAndExpand" WidthRequest="200" HeightRequest="100" Aspect="Fill" >
+                <forms:ZXingBarcodeImageView.BarcodeOptions>
+                    <zxingcommon:EncodingOptions Height="100" Width="200" />
+                </forms:ZXingBarcodeImageView.BarcodeOptions>
+            </forms:ZXingBarcodeImageView>
             <Frame BackgroundColor="BurlyWood" CornerRadius="20" Margin="5">
             <Entry x:Name="ipaddress" Placeholder="ip address"/>
             </Frame>

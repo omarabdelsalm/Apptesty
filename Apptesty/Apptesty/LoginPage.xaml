@@ -28,7 +28,7 @@
 
 
                             <StackLayout Margin="10">
-                                <Label Text="SIGN IN" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                                <!--<Label Text="SIGN IN" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>-->
                             </StackLayout>
 
                             <StackLayout Padding="0" Margin="15,10">
@@ -55,7 +55,7 @@
 
                                 <StackLayout  Orientation="Horizontal">
                                     <CheckBox IsChecked="False" Color="HotPink" />
-                                    <Label Text="Remember me" TextColor="DarkGray" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                                    <Label Text="شكرا للتسجيل " TextColor="DarkGray" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
 
                                    <!-- <Label Text="Forgot Password" TextColor="HotPink" FontAttributes="Bold" HorizontalOptions="EndAndExpand" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" /> -->
 
