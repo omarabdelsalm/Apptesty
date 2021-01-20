@@ -4,5 +4,12 @@
              x:Class="Apptesty.App">
     <Application.Resources>
 
+        <Style TargetType="controls:MTAdView">
+            <Setter Property="HeightRequest">
+                <Setter.Value>
+                    <x:OnIdiom Phone="50" Tablet="90"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

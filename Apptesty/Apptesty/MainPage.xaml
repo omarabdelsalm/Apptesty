@@ -5,7 +5,7 @@
     
     <StackLayout>
         <StackLayout>
-            <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+            <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand" />
 
         </StackLayout>
         <Label x:Name="LoadingLabel" IsVisible="false"/>

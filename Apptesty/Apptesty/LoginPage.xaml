@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              BackgroundImageSource="a122.png"
              x:Class="Apptesty.LoginPage">
     <ContentPage.Content>
@@ -27,8 +27,9 @@
                         <StackLayout>
 
 
-                            <StackLayout Margin="10">
-                                <!--<Label Text="SIGN IN" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>-->
+                            <StackLayout>
+                                <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand" />
+
                             </StackLayout>
 
                             <StackLayout Padding="0" Margin="15,10">
