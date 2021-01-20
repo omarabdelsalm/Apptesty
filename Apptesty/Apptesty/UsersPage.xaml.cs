@@ -132,6 +132,7 @@ namespace Apptesty
             txtPoint2.Text = string.Empty;
             txtPoint1.Text = string.Empty;
             txtPh.Text = string.Empty;
+            txtId.Focus();
             var allPersons = await firebaseHelper.GetAllPersons();
             lstPersons.ItemsSource = allPersons;
         }
@@ -146,20 +147,30 @@ namespace Apptesty
 
         }
 
-
+        //Delete person حذف العضو
         private async void BtnDelete_Clicked(object sender, EventArgs e)
         {
-          
-            await firebaseHelper.DeletePerson(Convert.ToInt32(txtId.Text));
-            await DisplayAlert("Success", "تم حذف الاسم", "OK");
-            txtId.Text = string.Empty;
-            txtName.Text = string.Empty;
-            txtPoint.Text = string.Empty;
-            txtPoint1.Text = string.Empty;
-            txtPoint2.Text = string.Empty;
-            txtPh.Text = string.Empty;
-            var allPersons = await firebaseHelper.GetAllPersons();
-            lstPersons.ItemsSource = allPersons;
+            var person = await firebaseHelper.GetPerson((int)Convert.ToInt64(txtId.Text));
+            if (person != null) {
+                await firebaseHelper.DeletePerson(Convert.ToInt32(txtId.Text));
+                await DisplayAlert("Success", "تم حذف الاسم", "OK");
+                txtId.Text = string.Empty;
+                txtName.Text = string.Empty;
+                txtPoint.Text = string.Empty;
+                txtPoint1.Text = string.Empty;
+                txtPoint2.Text = string.Empty;
+                txtPh.Text = string.Empty;
+
+                txtId.Focus();
+                var allPersons = await firebaseHelper.GetAllPersons();
+                lstPersons.ItemsSource = allPersons;
+            }
+            else
+            {
+                await DisplayAlert("انتباه", "رجاء ادخل بيانات العضو ", "OK");
+                txtId.Focus();
+            }
+                
           
         }
 

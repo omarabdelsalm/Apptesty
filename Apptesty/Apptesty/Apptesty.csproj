@@ -73,7 +73,6 @@
 
   <ItemGroup>
     <Folder Include="urlDisplay\" />
-    <Folder Include="ViewModel\" />
   </ItemGroup>
 
   <ItemGroup>

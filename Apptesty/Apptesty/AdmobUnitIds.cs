@@ -7,7 +7,8 @@ namespace Apptesty
 {
     public class AdmobUnitIds
     {
-        
+        private static string adSize;
+
 
         // For Banner Ad
         private static string _bannerId { get; set; }
@@ -16,10 +17,12 @@ namespace Apptesty
             get
             {
                 if (Device.RuntimePlatform == Device.Android)
-              
+                {
+
                     _bannerId = "ca-app-pub-9816794170840872/8649063901";
-                   
-               
+                     ads: adSize = "BANNER";
+                }
+
                 else if (Device.RuntimePlatform == Device.iOS)
                     _bannerId = "ca-app-pub-9816794170840872/4800186338";
 
@@ -34,9 +37,12 @@ namespace Apptesty
             get
             {
                 if (Device.RuntimePlatform == Device.Android)
-               
+                {
+
                     _interstitialId = "ca-app-pub-9816794170840872/8440114684";
-                    
+                    ads: adSize = "BANNER";
+                }
+
                 else if (Device.RuntimePlatform == Device.iOS)
                     _interstitialId = "ca-app-pub-9816794170840872/4800186338";
 

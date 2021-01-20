@@ -27,10 +27,10 @@
                         <StackLayout>
 
 
-                            <StackLayout>
-                                <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand" />
+                            <!--<StackLayout>
+                                <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand" />
 
-                            </StackLayout>
+                            </StackLayout>-->
 
                             <StackLayout Padding="0" Margin="15,10">
 
