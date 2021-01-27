@@ -19,10 +19,12 @@ namespace Apptesty
         public SigininPage()
         {
             InitializeComponent();
+            this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
             UserLoginEmail.Completed += (object sender, EventArgs e) =>
             {
                 _ = UserLoginPassword.Focus();
             };
+
         }
 
         

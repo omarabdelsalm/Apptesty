@@ -40,7 +40,7 @@ namespace Apptesty
                 {
 
                     _interstitialId = "ca-app-pub-9816794170840872/8440114684";
-                    ads: adSize = "BANNER";
+                ads: adSize = "BANNER";
                 }
 
                 else if (Device.RuntimePlatform == Device.iOS)

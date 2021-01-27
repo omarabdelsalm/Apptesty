@@ -20,10 +20,10 @@
     RepeatCount="10"                
                     />
             </StackLayout>
-            <!--<StackLayout>
+           <StackLayout>
                 <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand" />
 
-            </StackLayout>-->
+            </StackLayout>
             <StackLayout >
 
                 <StackLayout Spacing="10" VerticalOptions="End" Margin="20" AnchorX="10">

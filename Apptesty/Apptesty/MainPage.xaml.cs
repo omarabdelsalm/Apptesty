@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MarcTron.Plugin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -50,10 +51,12 @@ namespace Apptesty
 
         private async void Nxt_Clicked(object sender, EventArgs e)
         {
+            MarcTron.Plugin.CrossMTAdmob.Current.LoadRewardedVideo(AdmobUnitIds.RewardedId);
             await Navigation.PushAsync(p);
         }
         private async void Btn_Clicked(object sender, EventArgs e)
         {
+			CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new MamPage());
         }
     }
