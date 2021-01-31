@@ -29,7 +29,10 @@
                         <Button  WidthRequest="200" Text="قراءة الباركود" Clicked="Button_Clicked" FontSize="Small" BackgroundColor="BurlyWood" CornerRadius="10"/>
                         <Button  WidthRequest="200" Text="الصفحة الرئيسية" Clicked="Button_Clicked_1" FontSize="Small" BackgroundColor="#22001111" CornerRadius="10"/>
                     </StackLayout>
-                    <Button WidthRequest="150" Clicked="Button_Clicked_2" Text="صفحة الاعضاء"  FontSize="Medium" BackgroundColor="red" CornerRadius="25"/>
+                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                        <Button WidthRequest="200" Clicked="Button_Clicked_2" Text="صفحة الاعضاء"  FontSize="Medium" BackgroundColor="red" CornerRadius="25"/>
+                        <Button WidthRequest="200" Clicked="Button_Clicked_3"  Text=" تسجيل العروض"  FontSize="Medium" BackgroundColor="Purple" CornerRadius="25"/>
+                    </StackLayout>
                     <ListView x:Name="lstPersons" IsVisible="false">
                         <ListView.ItemTemplate>
                             <DataTemplate>

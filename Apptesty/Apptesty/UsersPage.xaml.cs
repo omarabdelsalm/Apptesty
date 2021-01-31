@@ -12,6 +12,7 @@ using XamarinFirebase.Helper;
 using Firebase.Database;
 using Firebase.Database.Query;
 using ZXing.Net.Mobile.Forms;
+using Apptesty.Server.Views;
 
 namespace Apptesty
 {
@@ -199,6 +200,11 @@ namespace Apptesty
             mo.IsVisible = true;
             await Navigation.PushAsync(new MamPage());
 
+        }
+
+        private async void Button_Clicked_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AdminNewsFeedPage());
         }
     }
 }

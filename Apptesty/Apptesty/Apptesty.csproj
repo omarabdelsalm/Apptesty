@@ -22,12 +22,14 @@
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.8" />
     <PackageReference Include="FirebaseAuthentication.net" Version="3.4.0" />
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
+    <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
     <PackageReference Include="Google.Protobuf" Version="3.14.0" />
     <PackageReference Include="MarcTron.Admob" Version="1.6.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.0-ci.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1931" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Plugin.FilePicker" Version="2.1.41" />
     <PackageReference Include="ZXing.Net.Mobile" Version="3.0.0-beta5" />
     <PackageReference Include="ZXing.Net.Mobile.Forms" Version="3.0.0-beta5" />
   </ItemGroup>
@@ -40,6 +42,9 @@
 
   <ItemGroup>
     <EmbeddedResource Update="CarouselPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Client\Views\NewsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Contactpage.xaml">
@@ -66,12 +71,16 @@
     <EmbeddedResource Update="OnePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Server\Views\AdminNewsFeedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="UsersPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Server\ViewModel\" />
     <Folder Include="urlDisplay\" />
   </ItemGroup>
 

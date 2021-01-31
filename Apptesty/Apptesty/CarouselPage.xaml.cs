@@ -8,6 +8,7 @@ using MarcTron.Plugin;
 using System.Timers;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Apptesty.Client.Views;
 
 namespace Apptesty
 {
@@ -108,6 +109,12 @@ namespace Apptesty
         {
             CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new Contactpage());
+        }
+
+        private async void ToolbarItem_Clicked_3(object sender, EventArgs e)
+        {
+            CrossMTAdmob.Current.ShowInterstitial();
+            await Navigation.PushAsync(new NewsPage());
         }
     }
 
