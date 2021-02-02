@@ -44,7 +44,7 @@
             </StackLayout>-->
           
                 <StackLayout>
-                    <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+                    <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" WidthRequest="400" VerticalOptions="EndAndExpand" />
 
                 </StackLayout>
 
@@ -54,7 +54,7 @@
        
     </ContentPage.Content>
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="الاقسام" Clicked="ToolbarItem_Clicked" Priority="0" Order="Secondary" IconImageSource="list.png"/>
+        <ToolbarItem Text="الاقسام" Clicked="ToolbarItem_Clicked" Priority="0" Order="Secondary"/>
         <ToolbarItem Text="العروض" Clicked="ToolbarItem_Clicked_3"  Priority="0" Order="Secondary" />
         <ToolbarItem Text="التواصل" Clicked="ToolbarItem_Clicked_2"  IconImageSource="contacto.png"/>
         <ToolbarItem Text="تسجيل الدخول" Clicked="ToolbarItem_Clicked_1" IconImageSource="baseline_acco.png"/>

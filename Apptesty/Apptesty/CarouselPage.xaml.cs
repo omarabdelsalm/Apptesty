@@ -9,6 +9,7 @@ using System.Timers;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Apptesty.Client.Views;
+using Xamarin.Essentials;
 
 namespace Apptesty
 {
@@ -19,6 +20,7 @@ namespace Apptesty
         {
             InitializeComponent();
             this.BindingContext = this;
+            
             this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
             this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
         }
@@ -113,8 +115,16 @@ namespace Apptesty
 
         private async void ToolbarItem_Clicked_3(object sender, EventArgs e)
         {
-            CrossMTAdmob.Current.ShowInterstitial();
-            await Navigation.PushAsync(new NewsPage());
+            var current = Connectivity.NetworkAccess;
+            if(current == NetworkAccess.Internet) {
+                CrossMTAdmob.Current.ShowInterstitial();
+                await Navigation.PushAsync(new NewsPage());
+            }
+            else
+            {
+                await DisplayAlert("انتباه","الرجاء الاتصال بالانترنت","ok");
+                return ;
+            }
         }
     }
 

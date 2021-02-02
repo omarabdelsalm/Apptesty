@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="Apptesty.Client.Views.NewsPage">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="مرحبا بكم " HorizontalOptions="Center" VerticalOptions="Center" TextColor="Purple" FontSize="18" BackgroundColor="Azure"/>
+            <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+
             <ListView BackgroundColor="Black" ItemsSource="{Binding NewsItem,Mode=TwoWay}" SeparatorVisibility="None"  HasUnevenRows="True"
 			IsGroupingEnabled="true">
                 <ListView.ItemTemplate>

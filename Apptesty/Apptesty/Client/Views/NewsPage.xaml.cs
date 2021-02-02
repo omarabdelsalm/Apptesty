@@ -17,6 +17,7 @@ namespace Apptesty.Client.Views
         {
             InitializeComponent();
             BindingContext = new NewsViewModel();
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
         }
     }
 }

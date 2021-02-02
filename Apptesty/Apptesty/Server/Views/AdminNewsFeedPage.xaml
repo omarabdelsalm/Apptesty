@@ -9,11 +9,11 @@
                     <StackLayout  Spacing="20" VerticalOptions="CenterAndExpand" Margin="10">
                         <Label FontAttributes="Bold" FontSize="16" TextColor="Gray" Text="Enter your news here"/>
                         <Frame Visual="Material" HasShadow="False" BorderColor="LightGray">
-                            <Editor HeightRequest="150" Placeholder="Add your News here !" x:Name="AdminText"></Editor>
+                            <Editor HeightRequest="150" Placeholder="اكتب وصف بسيط للصورة" x:Name="AdminText"></Editor>
                         </Frame>
                         <Frame HasShadow="False" BorderColor="LightGray" Padding="1">
                             <Grid>
-                                <Label x:Name="BackText" Text="Upload News Header Image Here !" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                <Label x:Name="BackText" Text="تاكد من تحميل صورة ذات حجم صغير وبامتداد png" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
                                 <Image x:Name="MyImage" Aspect="AspectFit" HeightRequest="250">
                                 </Image>
                                 <Grid.GestureRecognizers>
