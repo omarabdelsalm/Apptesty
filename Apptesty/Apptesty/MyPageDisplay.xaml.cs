@@ -17,16 +17,9 @@ namespace Apptesty
         public MyPageDisplay(string url,string name)
         {
           InitializeComponent();
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
 
-            //ListPage lest = new ListPage();
-            //List<Monkey> lists = new List<Monkey>();
-            //Monkeys = lists;
-            //// string url = Monkeys.ItemTapped.Url.ToString();
-            //MyWebviewDisplay.Source = new UrlWebViewSource
-            //{
-            //    Url = "Monkeys.Url"
-            //};
-            //MyWebviewDisplay.Source = DependencyService.Get<IwebSiteHelper>() + "{Binding Url}";
+            
             myLab.Text = name;
             MyWebviewDisplay.Source = url;
         }

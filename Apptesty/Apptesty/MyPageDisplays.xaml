@@ -30,10 +30,10 @@
                 <Entry x:Name="port" Placeholder="port number" />
             </Frame>
             <Button Text="طباعة" TextColor="Black" Clicked="Button_Clicked" BackgroundColor="Red" FontSize="Subtitle" CornerRadius="20"/>
-            <!--<StackLayout>
+            <StackLayout>
                 <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand" />
 
-            </StackLayout>-->
+            </StackLayout>
         </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="Apptesty.OnePage"            
              BackgroundImageSource="a122.png">
     <ContentPage.Content>
-        <!--<StackLayout Spacing="50" VerticalOptions="End" Margin="20" AnchorX="50">
-            <Button Text="مستخدم جديد" TextColor="White" BackgroundColor="#149131" Clicked="Button_Clicked_1"/>
-
-            <Button Text="تسجيل الدخول" TextColor="White" BackgroundColor="#149131" Clicked="Button_Clicked"/>
-
-        </StackLayout>-->
+        
         <StackLayout BackgroundColor="#e6e6e6">
             <Grid>
                 <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
@@ -26,7 +21,10 @@
                             <StackLayout Margin="10">
                                 <Label Text="تسجيل الدخول" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
                             </StackLayout>
+                            <StackLayout>
+                                <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand"/>
 
+                            </StackLayout>
                             <StackLayout Padding="0" Margin="15,10">
 
                                 <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
@@ -66,12 +64,8 @@
                                 </StackLayout>
 
                                 <StackLayout Margin="0,25" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                                    <Frame BackgroundColor="White" HeightRequest="45" WidthRequest="45" CornerRadius="45" HasShadow="False" BorderColor="DarkGray" Margin="0" HorizontalOptions="Center" Padding="0">
-                                        <Image Source="https://www.pngitem.com/pimgs/m/44-440455_transparent-background-fb-logo-hd-png-download.png" Aspect="AspectFill" Margin="0"/>
-                                    </Frame>
-                                    <Frame BackgroundColor="White" HeightRequest="45" WidthRequest="45" CornerRadius="45" HasShadow="False" BorderColor="DarkGray" Margin="0" HorizontalOptions="Center" Padding="0">
-                                        <Image Source="https://blog.hubspot.com/hubfs/image8-2.jpg" Aspect="AspectFill" Margin="0"/>
-                                    </Frame>
+                                    <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="100" VerticalOptions="EndAndExpand" />
+
                                 </StackLayout>
 
                             </StackLayout>

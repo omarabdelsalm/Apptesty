@@ -16,6 +16,7 @@ namespace Apptesty
         public MyPageDisplays(string person, string name, string phon, string point)
         {
             InitializeComponent();
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
             perId.Text = person;
             nameEt.Text = name;
             phonEt.Text = phon;

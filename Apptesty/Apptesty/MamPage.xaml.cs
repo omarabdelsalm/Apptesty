@@ -1,5 +1,6 @@
 ﻿using Apptesty.Model;
 using Firebase.Database;
+using MarcTron.Plugin;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -27,7 +28,8 @@ namespace Apptesty
         public MamPage()
         {
             InitializeComponent();
-            
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
+
         }
 
         protected async override void OnAppearing()
@@ -77,6 +79,8 @@ namespace Apptesty
 
 
             await Navigation.PushAsync(new MyPageDisplays(persons.PersonId.ToString(), persons.Name.ToString(), persons.PhNum.ToString(), persons.PointNum2.ToString()));
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
         }
         //اضافة صفحة لعرض العنصر الموجود فى القائمة
         //private void Listvw_ItemTapped(object sender, SelectedItemChangedEventArgs e)

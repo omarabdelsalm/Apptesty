@@ -19,8 +19,8 @@ namespace Apptesty
                 if (Device.RuntimePlatform == Device.Android)
                 {
 
-                    _bannerId = "ca-app-pub-9816794170840872/8649063901";
-                     ads: adSize = "BANNER";
+                    _bannerId = "ca-app-pub-9816794170840872/4114901417";
+                ads: adSize = "BANNER";
                 }
 
                 else if (Device.RuntimePlatform == Device.iOS)
@@ -39,8 +39,8 @@ namespace Apptesty
                 if (Device.RuntimePlatform == Device.Android)
                 {
 
-                    _interstitialId = "ca-app-pub-9816794170840872/8440114684";
-                ads: adSize = "BANNER";
+                    _interstitialId = "ca-app-pub-9816794170840872/8826805065";
+               
                 }
 
                 else if (Device.RuntimePlatform == Device.iOS)
@@ -57,9 +57,9 @@ namespace Apptesty
         {
             get
             {
-                if (Device.RuntimePlatform == Device.Android) 
-                    _rewardedId = "ca-app-pub-9816794170840872/8165728031";
-                  
+                if (Device.RuntimePlatform == Device.Android)
+                    _rewardedId = "ca-app-pub-9816794170840872/9565171666";
+
                 else if (Device.RuntimePlatform == Device.iOS)
                     _rewardedId = "ca-app-pub-9816794170840872/4800186338";
 

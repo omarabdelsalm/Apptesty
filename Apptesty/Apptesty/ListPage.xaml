@@ -1,21 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="Apptesty.ListPage">
     <ContentPage.Content>
         <StackLayout Margin="20,35,20,20">
+            <StackLayout>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="75" WidthRequest="300" VerticalOptions="EndAndExpand"/>
+
+            </StackLayout>
             <ListView ItemsSource="{Binding Monkeys}"
           HasUnevenRows="true"
           ItemSelected="OnListViewItemSelected"  
           ItemTapped="OnListViewItemTapped">
-               
-                
+
+
                 <ListView.ItemTemplate>
-                    
+
                     <DataTemplate>
-                      
+
                         <ViewCell>
-                            
+
                             <Grid Padding="10">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto" />
@@ -45,7 +49,11 @@
             <StackLayout>
                 <Button Text="التالي" x:Name="nt_Clicked"/>
             </StackLayout>
+            <StackLayout>
+                <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" WidthRequest="300"  VerticalOptions="EndAndExpand"/>
+
+            </StackLayout>
         </StackLayout>
-        
+
     </ContentPage.Content>
 </ContentPage>

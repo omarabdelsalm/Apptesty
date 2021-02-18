@@ -4,15 +4,17 @@
              xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="Apptesty.Contactpage">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout Orientation="Vertical">
             <StackLayout>
-                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="75" VerticalOptions="EndAndExpand"/>
 
             </StackLayout>
             <Image Source="ae.jpg" Aspect="AspectFill" HeightRequest="400" WidthRequest="100"/>
-            <Button Text="SMS" Clicked="Smsbtn" BackgroundColor="Blue" FontSize="20"/>
-            <Button Text="Email" Clicked="Emlbtn" BackgroundColor="DarkGray" FontSize="20"/>
-            <Button Text="Call Me" Clicked="Callbtn" BackgroundColor="DarkGoldenrod" FontSize="20"/>
+            <Button Text="SMS" Clicked="Smsbtn" BackgroundColor="#20202055" FontSize="20" HeightRequest="50"/>
+            <Button Text="Email" Clicked="Emlbtn" BackgroundColor="#55020202" FontSize="20" HeightRequest="50"/>
+            <Button Text="Call Me" Clicked="Callbtn" BackgroundColor="#4455" FontSize="20" HeightRequest="50"/>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

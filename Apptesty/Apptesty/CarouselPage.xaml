@@ -9,7 +9,7 @@
        
         <StackLayout>
             <StackLayout>
-                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="50" VerticalOptions="EndAndExpand"/>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand"/>
 
             </StackLayout>
 
@@ -36,19 +36,14 @@
                     </cv:CarouselViewControl.ItemTemplate>
                 </cv:CarouselViewControl>
             </Grid>
-            <!--<StackLayout >
-                
-                    <Button BackgroundColor="Aqua" Text="الاقسام" Clicked="Button_Clicked" CornerRadius="50" />
-                <Button BackgroundColor="Red" Text="تسجيل الدخول" Clicked="Button_Clicked_1" CornerRadius="50" />
-                   
+            
+
+            <!--<StackLayout>
+                <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" WidthRequest="300" VerticalOptions="EndAndExpand"/>
+
             </StackLayout>-->
-          
-                <StackLayout>
-                    <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" WidthRequest="400" VerticalOptions="EndAndExpand" />
 
-                </StackLayout>
-
-            </StackLayout>
+        </StackLayout>
        
 
        

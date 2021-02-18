@@ -13,6 +13,7 @@ using Firebase.Database;
 using Firebase.Database.Query;
 using ZXing.Net.Mobile.Forms;
 using Apptesty.Server.Views;
+using MarcTron.Plugin;
 
 namespace Apptesty
 {
@@ -192,18 +193,24 @@ namespace Apptesty
 
         private async void Button_Clicked_1(object sender, EventArgs e)
         {
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new MainPage());
         }
 
         private async void Button_Clicked_2(object sender, EventArgs e)
         {
             mo.IsVisible = true;
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new MamPage());
 
         }
 
         private async void Button_Clicked_3(object sender, EventArgs e)
         {
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new AdminNewsFeedPage());
         }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MarcTron.Plugin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,16 +17,15 @@ namespace Apptesty
         public static object ItemTapped { get; private set; }
 
         private Contactpage c = new Contactpage();
-        //private MyPageDisplay Mypage = new MyPageDisplay();
-
-        //private static object SelectedItem;
-        // private static IFormatProvider MyWebviewDisplay;
+        
         internal object lists;
         private static readonly Page mydisview;
 
         public ListPage()
         {
             InitializeComponent();
+            this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
+            this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
             nt_Clicked.Clicked += Btn_Clicked;
             List<Monkey> lists = new List<Monkey>();
             Monkeys = lists;
@@ -116,15 +116,7 @@ namespace Apptesty
            
         }
 
-        //private async void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
-        //{
-        //    var url = e.Item as Monkey;
-        //    MyPageDisplay mydisview = new MyPageDisplay();
-        //     //string MyWebviewDisplay = "";
-        //    //mydisview.BindingContext = url.ToString();
-        //    //mydisview.WebView ="url.Url";
-        //    await Navigation.PushAsync(mydisview);
-        //}
+        
         async void OnListViewItemTapped(object sender, SelectedItemChangedEventArgs e)
         {
 
@@ -144,6 +136,8 @@ namespace Apptesty
        
         private async void Btn_Clicked(object sender, EventArgs e)
         {
+           CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(c);
         }
     }

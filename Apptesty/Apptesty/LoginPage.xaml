@@ -4,16 +4,7 @@
              BackgroundImageSource="a122.png"
              x:Class="Apptesty.LoginPage">
     <ContentPage.Content>
-       <!-- <StackLayout  VerticalOptions="End" Margin="20" >
-            <StackLayout BackgroundColor="#BF043055">
-                <BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
-
-                <Entry Placeholder="الايميل"  x:Name="UserNewEmail" BackgroundColor="White" FontSize="Large" TextColor="Black"></Entry>
-                <Entry Placeholder="كلمة المرور"  x:Name="UserNewPassword" IsPassword="True" BackgroundColor="White" FontSize="Large" TextColor="Black"></Entry>
-
-                <Button BackgroundColor="LawnGreen" TextColor="Black" Text="تسجيل حساب جديد" FontSize="Medium" Clicked="signupbutton_Clicked" x:Name="signupbutton"/>
-            </StackLayout>
-        </StackLayout>-->
+       
         <StackLayout BackgroundColor="#e6e6e6">
             <Grid>
                 <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
@@ -55,10 +46,6 @@
                                 </Frame>
 
                                 <StackLayout  Orientation="Horizontal">
-                                    <CheckBox IsChecked="False" Color="HotPink" />
-                                    <Label Text="شكرا للتسجيل " TextColor="DarkGray" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
-
-                                   <!-- <Label Text="Forgot Password" TextColor="HotPink" FontAttributes="Bold" HorizontalOptions="EndAndExpand" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" /> -->
 
 
                                 </StackLayout>
@@ -66,7 +53,6 @@
                                 <Button Text="تسجيل حساب جديد" BackgroundColor="HotPink" TextColor="White" CornerRadius="30" Clicked="signupbutton_Clicked" x:Name="signupbutton"/>
                                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                                     <Label Text="Still Not Connected ?" TextColor="DarkGray" FontSize="Small"/>
-                                    <!-- <Label Text="Sign Up" TextColor="HotPink" FontAttributes="Bold" FontSize="Small" x:Name="LblClick"/>-->
 
                                 </StackLayout>
 
@@ -79,12 +65,16 @@
                                 </StackLayout>
 
                                <StackLayout Margin="0,25" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                                    <Frame BackgroundColor="White" HeightRequest="45" WidthRequest="45" CornerRadius="45" HasShadow="False" BorderColor="DarkGray" Margin="0" HorizontalOptions="Center" Padding="0">
+                                    <!--<Frame BackgroundColor="White" HeightRequest="45" WidthRequest="45" CornerRadius="45" HasShadow="False" BorderColor="DarkGray" Margin="0" HorizontalOptions="Center" Padding="0">
                                         <Image Source="https://www.pngitem.com/pimgs/m/44-440455_transparent-background-fb-logo-hd-png-download.png" Aspect="AspectFill" Margin="0"/>
                                     </Frame>
                                     <Frame BackgroundColor="White" HeightRequest="45" WidthRequest="45" CornerRadius="45" HasShadow="False" BorderColor="DarkGray" Margin="0" HorizontalOptions="Center" Padding="0">
                                         <Image Source="https://blog.hubspot.com/hubfs/image8-2.jpg" Aspect="AspectFill" Margin="0"/>
-                                    </Frame>
+                                    </Frame>-->
+                                    <StackLayout>
+                                        <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand" />
+
+                                    </StackLayout>
                                 </StackLayout>
 
                             </StackLayout>

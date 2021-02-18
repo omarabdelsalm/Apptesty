@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0.1" package="com.companyname.apptesty" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="20" android:targetSdkVersion="29" />
 	<application android:theme="@style/MainTheme" android:label="العابد">
-		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-9816794170840872~6997587802" />
+		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-9816794170840872~3173462639" />
 		<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

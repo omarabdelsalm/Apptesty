@@ -1,4 +1,5 @@
-﻿using Plugin.Messaging;
+﻿using MarcTron.Plugin;
+using Plugin.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,11 +30,13 @@ namespace Apptesty
 
         private void Emlbtn(object sender, EventArgs e)
         {
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             var emailMessenger = CrossMessaging.Current.EmailMessenger;
             if (emailMessenger.CanSendEmail)
             {
                 // Send simple e-mail to single receiver without attachments, bcc, cc etc.
-                emailMessenger.SendEmail("allly2456@gmail.com", "Xamarin Messaging Plugin", "ابوبكر في خدمتكم طاب يومكم بكل خير");
+                emailMessenger.SendEmail("allly2456@gmail.com", "العابد", "ابوبكر في خدمتكم طاب يومكم بكل خير");
 
                 // Alternatively use EmailBuilder fluent interface to construct more complex e-mail with multiple recipients, bcc, attachments etc.
                 var email = new EmailMessageBuilder()
@@ -50,6 +53,8 @@ namespace Apptesty
 
         private void Callbtn(object sender, EventArgs e)
         {
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             // Make Phone Call
             var phoneDialer = CrossMessaging.Current.PhoneDialer;
             if (phoneDialer.CanMakePhoneCall)

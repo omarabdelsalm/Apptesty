@@ -51,12 +51,14 @@ namespace Apptesty
 
         private async void Nxt_Clicked(object sender, EventArgs e)
         {
-            MarcTron.Plugin.CrossMTAdmob.Current.LoadRewardedVideo(AdmobUnitIds.RewardedId);
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(p);
         }
         private async void Btn_Clicked(object sender, EventArgs e)
         {
-			CrossMTAdmob.Current.ShowInterstitial();
+            CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
+            CrossMTAdmob.Current.ShowInterstitial();
             await Navigation.PushAsync(new MamPage());
         }
     }

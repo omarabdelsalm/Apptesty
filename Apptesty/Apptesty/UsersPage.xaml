@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Padding="5"
+             
              x:Class="Apptesty.UsersPage">
     <ContentPage.Content>
         <ScrollView >
-            <StackLayout BackgroundColor="#f3ffe6">
+            <StackLayout BackgroundColor="#f3ffe6" Padding="5">
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
                     <Image x:Name="imgBanner" Source="ae.png" ></Image>
 
@@ -29,7 +29,7 @@
                         <Button  WidthRequest="200" Text="قراءة الباركود" Clicked="Button_Clicked" FontSize="Small" BackgroundColor="BurlyWood" CornerRadius="10"/>
                         <Button  WidthRequest="200" Text="الصفحة الرئيسية" Clicked="Button_Clicked_1" FontSize="Small" BackgroundColor="#22001111" CornerRadius="10"/>
                     </StackLayout>
-                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Padding="5">
                         <Button WidthRequest="200" Clicked="Button_Clicked_2" Text="صفحة الاعضاء"  FontSize="Medium" BackgroundColor="red" CornerRadius="25"/>
                         <Button WidthRequest="200" Clicked="Button_Clicked_3"  Text=" تسجيل العروض"  FontSize="Medium" BackgroundColor="Purple" CornerRadius="25"/>
                     </StackLayout>

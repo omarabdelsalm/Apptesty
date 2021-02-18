@@ -5,6 +5,7 @@
               
              x:Class="Apptesty.SigininPage">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <StackLayout>
                 <forms:AnimationView 
@@ -34,5 +35,6 @@
                 </StackLayout>
            </StackLayout> 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

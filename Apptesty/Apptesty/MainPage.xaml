@@ -5,15 +5,15 @@
     
     <StackLayout>
         <StackLayout>
-            <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" VerticalOptions="EndAndExpand" />
+            <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="100" VerticalOptions="EndAndExpand" />
 
         </StackLayout>
         <Label x:Name="LoadingLabel" IsVisible="false"/>
         <WebView x:Name="Browser" HeightRequest="1000" WidthRequest="1000" Navigating="Handle_Navigating" Navigated="Handle_Navigated"/>
         
             
-            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="16" WidthRequest="200" BackgroundColor="#CED00CD6" CornerRadius="50"/>
-        <Button Text="صفحة المشتركين" Clicked="Btn_Clicked"  FontSize="16" BackgroundColor="#C000DCD6" WidthRequest="200" CornerRadius="50"/>
+            <Button Text="التالي" x:Name="nxt_Clicked" FontSize="16" WidthRequest="200" HeightRequest="50"  BackgroundColor="#CED00CD6" CornerRadius="80"/>
+        <Button Text="صفحة المشتركين" Clicked="Btn_Clicked"  FontSize="16" HeightRequest="50" BackgroundColor="#C000DCD6" WidthRequest="200" CornerRadius="80"/>
        
     </StackLayout>
    

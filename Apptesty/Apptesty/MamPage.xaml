@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:forms="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" xmlns:zxingcommon="clr-namespace:ZXing.Common;assembly=zxing"
+             xmlns:forms="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" xmlns:zxingcommon="clr-namespace:ZXing.Common;assembly=zxing" xmlns:MTAdmob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              x:Class="Apptesty.MamPage">
     <ContentPage.Content >
         <ScrollView>
             <StackLayout BackgroundColor="Purple">
               
                 <SearchBar TextChanged="SearchBar_TextChanged"/>
-                 
-          
+
+                <StackLayout>
+                    <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand"/>
+
+                </StackLayout>
+
                 <ListView x:Name="listvw" IsPullToRefreshEnabled="True" HasUnevenRows="true" SeparatorVisibility="Default" ItemTapped="listvw_ItemTapped">
                     <ListView.ItemTemplate>
                         <DataTemplate>
