@@ -64,7 +64,7 @@
                                 </StackLayout>
 
                                 <StackLayout Margin="0,25" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                                    <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="100" VerticalOptions="EndAndExpand" />
+                                    <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="75" VerticalOptions="EndAndExpand" />
 
                                 </StackLayout>
 

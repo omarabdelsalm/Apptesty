@@ -22,7 +22,8 @@ namespace Apptesty
            
             
             this.bannerAd_view.AdsId = AdmobUnitIds.BannerId;
-           
+            this.bannerAd_view2.AdsId = AdmobUnitIds.BannerId;
+
             this.BindingContext = this;
         }
 
@@ -124,7 +125,7 @@ namespace Apptesty
             if(current == NetworkAccess.Internet) {
                 CrossMTAdmob.Current.LoadInterstitial(AdmobUnitIds.InterstitialId);
                 CrossMTAdmob.Current.ShowInterstitial();
-                await Navigation.PushAsync(new NewsPage());
+                await Navigation.PushAsync(new Erowd());
             }
             else
             {

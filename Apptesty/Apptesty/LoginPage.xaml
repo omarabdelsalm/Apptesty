@@ -72,7 +72,7 @@
                                         <Image Source="https://blog.hubspot.com/hubfs/image8-2.jpg" Aspect="AspectFill" Margin="0"/>
                                     </Frame>-->
                                     <StackLayout>
-                                        <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand" />
+                                        <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="75" WidthRequest="300" VerticalOptions="EndAndExpand" />
 
                                     </StackLayout>
                                 </StackLayout>

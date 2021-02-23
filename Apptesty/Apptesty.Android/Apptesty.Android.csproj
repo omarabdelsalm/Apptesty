@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\40990-anabenzan.json" />
+    <AndroidAsset Include="Assets\upload_cert.der" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -264,10 +265,13 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\contacto.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\app-ads.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadDebuggerTimeoutExceptionApptestyAndroidHideInfoBar="True" />
+      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionApptestyAndroidHideInfoBar="True" TriggeredFromHotReload="False" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

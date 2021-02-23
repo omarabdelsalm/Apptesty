@@ -9,7 +9,7 @@
        
         <StackLayout>
             <StackLayout>
-                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="100" WidthRequest="300" VerticalOptions="EndAndExpand"/>
+                <MTAdmob:MTAdView x:Name="bannerAd_view" HeightRequest="75" WidthRequest="300" VerticalOptions="EndAndExpand"/>
 
             </StackLayout>
 
@@ -36,12 +36,12 @@
                     </cv:CarouselViewControl.ItemTemplate>
                 </cv:CarouselViewControl>
             </Grid>
-            
 
-            <!--<StackLayout>
+
+            <StackLayout>
                 <MTAdmob:MTAdView x:Name="bannerAd_view2" HeightRequest="50" WidthRequest="300" VerticalOptions="EndAndExpand"/>
 
-            </StackLayout>-->
+            </StackLayout>
 
         </StackLayout>
        
